@@ -1,0 +1,2789 @@
+{
+  "gerado_em": "2026-10-22T16:06:02.294980+00:00",
+  "total_bancos": 12,
+  "total_entidades": 49,
+  "total_campos": 517,
+  "total_consultas_query": 0,
+  "bancos": [
+    {
+      "arquivo": "androidx/work/impl/WorkDatabase.java",
+      "classe_do_banco": "WorkDatabase",
+      "versao_do_esquema": 24,
+      "entidades_declaradas": [
+        "Dependency",
+        "WorkSpec",
+        "WorkTag",
+        "SystemIdInfo",
+        "WorkName",
+        "WorkProgress",
+        "Preference"
+      ],
+      "entidades": [
+        {
+          "classe": "Dependency",
+          "arquivo": "com/google/firebase/components/Dependency.java",
+          "tabela": "Dependency",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "a",
+              "tipo": "Qualified"
+            },
+            {
+              "campo": "b",
+              "tipo": "int"
+            },
+            {
+              "campo": "c",
+              "tipo": "int"
+            }
+          ]
+        },
+        {
+          "classe": "WorkSpec",
+          "arquivo": "androidx/work/impl/model/WorkSpec.java",
+          "tabela": "WorkSpec",
+          "tabela_inferida": true,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final bha"
+            },
+            {
+              "campo": "SCHEDULE_NOT_REQUESTED_YET",
+              "tipo": "static final long"
+            },
+            {
+              "campo": "TAG",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "WORK_INFO_MAPPER",
+              "tipo": "static final vf3"
+            },
+            {
+              "campo": "backOffOnSystemInterruptions",
+              "tipo": "Boolean"
+            },
+            {
+              "campo": "backoffDelayDuration",
+              "tipo": "long"
+            },
+            {
+              "campo": "backoffPolicy",
+              "tipo": "BackoffPolicy"
+            },
+            {
+              "campo": "constraints",
+              "tipo": "tk1"
+            },
+            {
+              "campo": "expedited",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "flexDuration",
+              "tipo": "long"
+            },
+            {
+              "campo": "generation",
+              "tipo": "int",
+              "coluna": "next_schedule_time_override_generation"
+            },
+            {
+              "campo": "id",
+              "tipo": "String",
+              "coluna": "next_schedule_time_override_generation"
+            },
+            {
+              "campo": "initialDelay",
+              "tipo": "long"
+            },
+            {
+              "campo": "input",
+              "tipo": "uv1",
+              "coluna": "input_merger_class_name"
+            },
+            {
+              "campo": "inputMergerClassName",
+              "tipo": "String"
+            },
+            {
+              "campo": "intervalDuration",
+              "tipo": "long"
+            },
+            {
+              "campo": "lastEnqueueTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "minimumRetentionDuration",
+              "tipo": "long"
+            },
+            {
+              "campo": "nextScheduleTimeOverride",
+              "tipo": "long"
+            },
+            {
+              "campo": "nextScheduleTimeOverrideGeneration",
+              "tipo": "int"
+            },
+            {
+              "campo": "outOfQuotaPolicy",
+              "tipo": "OutOfQuotaPolicy"
+            },
+            {
+              "campo": "output",
+              "tipo": "uv1",
+              "coluna": "output"
+            },
+            {
+              "campo": "periodCount",
+              "tipo": "int"
+            },
+            {
+              "campo": "runAttemptCount",
+              "tipo": "int"
+            },
+            {
+              "campo": "scheduleRequestedAt",
+              "tipo": "long"
+            },
+            {
+              "campo": "state",
+              "tipo": "WorkInfo$State",
+              "coluna": "state"
+            },
+            {
+              "campo": "stopReason",
+              "tipo": "int"
+            },
+            {
+              "campo": "traceTag",
+              "tipo": "String"
+            },
+            {
+              "campo": "workerClassName",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "WorkTag",
+          "arquivo": "androidx/work/impl/model/WorkTag.java",
+          "tabela": "WorkTag",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "tag",
+              "tipo": "String",
+              "coluna": "tag"
+            },
+            {
+              "campo": "workSpecId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "SystemIdInfo",
+          "arquivo": "androidx/work/impl/model/SystemIdInfo.java",
+          "tabela": "SystemIdInfo",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "generation",
+              "tipo": "int"
+            },
+            {
+              "campo": "systemId",
+              "tipo": "int"
+            },
+            {
+              "campo": "workSpecId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "WorkName",
+          "arquivo": "androidx/work/impl/model/WorkName.java",
+          "tabela": "WorkName",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "name",
+              "tipo": "String",
+              "coluna": "work_spec_id"
+            },
+            {
+              "campo": "workSpecId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "WorkProgress",
+          "arquivo": "androidx/work/impl/model/WorkProgress.java",
+          "tabela": "WorkProgress",
+          "tabela_inferida": true,
+          "chave_primaria": [
+            "workSpecId"
+          ],
+          "campos": [
+            {
+              "campo": "progress",
+              "tipo": "uv1",
+              "coluna": "progress"
+            },
+            {
+              "campo": "workSpecId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "Preference",
+          "arquivo": "androidx/work/impl/model/Preference.java",
+          "tabela": "Preference",
+          "tabela_inferida": true,
+          "chave_primaria": [
+            "key"
+          ],
+          "campos": [
+            {
+              "campo": "key",
+              "tipo": "String",
+              "coluna": "key"
+            },
+            {
+              "campo": "value",
+              "tipo": "Long",
+              "coluna": "long_value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/database/font/FontDatabase.java",
+      "classe_do_banco": "FontDatabase",
+      "versao_do_esquema": 6,
+      "entidades_declaradas": [
+        "FontEntity",
+        "FontCollectionEntity",
+        "FontCollectionOrderEntity",
+        "FontCollectionRemoteKeyEntity",
+        "FontOrderEntity",
+        "FontStateEntity",
+        "FontSearchEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "FontEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontEntity.java",
+          "tabela": "font_table",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "BUILTIN_FONT_ID_PREFIX",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "Companion",
+              "tipo": "static final z73"
+            },
+            {
+              "campo": "IMPORTED_FONT_ID_PREFIX",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "SAMPLE_IMAGE_HEIGHT",
+              "tipo": "static final int"
+            },
+            {
+              "campo": "SAMPLE_IMAGE_WIDTH",
+              "tipo": "static final int"
+            },
+            {
+              "campo": "SYSTEM_FONT_ID_PREFIX",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "assetId",
+              "tipo": "String",
+              "coluna": "assetIdx"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int",
+              "coluna": "assetIdx"
+            },
+            {
+              "campo": "cacheTypeface",
+              "tipo": "WeakReference<Typeface>"
+            },
+            {
+              "campo": "collectionId",
+              "tipo": "String",
+              "coluna": "collectionId"
+            },
+            {
+              "campo": "id",
+              "tipo": "String",
+              "coluna": "id"
+            },
+            {
+              "campo": "name",
+              "tipo": "String",
+              "coluna": "thumbnail"
+            },
+            {
+              "campo": "path",
+              "tipo": "String",
+              "coluna": "path"
+            },
+            {
+              "campo": "thumbnail",
+              "tipo": "String",
+              "coluna": "thumbnail"
+            }
+          ]
+        },
+        {
+          "classe": "FontCollectionEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontCollectionEntity.java",
+          "tabela": "font_collection_table",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "collectionId"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final l73"
+            },
+            {
+              "campo": "FAVORITE_FONT_COLLECTION_ID",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "INTERNAL_COLLECTIONS",
+              "tipo": "static final List<String>"
+            },
+            {
+              "campo": "LATIN_COLLECTION_ID",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "MY_FONT_COLLECTION_ID",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "SYSTEM_COLLECTION_ID",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "collectionId",
+              "tipo": "String"
+            },
+            {
+              "campo": "language",
+              "tipo": "String"
+            },
+            {
+              "campo": "name",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "FontCollectionOrderEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontCollectionOrderEntity.java",
+          "tabela": "font_collection_order_table",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "collectionId"
+          ],
+          "campos": [
+            {
+              "campo": "collectionId",
+              "tipo": "String"
+            },
+            {
+              "campo": "orderIndex",
+              "tipo": "int"
+            }
+          ]
+        },
+        {
+          "classe": "FontCollectionRemoteKeyEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontCollectionRemoteKeyEntity.java",
+          "tabela": "font_collection_remote_keys",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "collectionId"
+          ],
+          "campos": [
+            {
+              "campo": "collectionId",
+              "tipo": "String"
+            },
+            {
+              "campo": "nextKeyJson",
+              "tipo": "y20"
+            },
+            {
+              "campo": "prevKeyJson",
+              "tipo": "y20"
+            }
+          ]
+        },
+        {
+          "classe": "FontOrderEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontOrderEntity.java",
+          "tabela": "FontOrderEntity",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "collectionId",
+              "tipo": "String"
+            },
+            {
+              "campo": "itemId",
+              "tipo": "String"
+            },
+            {
+              "campo": "orderIndex",
+              "tipo": "int"
+            },
+            {
+              "campo": "version",
+              "tipo": "long"
+            }
+          ]
+        },
+        {
+          "classe": "FontStateEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontStateEntity.java",
+          "tabela": "FontStateEntity",
+          "tabela_inferida": true,
+          "chave_primaria": [
+            "itemId"
+          ],
+          "campos": [
+            {
+              "campo": "collectionId",
+              "tipo": "String"
+            },
+            {
+              "campo": "createdTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "favorite",
+              "tipo": "int"
+            },
+            {
+              "campo": "installed",
+              "tipo": "int"
+            },
+            {
+              "campo": "itemId",
+              "tipo": "String"
+            },
+            {
+              "campo": "lastModified",
+              "tipo": "long"
+            },
+            {
+              "campo": "lastUsedTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "selected",
+              "tipo": "int"
+            }
+          ]
+        },
+        {
+          "classe": "FontSearchEntity",
+          "arquivo": "com/kinemaster/app/database/font/FontSearchEntity.java",
+          "tabela": "FontSearchEntity",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "itemId",
+              "tipo": "String"
+            },
+            {
+              "campo": "keyword",
+              "tipo": "String"
+            },
+            {
+              "campo": "orderIndex",
+              "tipo": "int"
+            },
+            {
+              "campo": "version",
+              "tipo": "long"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/database/home/TemplateDatabase.java",
+      "classe_do_banco": "TemplateDatabase",
+      "versao_do_esquema": 9,
+      "entidades_declaradas": [
+        "TemplateEntity",
+        "LikeEntity",
+        "BlockUserEntity",
+        "UserTemplateEntity",
+        "RemoteKeyEntity",
+        "KeywordEntity",
+        "HashtagKeywordEntity",
+        "FollowEntity",
+        "UserEntity",
+        "InboxEntity",
+        "TemplatePinEntity",
+        "TemplateSectionEntity",
+        "CommentEntity",
+        "ReplyCommentEntity",
+        "CommentTotalCountEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "TemplateEntity",
+          "arquivo": "com/kinemaster/app/database/home/TemplateEntity.java",
+          "tabela": "template_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "projectId"
+          ],
+          "campos": [
+            {
+              "campo": "appName",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetLevel",
+              "tipo": "int"
+            },
+            {
+              "campo": "author",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorIsOfficial",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "authorNickName",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorProfileImage",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorProfileImageBackground",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorProfileImageIcon",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorUserName",
+              "tipo": "String"
+            },
+            {
+              "campo": "badges",
+              "tipo": "List<ProfileBadge>"
+            },
+            {
+              "campo": "categoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "clips",
+              "tipo": "Integer"
+            },
+            {
+              "campo": "commentCounts",
+              "tipo": "long"
+            },
+            {
+              "campo": "commentsDisabled",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "createdAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "description",
+              "tipo": "String"
+            },
+            {
+              "campo": "downloadCounts",
+              "tipo": "long"
+            },
+            {
+              "campo": "duration",
+              "tipo": "String"
+            },
+            {
+              "campo": "filePath",
+              "tipo": "String"
+            },
+            {
+              "campo": "firstFrameImgPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "hashTags",
+              "tipo": "List<String>"
+            },
+            {
+              "campo": "height",
+              "tipo": "long"
+            },
+            {
+              "campo": "imagePath",
+              "tipo": "String"
+            },
+            {
+              "campo": "index",
+              "tipo": "int"
+            },
+            {
+              "campo": "isAd",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "isLiked",
+              "tipo": "Boolean"
+            },
+            {
+              "campo": "isShared",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "language",
+              "tipo": "String"
+            },
+            {
+              "campo": "likeCounts",
+              "tipo": "long"
+            },
+            {
+              "campo": "likedAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "mixEditor",
+              "tipo": "int"
+            },
+            {
+              "campo": "originalTemplate",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "parentId",
+              "tipo": "String"
+            },
+            {
+              "campo": "parentImagePath",
+              "tipo": "String"
+            },
+            {
+              "campo": "pinned",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "projectId",
+              "tipo": "String"
+            },
+            {
+              "campo": "projectLevel",
+              "tipo": "int"
+            },
+            {
+              "campo": "publishedAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "ratio",
+              "tipo": "String"
+            },
+            {
+              "campo": "rejectedCategories",
+              "tipo": "List<RejectCategory>"
+            },
+            {
+              "campo": "rejectedFails",
+              "tipo": "List<String>"
+            },
+            {
+              "campo": "rejectedReason",
+              "tipo": "String"
+            },
+            {
+              "campo": "reviewStatus",
+              "tipo": "ReviewStatus"
+            },
+            {
+              "campo": "shareCounts",
+              "tipo": "int"
+            },
+            {
+              "campo": "shareDynamicLink",
+              "tipo": "String"
+            },
+            {
+              "campo": "templateType",
+              "tipo": "TemplateType"
+            },
+            {
+              "campo": "videoPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "viewCount",
+              "tipo": "int"
+            },
+            {
+              "campo": "width",
+              "tipo": "long"
+            }
+          ]
+        },
+        {
+          "classe": "LikeEntity",
+          "arquivo": "com/kinemaster/app/database/home/LikeEntity.java",
+          "tabela": "likes_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "id",
+              "tipo": "int"
+            },
+            {
+              "campo": "likeCounts",
+              "tipo": "long"
+            },
+            {
+              "campo": "likedAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "projectId",
+              "tipo": "String"
+            },
+            {
+              "campo": "userId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "BlockUserEntity",
+          "arquivo": "com/kinemaster/app/database/home/BlockUserEntity.java",
+          "tabela": "blockuser_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "userId"
+          ],
+          "campos": [
+            {
+              "campo": "avatar",
+              "tipo": "String"
+            },
+            {
+              "campo": "blocked",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "blockedAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "name",
+              "tipo": "String"
+            },
+            {
+              "campo": "userId",
+              "tipo": "String"
+            },
+            {
+              "campo": "userName",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "UserTemplateEntity",
+          "arquivo": "com/kinemaster/app/database/home/UserTemplateEntity.java",
+          "tabela": "user_template_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "id",
+              "tipo": "int"
+            },
+            {
+              "campo": "projectId",
+              "tipo": "String"
+            },
+            {
+              "campo": "templateViewType",
+              "tipo": "TemplateViewType"
+            },
+            {
+              "campo": "userId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "RemoteKeyEntity",
+          "arquivo": "com/kinemaster/app/database/home/RemoteKeyEntity.java",
+          "tabela": "remote_key_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "keyId"
+          ],
+          "campos": [
+            {
+              "campo": "keyId",
+              "tipo": "String"
+            },
+            {
+              "campo": "nextKey",
+              "tipo": "String"
+            },
+            {
+              "campo": "startAt",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "KeywordEntity",
+          "arquivo": "com/kinemaster/app/database/home/KeywordEntity.java",
+          "tabela": "keyword_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "id",
+              "tipo": "int"
+            },
+            {
+              "campo": "keyword",
+              "tipo": "String"
+            },
+            {
+              "campo": "projectId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "HashtagKeywordEntity",
+          "arquivo": "com/kinemaster/app/database/home/HashtagKeywordEntity.java",
+          "tabela": "hashtag_keyword_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "hashtag"
+          ],
+          "campos": [
+            {
+              "campo": "count",
+              "tipo": "long"
+            },
+            {
+              "campo": "hashtag",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "FollowEntity",
+          "arquivo": "com/kinemaster/app/database/home/FollowEntity.java",
+          "tabela": "follow_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "avatar",
+              "tipo": "String"
+            },
+            {
+              "campo": "followId",
+              "tipo": "int"
+            },
+            {
+              "campo": "id",
+              "tipo": "int"
+            },
+            {
+              "campo": "isFollower",
+              "tipo": "Boolean"
+            },
+            {
+              "campo": "isFollowing",
+              "tipo": "Boolean"
+            },
+            {
+              "campo": "name",
+              "tipo": "String"
+            },
+            {
+              "campo": "requestUserId",
+              "tipo": "Integer"
+            },
+            {
+              "campo": "type",
+              "tipo": "FollowType"
+            },
+            {
+              "campo": "userId",
+              "tipo": "int"
+            },
+            {
+              "campo": "userName",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "UserEntity",
+          "arquivo": "com/kinemaster/app/database/home/UserEntity.java",
+          "tabela": "user_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "avatar",
+              "tipo": "String"
+            },
+            {
+              "campo": "creatorId",
+              "tipo": "String"
+            },
+            {
+              "campo": "id",
+              "tipo": "int"
+            },
+            {
+              "campo": "isCreator",
+              "tipo": "Boolean"
+            },
+            {
+              "campo": "isFollowing",
+              "tipo": "Boolean"
+            },
+            {
+              "campo": "name",
+              "tipo": "String"
+            },
+            {
+              "campo": "userId",
+              "tipo": "int"
+            },
+            {
+              "campo": "userName",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "InboxEntity",
+          "arquivo": "com/kinemaster/app/database/home/InboxEntity.java",
+          "tabela": "inbox_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "groupId"
+          ],
+          "campos": [
+            {
+              "campo": "actionUserId",
+              "tipo": "String"
+            },
+            {
+              "campo": "avatar",
+              "tipo": "String"
+            },
+            {
+              "campo": "category",
+              "tipo": "String"
+            },
+            {
+              "campo": "groupId",
+              "tipo": "String"
+            },
+            {
+              "campo": "imagePath",
+              "tipo": "String"
+            },
+            {
+              "campo": "inboxId",
+              "tipo": "String"
+            },
+            {
+              "campo": "isFollowing",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "isReadMessage",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "lastCreatedAt",
+              "tipo": "long"
+            },
+            {
+              "campo": "message",
+              "tipo": "String"
+            },
+            {
+              "campo": "notificationType",
+              "tipo": "String"
+            },
+            {
+              "campo": "otherMessageCount",
+              "tipo": "int"
+            },
+            {
+              "campo": "requestUserId",
+              "tipo": "int"
+            },
+            {
+              "campo": "targetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "uri",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "TemplatePinEntity",
+          "arquivo": "com/kinemaster/app/database/home/TemplatePinEntity.java",
+          "tabela": "template_pin_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "projectId"
+          ],
+          "campos": [
+            {
+              "campo": "projectId",
+              "tipo": "String"
+            },
+            {
+              "campo": "userId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "TemplateSectionEntity",
+          "arquivo": "com/kinemaster/app/database/home/TemplateSectionEntity.java",
+          "tabela": "template_section_entity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "sectionId"
+          ],
+          "campos": [
+            {
+              "campo": "sectionId",
+              "tipo": "String"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "CommentEntity",
+          "arquivo": "com/kinemaster/app/database/home/CommentEntity.java",
+          "tabela": "CommentEntity",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "authorIsBlocked",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "authorName",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorProfileImage",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorSub",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorUsername",
+              "tipo": "String"
+            },
+            {
+              "campo": "comment",
+              "tipo": "String"
+            },
+            {
+              "campo": "commentId",
+              "tipo": "String"
+            },
+            {
+              "campo": "createdAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "isBlind",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "isPinned",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "languageCode",
+              "tipo": "String"
+            },
+            {
+              "campo": "replyCommentsCount",
+              "tipo": "int"
+            },
+            {
+              "campo": "templateAuthorSub",
+              "tipo": "String"
+            },
+            {
+              "campo": "templateId",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "ReplyCommentEntity",
+          "arquivo": "com/kinemaster/app/database/home/ReplyCommentEntity.java",
+          "tabela": "ReplyCommentEntity",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "authorName",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorProfileImage",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorSub",
+              "tipo": "String"
+            },
+            {
+              "campo": "authorUsername",
+              "tipo": "String"
+            },
+            {
+              "campo": "comment",
+              "tipo": "String"
+            },
+            {
+              "campo": "commentId",
+              "tipo": "String"
+            },
+            {
+              "campo": "createdAt",
+              "tipo": "String"
+            },
+            {
+              "campo": "groupCommentId",
+              "tipo": "String"
+            },
+            {
+              "campo": "isBlind",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "languageCode",
+              "tipo": "String"
+            },
+            {
+              "campo": "templateAuthorSub",
+              "tipo": "String"
+            },
+            {
+              "campo": "templateId",
+              "tipo": "String"
+            },
+            {
+              "campo": "toCommentId",
+              "tipo": "String"
+            },
+            {
+              "campo": "toReplyAuthorName",
+              "tipo": "String"
+            },
+            {
+              "campo": "toReplyAuthorProfileImage",
+              "tipo": "String"
+            },
+            {
+              "campo": "toReplyAuthorSub",
+              "tipo": "String"
+            },
+            {
+              "campo": "toReplyAuthorUsername",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "CommentTotalCountEntity",
+          "arquivo": "com/kinemaster/app/database/home/CommentTotalCountEntity.java",
+          "tabela": "CommentTotalCountEntity",
+          "tabela_inferida": true,
+          "chave_primaria": [],
+          "campos": [
+            {
+              "campo": "templateId",
+              "tipo": "String"
+            },
+            {
+              "campo": "totalCount",
+              "tipo": "int"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/database/installedassets/InstalledAssetsDatabase.java",
+      "classe_do_banco": "InstalledAssetsDatabase",
+      "versao_do_esquema": 8,
+      "entidades_declaradas": [
+        "InstalledAssetCategory",
+        "InstalledAssetSubcategory",
+        "InstalledAsset",
+        "InstalledAssetItem",
+        "InstalledAssetBy",
+        "InstalledAssetAIModel"
+      ],
+      "entidades": [
+        {
+          "classe": "InstalledAssetCategory",
+          "arquivo": "com/kinemaster/app/database/installedassets/InstalledAssetCategory.java",
+          "tabela": "installed_asset_category",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "categoryId"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final p64"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "categoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryIconURL",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryName",
+              "tipo": "Map<String, String>"
+            }
+          ]
+        },
+        {
+          "classe": "InstalledAssetSubcategory",
+          "arquivo": "com/kinemaster/app/database/installedassets/InstalledAssetSubcategory.java",
+          "tabela": "installed_asset_subcategory",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "_id"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final d74"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "_id",
+              "tipo": "String",
+              "coluna": "subcategory_id"
+            },
+            {
+              "campo": "categoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryName",
+              "tipo": "Map<String, String>"
+            }
+          ]
+        },
+        {
+          "classe": "InstalledAsset",
+          "arquivo": "com/kinemaster/app/database/installedassets/InstalledAsset.java",
+          "tabela": "installed_asset",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "assetId"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final f64"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_SMALL",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "assetDesc",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetLevel",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetName",
+              "tipo": "Map<String, String>"
+            },
+            {
+              "campo": "assetSize",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "hasUpdate",
+              "tipo": "int"
+            },
+            {
+              "campo": "installedById",
+              "tipo": "String"
+            },
+            {
+              "campo": "localPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "packageURI",
+              "tipo": "String"
+            },
+            {
+              "campo": "priceType",
+              "tipo": "String"
+            },
+            {
+              "campo": "reviewStatus",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "thumbPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "thumbUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "updatedTime",
+              "tipo": "long"
+            }
+          ]
+        },
+        {
+          "classe": "InstalledAssetItem",
+          "arquivo": "com/kinemaster/app/database/installedassets/InstalledAssetItem.java",
+          "tabela": "installed_asset_item",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "itemId"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final x64"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "assetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "createdTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "duration",
+              "tipo": "String",
+              "coluna": "duration"
+            },
+            {
+              "campo": "favorite",
+              "tipo": "int",
+              "coluna": "favorite"
+            },
+            {
+              "campo": "filePath",
+              "tipo": "String"
+            },
+            {
+              "campo": "filePathRoot",
+              "tipo": "String"
+            },
+            {
+              "campo": "hidden",
+              "tipo": "int",
+              "coluna": "hidden"
+            },
+            {
+              "campo": "iconPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "itemCategory",
+              "tipo": "String"
+            },
+            {
+              "campo": "itemId",
+              "tipo": "String"
+            },
+            {
+              "campo": "itemSubType",
+              "tipo": "String"
+            },
+            {
+              "campo": "itemType",
+              "tipo": "String"
+            },
+            {
+              "campo": "kmCategory",
+              "tipo": "List<String>"
+            },
+            {
+              "campo": "label",
+              "tipo": "Map<String, String>",
+              "coluna": "label"
+            },
+            {
+              "campo": "legacyId",
+              "tipo": "String"
+            },
+            {
+              "campo": "packageURI",
+              "tipo": "String"
+            },
+            {
+              "campo": "priceType",
+              "tipo": "String"
+            },
+            {
+              "campo": "ratios",
+              "tipo": "List<String>",
+              "coluna": "ratios"
+            },
+            {
+              "campo": "sampleMediaFile",
+              "tipo": "String"
+            },
+            {
+              "campo": "sampleText",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryId",
+              "tipo": "String"
+            },
+            {
+              "campo": "thumbPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "updatedTime",
+              "tipo": "long"
+            }
+          ]
+        },
+        {
+          "classe": "InstalledAssetBy",
+          "arquivo": "com/kinemaster/app/database/installedassets/InstalledAssetBy.java",
+          "tabela": "installed_asset_by",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final k64"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "id",
+              "tipo": "String",
+              "coluna": "id"
+            },
+            {
+              "campo": "latestVersion",
+              "tipo": "long"
+            },
+            {
+              "campo": "type",
+              "tipo": "InstalledAssetByType",
+              "coluna": "type"
+            }
+          ]
+        },
+        {
+          "classe": "InstalledAssetAIModel",
+          "arquivo": "com/kinemaster/app/database/installedassets/InstalledAssetAIModel.java",
+          "tabela": "installed_asset_ai_models",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "itemId"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final g64"
+            },
+            {
+              "campo": "TABLE_NAME",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "aiType",
+              "tipo": "String"
+            },
+            {
+              "campo": "combinedTFLite",
+              "tipo": "String"
+            },
+            {
+              "campo": "decodingTFLite",
+              "tipo": "String"
+            },
+            {
+              "campo": "encodingTFLite",
+              "tipo": "String"
+            },
+            {
+              "campo": "gender",
+              "tipo": "String",
+              "coluna": "gender"
+            },
+            {
+              "campo": "itemId",
+              "tipo": "String"
+            },
+            {
+              "campo": "language",
+              "tipo": "String",
+              "coluna": "language_id"
+            },
+            {
+              "campo": "languageId",
+              "tipo": "int"
+            },
+            {
+              "campo": "languageIdInternal",
+              "tipo": "int"
+            },
+            {
+              "campo": "modelType",
+              "tipo": "int"
+            },
+            {
+              "campo": "outputSamplerate",
+              "tipo": "int"
+            },
+            {
+              "campo": "scales",
+              "tipo": "float[]",
+              "coluna": "scales"
+            },
+            {
+              "campo": "speakerId",
+              "tipo": "int"
+            },
+            {
+              "campo": "targetFormant",
+              "tipo": "int"
+            },
+            {
+              "campo": "tokenizerType",
+              "tipo": "int"
+            },
+            {
+              "campo": "updateTime",
+              "tipo": "long"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/database/project/ProjectDatabase.java",
+      "classe_do_banco": "ProjectDatabase",
+      "versao_do_esquema": 3,
+      "entidades_declaradas": [
+        "ProjectEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "ProjectEntity",
+          "arquivo": "com/kinemaster/app/database/project/ProjectEntity.java",
+          "tabela": "project_table",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "uuid"
+          ],
+          "campos": [
+            {
+              "campo": "createFileTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "createTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "duration",
+              "tipo": "long"
+            },
+            {
+              "campo": "file",
+              "tipo": "String"
+            },
+            {
+              "campo": "lastEditTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "lastFileTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "ratio",
+              "tipo": "float"
+            },
+            {
+              "campo": "size",
+              "tipo": "long"
+            },
+            {
+              "campo": "thumbnail",
+              "tipo": "String"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            },
+            {
+              "campo": "uuid",
+              "tipo": "String"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/database/saveas/SaveAsVideoDatabase.java",
+      "classe_do_banco": "SaveAsVideoDatabase",
+      "versao_do_esquema": 3,
+      "entidades_declaradas": [
+        "SaveAsVideo"
+      ],
+      "entidades": [
+        {
+          "classe": "SaveAsVideo",
+          "arquivo": "com/kinemaster/app/database/saveas/SaveAsVideo.java",
+          "tabela": "videos",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "creationTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "height",
+              "tipo": "int"
+            },
+            {
+              "campo": "id",
+              "tipo": "int"
+            },
+            {
+              "campo": "lastEditTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "path",
+              "tipo": "String"
+            },
+            {
+              "campo": "projectName",
+              "tipo": "String"
+            },
+            {
+              "campo": "projectUUID",
+              "tipo": "String"
+            },
+            {
+              "campo": "projectVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "useMuserkAudio",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "width",
+              "tipo": "int"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/database/export/LimitDatabase.java",
+      "classe_do_banco": "LimitDatabase",
+      "versao_do_esquema": 3,
+      "entidades_declaradas": [
+        "ExportCountEntity",
+        "MenuActionCountEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "ExportCountEntity",
+          "arquivo": "com/kinemaster/app/database/export/ExportCountEntity.java",
+          "tabela": "export_count",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "resolution"
+          ],
+          "campos": [
+            {
+              "campo": "count",
+              "tipo": "int"
+            },
+            {
+              "campo": "countingStartTimeMS",
+              "tipo": "long"
+            },
+            {
+              "campo": "resolution",
+              "tipo": "int"
+            },
+            {
+              "campo": "updateTimeMS",
+              "tipo": "long"
+            }
+          ]
+        },
+        {
+          "classe": "MenuActionCountEntity",
+          "arquivo": "com/kinemaster/app/database/export/MenuActionCountEntity.java",
+          "tabela": "menu_action_count",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "action"
+          ],
+          "campos": [
+            {
+              "campo": "action",
+              "tipo": "String"
+            },
+            {
+              "campo": "count",
+              "tipo": "int"
+            },
+            {
+              "campo": "updateTimeMS",
+              "tipo": "long"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/screen/home/template/search/database/SearchRecentDatabase.java",
+      "classe_do_banco": "SearchRecentDatabase",
+      "versao_do_esquema": 1,
+      "entidades_declaradas": [
+        "SearchRecentEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "SearchRecentEntity",
+          "arquivo": "com/kinemaster/app/screen/home/template/search/database/SearchRecentEntity.java",
+          "tabela": "search_recent",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "title"
+          ],
+          "campos": [
+            {
+              "campo": "timestamp",
+              "tipo": "long",
+              "coluna": "timestamp"
+            },
+            {
+              "campo": "title",
+              "tipo": "String",
+              "coluna": "title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/app/screen/projecteditor/browser/audio/data/AudioSearchKeywordDatabase.java",
+      "classe_do_banco": "AudioSearchKeywordDatabase",
+      "versao_do_esquema": 2,
+      "entidades_declaradas": [
+        "AudioSearchKeyword"
+      ],
+      "entidades": [
+        {
+          "classe": "AudioSearchKeyword",
+          "arquivo": "com/kinemaster/app/screen/projecteditor/browser/audio/data/AudioSearchKeyword.java",
+          "tabela": "audio_search_keyword",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "keyword"
+          ],
+          "campos": [
+            {
+              "campo": "date",
+              "tipo": "Date"
+            },
+            {
+              "campo": "keyword",
+              "tipo": "String",
+              "coluna": "keyword"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/module/network/remote/service/store/data/database/StoreDatabase.java",
+      "classe_do_banco": "StoreDatabase",
+      "versao_do_esquema": 8,
+      "entidades_declaradas": [
+        "AssetEntity",
+        "CategoryEntity",
+        "SearchEntity",
+        "CacheEntity",
+        "FeatureEntity",
+        "EditorPickAssetEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "AssetEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/AssetEntity.java",
+          "tabela": "AssetEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "assetIdx"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final gx"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_LARGE",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_SMALL",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "assetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "assetServerVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetSize",
+              "tipo": "long"
+            },
+            {
+              "campo": "assetType",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "audioPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "availablePurchase",
+              "tipo": "int"
+            },
+            {
+              "campo": "cacheVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "cachedTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "categoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryImageUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryImageUrlOn",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "creator",
+              "tipo": "String"
+            },
+            {
+              "campo": "defaultFlag",
+              "tipo": "int"
+            },
+            {
+              "campo": "description",
+              "tipo": "String"
+            },
+            {
+              "campo": "duration",
+              "tipo": "int"
+            },
+            {
+              "campo": "expireTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "featuredOrder",
+              "tipo": "int"
+            },
+            {
+              "campo": "fromCategory",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "hasDetail",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "languageIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "payFee",
+              "tipo": "String"
+            },
+            {
+              "campo": "priceType",
+              "tipo": "String"
+            },
+            {
+              "campo": "productId",
+              "tipo": "String"
+            },
+            {
+              "campo": "publishTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "subcategoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "subcategoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "thumbnailUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "thumbnails",
+              "tipo": "List<Thumbnail>"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            },
+            {
+              "campo": "updateTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "videoPath",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "CategoryEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/CategoryEntity.java",
+          "tabela": "CategoryEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "categoryIdx"
+          ],
+          "campos": [
+            {
+              "campo": "categoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "imageUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "imageUrlOn",
+              "tipo": "String"
+            },
+            {
+              "campo": "order",
+              "tipo": "int"
+            },
+            {
+              "campo": "subCategory",
+              "tipo": "List<es8>"
+            },
+            {
+              "campo": "viewType",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "SearchEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/SearchEntity.java",
+          "tabela": "SearchTable",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "description",
+              "tipo": "String"
+            },
+            {
+              "campo": "id",
+              "tipo": "String"
+            },
+            {
+              "campo": "language",
+              "tipo": "String"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "CacheEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/CacheEntity.java",
+          "tabela": "CacheEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "assetLevel",
+              "tipo": "int"
+            },
+            {
+              "campo": "cachedTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "cachedVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "editorPickIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "id",
+              "tipo": "long"
+            },
+            {
+              "campo": "subCategory",
+              "tipo": "int"
+            },
+            {
+              "campo": "type",
+              "tipo": "int"
+            }
+          ]
+        },
+        {
+          "classe": "FeatureEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/FeatureEntity.java",
+          "tabela": "FeatureEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetOrder",
+              "tipo": "int"
+            },
+            {
+              "campo": "featureIndex",
+              "tipo": "int"
+            },
+            {
+              "campo": "id",
+              "tipo": "String"
+            }
+          ]
+        },
+        {
+          "classe": "EditorPickAssetEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/EditorPickAssetEntity.java",
+          "tabela": "EditorPickAssetEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "id"
+          ],
+          "campos": [
+            {
+              "campo": "assetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "assetServerVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetSize",
+              "tipo": "long"
+            },
+            {
+              "campo": "assetType",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "audioPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "description",
+              "tipo": "String"
+            },
+            {
+              "campo": "duration",
+              "tipo": "int"
+            },
+            {
+              "campo": "editorPickIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "id",
+              "tipo": "int",
+              "coluna": "id"
+            },
+            {
+              "campo": "itemCategory",
+              "tipo": "String"
+            },
+            {
+              "campo": "payFee",
+              "tipo": "String"
+            },
+            {
+              "campo": "priceType",
+              "tipo": "String"
+            },
+            {
+              "campo": "publishTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "thumbnailUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            },
+            {
+              "campo": "updateTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "videoPath",
+              "tipo": "String"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/module/network/remote/service/store/data/database/HotFeaturedDatabase.java",
+      "classe_do_banco": "HotFeaturedDatabase",
+      "versao_do_esquema": 4,
+      "entidades_declaradas": [
+        "AssetEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "AssetEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/AssetEntity.java",
+          "tabela": "AssetEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "assetIdx"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final gx"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_LARGE",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_SMALL",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "assetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "assetServerVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetSize",
+              "tipo": "long"
+            },
+            {
+              "campo": "assetType",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "audioPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "availablePurchase",
+              "tipo": "int"
+            },
+            {
+              "campo": "cacheVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "cachedTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "categoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryImageUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryImageUrlOn",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "creator",
+              "tipo": "String"
+            },
+            {
+              "campo": "defaultFlag",
+              "tipo": "int"
+            },
+            {
+              "campo": "description",
+              "tipo": "String"
+            },
+            {
+              "campo": "duration",
+              "tipo": "int"
+            },
+            {
+              "campo": "expireTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "featuredOrder",
+              "tipo": "int"
+            },
+            {
+              "campo": "fromCategory",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "hasDetail",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "languageIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "payFee",
+              "tipo": "String"
+            },
+            {
+              "campo": "priceType",
+              "tipo": "String"
+            },
+            {
+              "campo": "productId",
+              "tipo": "String"
+            },
+            {
+              "campo": "publishTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "subcategoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "subcategoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "thumbnailUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "thumbnails",
+              "tipo": "List<Thumbnail>"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            },
+            {
+              "campo": "updateTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "videoPath",
+              "tipo": "String"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "arquivo": "com/kinemaster/module/network/remote/service/store/data/database/NewFeaturedDatabase.java",
+      "classe_do_banco": "NewFeaturedDatabase",
+      "versao_do_esquema": 4,
+      "entidades_declaradas": [
+        "AssetEntity"
+      ],
+      "entidades": [
+        {
+          "classe": "AssetEntity",
+          "arquivo": "com/kinemaster/module/network/remote/service/store/data/model/AssetEntity.java",
+          "tabela": "AssetEntity",
+          "tabela_inferida": false,
+          "chave_primaria": [
+            "assetIdx"
+          ],
+          "campos": [
+            {
+              "campo": "Companion",
+              "tipo": "static final gx"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_LARGE",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "POST_FIX_THUMBNAIL_SMALL",
+              "tipo": "static final String"
+            },
+            {
+              "campo": "assetId",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "assetServerVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetSize",
+              "tipo": "long"
+            },
+            {
+              "campo": "assetType",
+              "tipo": "int"
+            },
+            {
+              "campo": "assetUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "assetVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "audioPath",
+              "tipo": "String"
+            },
+            {
+              "campo": "availablePurchase",
+              "tipo": "int"
+            },
+            {
+              "campo": "cacheVersion",
+              "tipo": "int"
+            },
+            {
+              "campo": "cachedTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "categoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "categoryImageUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryImageUrlOn",
+              "tipo": "String"
+            },
+            {
+              "campo": "categoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "creator",
+              "tipo": "String"
+            },
+            {
+              "campo": "defaultFlag",
+              "tipo": "int"
+            },
+            {
+              "campo": "description",
+              "tipo": "String"
+            },
+            {
+              "campo": "duration",
+              "tipo": "int"
+            },
+            {
+              "campo": "expireTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "featuredOrder",
+              "tipo": "int"
+            },
+            {
+              "campo": "fromCategory",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "hasDetail",
+              "tipo": "boolean"
+            },
+            {
+              "campo": "languageIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "payFee",
+              "tipo": "String"
+            },
+            {
+              "campo": "priceType",
+              "tipo": "String"
+            },
+            {
+              "campo": "productId",
+              "tipo": "String"
+            },
+            {
+              "campo": "publishTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "subcategoryAliasName",
+              "tipo": "String"
+            },
+            {
+              "campo": "subcategoryIdx",
+              "tipo": "int"
+            },
+            {
+              "campo": "subcategoryName",
+              "tipo": "List<Localization>"
+            },
+            {
+              "campo": "thumbnailUrl",
+              "tipo": "String"
+            },
+            {
+              "campo": "thumbnails",
+              "tipo": "List<Thumbnail>"
+            },
+            {
+              "campo": "title",
+              "tipo": "String"
+            },
+            {
+              "campo": "updateTime",
+              "tipo": "long"
+            },
+            {
+              "campo": "videoPath",
+              "tipo": "String"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "consultas": [],
+  "limitacao": "Esquema reconstruído por leitura estática das anotações. Colunas sem @ColumnInfo têm o nome do campo (regra do Room) — marcadas como inferidas. Versões reais de migração e DDL não foram executadas."
+}

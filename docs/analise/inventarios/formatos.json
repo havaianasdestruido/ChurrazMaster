@@ -1,0 +1,583 @@
+{
+  "gerado_em": "2026-10-22T16:07:38.085670+00:00",
+  "kmassets": {
+    "arquivo": "kmassets.zip",
+    "tamanho": 36175287,
+    "sha256": "576813aa41cd1bc8633d100cb5eac7ec1fd0743703528951997fa8948eea21de",
+    "total_de_entradas": 2421,
+    "extensoes": {
+      "(sem extensão)": 817,
+      "json": 531,
+      "png": 467,
+      "xml": 364,
+      "jpg": 91,
+      "svg": 58,
+      "glsl": 57,
+      "lua": 28,
+      "nef": 8
+    },
+    "pacotes_de_assets": 19,
+    "exemplos_de_pacotes": [
+      {
+        "caminho": "kmassets/travel_and_activity/packageinfo.json",
+        "assetLevel": "7",
+        "assetName_en": "Travel and Activity",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode"
+        ]
+      },
+      {
+        "caminho": "kmassets/fun_transitions/packageinfo.json",
+        "assetLevel": "7",
+        "assetName_en": "Fun Transitions",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode"
+        ]
+      },
+      {
+        "caminho": "kmassets/filter_warm/packageinfo.json",
+        "assetLevel": 7,
+        "assetName_en": "Warm",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode",
+          "thumbnail"
+        ]
+      },
+      {
+        "caminho": "kmassets/classic_transitions/packageinfo.json",
+        "assetLevel": "7",
+        "assetName_en": "Classic Transitions",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode"
+        ]
+      },
+      {
+        "caminho": "kmassets/basic_effects/packageinfo.json",
+        "assetLevel": "7",
+        "assetName_en": "Basic Effects",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode"
+        ]
+      },
+      {
+        "caminho": "kmassets/filter_mono/packageinfo.json",
+        "assetLevel": 7,
+        "assetName_en": "Mono",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode",
+          "thumbnail"
+        ]
+      },
+      {
+        "caminho": "kmassets/filter_cold/packageinfo.json",
+        "assetLevel": 7,
+        "assetName_en": "Cold",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode",
+          "thumbnail"
+        ]
+      },
+      {
+        "caminho": "kmassets/powerful/packageinfo.json",
+        "assetLevel": "7",
+        "assetName_en": "Powerful",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode"
+        ]
+      },
+      {
+        "caminho": "kmassets/filter_vivid/packageinfo.json",
+        "assetLevel": 7,
+        "assetName_en": "Vivid",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "minVersionCode",
+          "packageContentVersion",
+          "targetVersionCode",
+          "thumbnail"
+        ]
+      },
+      {
+        "caminho": "kmassets/classic_stickers/packageinfo.json",
+        "assetLevel": "7",
+        "assetName_en": "Classic Stickers",
+        "chaves": [
+          "assetLevel",
+          "assetName",
+          "format",
+          "itemRoots",
+          "packageContentVersion",
+          "targetVersionCode",
+          "thumbnail"
+        ]
+      }
+    ],
+    "nomes_de_pacotes": [
+      "Travel and Activity",
+      "Fun Transitions",
+      "Warm",
+      "Classic Transitions",
+      "Basic Effects",
+      "Mono",
+      "Cold",
+      "Powerful",
+      "Vivid",
+      "Classic Stickers",
+      "Picture-in-Picture and Multivideo",
+      "Text Transitions",
+      "Sentimental",
+      "More Title Effects",
+      "Basic Title Effects",
+      "Basic",
+      "Presentation",
+      "Low Saturation",
+      "3D Transitions"
+    ]
+  },
+  "nef": {
+    "total_arquivos": 8,
+    "assinaturas": {
+      "1300ffee": 7,
+      "01dafeef": 1
+    },
+    "marcas_ascii_4b_ate_64kb": {
+      "DDDB": 48,
+      "ADDD": 24,
+      "DEAD": 4,
+      "WFUA": 2,
+      "AWUL": 1,
+      "RQAL": 1,
+      "DDSA": 1,
+      "AVMI": 1,
+      "VMIB": 1,
+      "UKBA": 1,
+      "JALA": 1,
+      "COBK": 1,
+      "ZDVA": 1,
+      "HZAS": 1,
+      "FOTB": 1
+    },
+    "amostras": [
+      {
+        "arquivo": "kmassets/3d_transitions/transition/1v1.bouncebox/res/transition.bouncy_box.1v1.left.nef",
+        "tamanho": 16760,
+        "sha256": "e8cabab3e10e02ff9a95c282062a9bade5d7979d4407e74e8358ef16d0279c31",
+        "primeiros_32_bytes": "1300ffee060000004e00000005000000ffffffff0000000044454144fc7f0000",
+        "u32_le_iniciais": [
+          4009689107,
+          6,
+          78,
+          5,
+          4294967295,
+          0
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/9v16.bouncebox/res/transition.bouncy_box.9v16.up.nef",
+        "tamanho": 16760,
+        "sha256": "fbf53341e1e791f0e4501867de6e7ff396166383c67ca664152c1684e152d59f",
+        "primeiros_32_bytes": "1300ffee060000004e00000005000000ffffffff0000000072006f0067007200",
+        "u32_le_iniciais": [
+          4009689107,
+          6,
+          78,
+          5,
+          4294967295,
+          0
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/1v1.crack_transition/nexeffect/transition.cracked_glass.1v1.left.nef",
+        "tamanho": 1874348,
+        "sha256": "621e77853c28d2139737c36135b8841095c51aa4705bb6522fa361db2a10e1de",
+        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000004445414400000000",
+        "u32_le_iniciais": [
+          4009689107,
+          181,
+          128,
+          186,
+          4294967295,
+          0
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/9v16.crack_transition/nexeffect/transition.cracked_glass.9v16.up.nef",
+        "tamanho": 1874348,
+        "sha256": "f301295eb700efad392ada464fa38edcf2da40312159e2c00c76e6ff7d62d231",
+        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff0000000090ce07d3fc7f0000",
+        "u32_le_iniciais": [
+          4009689107,
+          181,
+          128,
+          186,
+          4294967295,
+          0
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/4v5.crack_transition/nexeffect/transition.cracked_glass.4v5.left.nef",
+        "tamanho": 1874620,
+        "sha256": "14f3d4990883ecab853da9f4e7f9ddaaa003ea6b04674fe594cf43fc19e305fe",
+        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000000000000000000000",
+        "u32_le_iniciais": [
+          4009689107,
+          181,
+          128,
+          186,
+          4294967295,
+          0
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/16v9.crack_transition/nexeffect/crack_transition.nef",
+        "tamanho": 2549096,
+        "sha256": "acdf1d604993de91eebb42d9006ca2ac2f3e4050b5f7b77e17ae2857521e9122",
+        "primeiros_32_bytes": "01dafeef1d26226b0200000091eb020046030300789c9cbc775c9359f72f8a3a",
+        "u32_le_iniciais": [
+          4026456577,
+          1797400093,
+          2,
+          191377,
+          197446,
+          3164380280
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/3v4.crack_transition/nexeffect/transition.cracked_glass.3v4.left.nef",
+        "tamanho": 1874212,
+        "sha256": "8e8143f55a7c8fb93022ecc3349567bbd99d4b3000d9a1113f928c02e8899af5",
+        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000000000000000000000",
+        "u32_le_iniciais": [
+          4009689107,
+          181,
+          128,
+          186,
+          4294967295,
+          0
+        ]
+      },
+      {
+        "arquivo": "kmassets/3d_transitions/transition/4v3.crack_transition/nexeffect/transition.cracked_glass.4v3.left.nef",
+        "tamanho": 1874348,
+        "sha256": "dbe3d849c0b2afd492c61c77f45e6c9fa5aca2d9be2de2cae58f40e157f65409",
+        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000000000000000000000",
+        "u32_le_iniciais": [
+          4009689107,
+          181,
+          128,
+          186,
+          4294967295,
+          0
+        ]
+      }
+    ]
+  },
+  "evidencias": {
+    "kmproject": [
+      {
+        "arquivo": "com/nexstreaming/kinemaster/editorwrapper/ProjectImporter$clearImportDirectory$2.java",
+        "linha": 56,
+        "trecho": "if (pr8.k(absolutePath, \".kmproject\", true) && !file4.isDirectory()) {"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/editorwrapper/ProjectImporter$unzipProject$2.java",
+        "linha": 63,
+        "trecho": "java.lang.String r2 = \".kmproject\""
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/ProjectHelper$renameProjectTo$2.java",
+        "linha": 133,
+        "trecho": "if (pr8.k(name, \".kmproject\", false)) {"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/ProjectHelper$renameProjectTo$2.java",
+        "linha": 136,
+        "trecho": "String Q = hr8.Q(name2, \".kmproject\");"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 436,
+        "trecho": "String concat = str.concat(\".kmproject\");"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 501,
+        "trecho": "int K = hr8.K(name2, \".kmproject\", 0, 6);"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 538,
+        "trecho": "if (pr8.k(name3, \".kmproject\", false)) {"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 557,
+        "trecho": "File file3 = new File(parent, e.b(R, arrayList, ProjectDatabaseHelper$GenerateUniqueType.FILE_NAME).concat(\".kmproject\"));"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 572,
+        "trecho": "if (!pr8.k(name4, \".kmproject\", z)) {"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 980,
+        "trecho": "if (pr8.k(name, \".kmproject\", false)) {"
+      },
+      {
+        "arquivo": "com/kinemaster/app/database/util/e.java",
+        "linha": 51,
+        "trecho": "if (hr8.v(str, '.') && pr8.k(str, \".kmproject\", false)) {"
+      },
+      {
+        "arquivo": "com/kinemaster/app/database/util/e.java",
+        "linha": 57,
+        "trecho": "byte[] bytes2 = \".kmproject\".getBytes(charset);"
+      }
+    ],
+    "kine": [
+      {
+        "arquivo": "com/nexstreaming/kinemaster/editorwrapper/k.java",
+        "linha": 528,
+        "trecho": "File file = new File(d2, num.concat(\".kine\"));"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/editorwrapper/l.java",
+        "linha": 41,
+        "trecho": "this.j = !pr8.k(str, \".kine\", false) ? str.concat(\".kine\") : str;"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/project/util/d.java",
+        "linha": 435,
+        "trecho": "File file = new File(wn4.i(\"Project\").getAbsolutePath(), qq2.r(UUID.randomUUID().toString(), \".kine\"));"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/ui/projectexport/ProjectExportViewModel$start$1.java",
+        "linha": 401,
+        "trecho": "str = qq2.r(projectEntity.getTitle(), \"_d.kine\");"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/ui/projectexport/ProjectExportViewModel$start$1.java",
+        "linha": 403,
+        "trecho": "str = qq2.r(projectEntity.getTitle(), \".kine\");"
+      },
+      {
+        "arquivo": "com/nexstreaming/kinemaster/ui/projectimport/ProjectImportViewModel$importProject$1.java",
+        "linha": 163,
+        "trecho": "str = UUID.randomUUID().toString() + \".kine\";"
+      },
+      {
+        "arquivo": "com/kinemaster/app/screen/projecteditor/reverse/b.java",
+        "linha": 104,
+        "trecho": "if (parent != null && pr8.k(parent, \".kine\", false)) {"
+      },
+      {
+        "arquivo": "com/kinemaster/app/screen/upload/TemplateUploadSharedViewModel$requestKineFile$2.java",
+        "linha": 127,
+        "trecho": "file3 = new File(d, \"cache_template_upload_original_kine_file.kine\");"
+      },
+      {
+        "arquivo": "com/kinemaster/app/screen/upload/TemplateUploadSharedViewModel$requestKineFile$2.java",
+        "linha": 129,
+        "trecho": "file3 = new File(d, \"cache_template_upload_trimmed_kine_file.kine\");"
+      },
+      {
+        "arquivo": "defpackage/wn4.java",
+        "linha": 76,
+        "trecho": "if (!(file == null || (parent = file.getParent()) == null || !pr8.k(parent, \".kine\", false))) {"
+      },
+      {
+        "arquivo": "defpackage/hka.java",
+        "linha": 117,
+        "trecho": "if (parent != null && pr8.k(parent, \".kine\", false)) {"
+      },
+      {
+        "arquivo": "defpackage/dx2.java",
+        "linha": 99,
+        "trecho": "sb.append(\".kine\");"
+      }
+    ],
+    "loadlibrary": [
+      {
+        "arquivo": "androidx/datastore/core/MultiProcessCoordinator$lazySharedCounter$1.java",
+        "linha": 23,
+        "trecho": "System.loadLibrary(\"datastore_shared_counter\");"
+      },
+      {
+        "arquivo": "com/google/android/renderscript/Toolkit.java",
+        "linha": 16,
+        "trecho": "System.loadLibrary(\"renderscript-toolkit\");"
+      },
+      {
+        "arquivo": "com/google/firebase/sessions/FirebaseSessionsComponent.java",
+        "linha": 38,
+        "trecho": "System.loadLibrary(\"datastore_shared_counter\");"
+      },
+      {
+        "arquivo": "com/google/mlkit/nl/translate/internal/TranslateJni.java",
+        "linha": 64,
+        "trecho": "System.loadLibrary(\"translate_jni\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditorUtils.java",
+        "linha": 157,
+        "trecho": "System.loadLibrary(\"nexeditorsdk\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexTextEffect.java",
+        "linha": 283,
+        "trecho": "System.loadLibrary(\"nexeditorsdk\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexThemeRenderer.java",
+        "linha": 15,
+        "trecho": "System.loadLibrary(\"stlport_shared\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexThemeRenderer.java",
+        "linha": 16,
+        "trecho": "System.loadLibrary(\"nexeditorsdk\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java",
+        "linha": 1139,
+        "trecho": "System.loadLibrary(\"nexeditorsdk\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java",
+        "linha": 1236,
+        "trecho": "System.loadLibrary(\"OpenCL-pixel\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java",
+        "linha": 1241,
+        "trecho": "System.loadLibrary(\"OpenCL-car\");"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java",
+        "linha": 1246,
+        "trecho": "System.loadLibrary(\"OpenCL\");"
+      }
+    ],
+    "carregamento_dinamico": [
+      {
+        "arquivo": "com/facebook/ads/internal/dynamicloading/DynamicLoaderFactory.java",
+        "linha": 16,
+        "trecho": "import dalvik.system.DexClassLoader;"
+      },
+      {
+        "arquivo": "com/facebook/ads/internal/dynamicloading/DynamicLoaderFactory.java",
+        "linha": 214,
+        "trecho": "private static DexClassLoader makeLegacyAdsSdkClassLoader(Context context) throws Exception {"
+      },
+      {
+        "arquivo": "com/facebook/ads/internal/dynamicloading/DynamicLoaderFactory.java",
+        "linha": 242,
+        "trecho": "return new DexClassLoader(String.join(File.pathSeparator, strArr), context.getDir(OPTIMIZED_DEX_PATH, 0).getPath(), (String) null, DynamicLoaderFactory.class.getClassLoader());"
+      },
+      {
+        "arquivo": "com/google/android/gms/internal/ads/zzbcg.java",
+        "linha": 12,
+        "trecho": "import dalvik.system.DexClassLoader;"
+      },
+      {
+        "arquivo": "com/google/android/gms/internal/ads/zzbcg.java",
+        "linha": 36,
+        "trecho": "private DexClassLoader zze;"
+      },
+      {
+        "arquivo": "com/google/android/gms/internal/ads/zzbcg.java",
+        "linha": 133,
+        "trecho": "zzbcg.zze = new DexClassLoader(file.getAbsolutePath(), cacheDir.getAbsolutePath(), (String) null, context3.getClassLoader());"
+      },
+      {
+        "arquivo": "com/google/android/gms/internal/ads/zzbcg.java",
+        "linha": 462,
+        "trecho": "public final DexClassLoader zze() {"
+      },
+      {
+        "arquivo": "com/google/android/gms/internal/ads/zzgab.java",
+        "linha": 6,
+        "trecho": "import dalvik.system.DexClassLoader;"
+      },
+      {
+        "arquivo": "com/google/android/gms/internal/ads/zzgab.java",
+        "linha": 45,
+        "trecho": "Class<?> loadClass = new DexClassLoader(zzfzr.zzb().getAbsolutePath(), zzc2.getAbsolutePath(), (String) null, this.zzb.getClassLoader()).loadClass(\"com.google.ccc.abuse.droidguard."
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditorUtils.java",
+        "linha": 16,
+        "trecho": "import dalvik.system.BaseDexClassLoader;"
+      },
+      {
+        "arquivo": "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditorUtils.java",
+        "linha": 317,
+        "trecho": "String findLibrary = ((BaseDexClassLoader) context.getClassLoader()).findLibrary(\"nexcralbody_mc_jb\");"
+      },
+      {
+        "arquivo": "com/apm/insight/h/c.java",
+        "linha": 8,
+        "trecho": "import dalvik.system.BaseDexClassLoader;"
+      }
+    ]
+  },
+  "bibliotecas_carregadas_ausentes_no_apk": [
+    "OpenCL",
+    "OpenCL-car",
+    "OpenCL-pixel",
+    "geckox_bspatch",
+    "stlport_shared"
+  ]
+}

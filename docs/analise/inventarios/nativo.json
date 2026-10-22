@@ -1,0 +1,4391 @@
+{
+  "gerado_em": "2026-10-22T16:00:51.443565+00:00",
+  "total_bibliotecas": 22,
+  "bytes_totais": 62598024,
+  "bibliotecas_com_jni": [
+    "libairbridgelib.so",
+    "libbuffer_pgl.so",
+    "libdatastore_shared_counter.so",
+    "libfile_lock_pgl.so",
+    "libnexeditorsdk.so",
+    "libpglarmor.so",
+    "librenderscript-toolkit.so",
+    "libtensorflowlite_gpu_jni.so",
+    "libtensorflowlite_jni.so",
+    "libtranslate_jni.so"
+  ],
+  "bibliotecas_com_jni_onload": [
+    "libapminsighta.so",
+    "libnexeditorsdk.so",
+    "libnms.so",
+    "libtranslate_jni.so",
+    "libtt_ugen_layout.so"
+  ],
+  "bibliotecas_com_symtab": [
+    "librenderscript-toolkit.so"
+  ],
+  "bibliotecas_com_debug": [
+    "librenderscript-toolkit.so"
+  ],
+  "bibliotecas_com_protetor": {},
+  "needed_agregado": [
+    "libEGL.so",
+    "libGLESv2.so",
+    "libGLESv3.so",
+    "libandroid.so",
+    "libc.so",
+    "libdl.so",
+    "libjnigraphics.so",
+    "liblog.so",
+    "libm.so",
+    "libonnxruntime.so",
+    "libtensorflowlite_gpu_jni.so",
+    "libtensorflowlite_jni.so",
+    "libz.so"
+  ],
+  "entropia_texto": {
+    "libairbridgelib.so": 6.49,
+    "libapminsighta.so": 6.565,
+    "libapminsightb.so": 6.716,
+    "libbuffer_pgl.so": 5.605,
+    "libdatastore_shared_counter.so": 5.618,
+    "libfile_lock_pgl.so": 5.614,
+    "libkmSTTv4_armv80.so": 7.011,
+    "libkmSTTv4_armv82.so": 7.01,
+    "libnexcralbody_mc_jb.so": 6.776,
+    "libnexeditorsdk.so": 6.703,
+    "libnexralbody_audio.so": 6.666,
+    "libnms.so": 6.879,
+    "libonnxruntime.so": 6.795,
+    "libpglarmor.so": 6.805,
+    "librenderscript-toolkit.so": 6.837,
+    "libtensorflowlite_gpu_jni.so": 6.515,
+    "libtensorflowlite_jni.so": 7.083,
+    "libtranslate_jni.so": 6.703,
+    "libtt_ugen_layout.so": 6.591,
+    "libwrapnexgifcalbody.so": 6.464,
+    "libwrapneximagevideocalbody.so": 6.462,
+    "libwrapnexpcmcalbody.so": 6.63
+  },
+  "correlacao_gerenciado": {
+    "bibliotecas_carregadas": {
+      "OpenCL": [
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java"
+      ],
+      "OpenCL-car": [
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java"
+      ],
+      "OpenCL-pixel": [
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java"
+      ],
+      "airbridgelib": [
+        "co/ab180/airbridge/internal/signature/NativeLib.java"
+      ],
+      "datastore_shared_counter": [
+        "androidx/datastore/core/MultiProcessCoordinator$lazySharedCounter$1.java",
+        "com/google/firebase/sessions/FirebaseSessionsComponent.java"
+      ],
+      "file_lock_pgl": [
+        "com/bykv/vk/openvk/preload/geckox/utils/FileLock.java"
+      ],
+      "geckox_bspatch": [
+        "com/bykv/vk/openvk/preload/geckox/utils/BsPatch.java"
+      ],
+      "nexeditorsdk": [
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor.java",
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditorUtils.java",
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexTextEffect.java",
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexThemeRenderer.java"
+      ],
+      "pglarmor": [
+        "com/bytedance/sdk/component/pglcrypt/PglCryptUtils.java"
+      ],
+      "renderscript-toolkit": [
+        "com/google/android/renderscript/Toolkit.java"
+      ],
+      "stlport_shared": [
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexThemeRenderer.java"
+      ],
+      "translate_jni": [
+        "com/google/mlkit/nl/translate/internal/TranslateJni.java"
+      ],
+      "tt_ugen_layout": [
+        "com/bytedance/adsdk/ugeno/yoga/YogaNative.java",
+        "com/bytedance/sdk/openadsdk/core/ry/dj.java"
+      ]
+    },
+    "apis_de_carregamento_dinamico": {
+      "DexClassLoader": [
+        "com/apm/insight/h/c.java",
+        "com/facebook/ads/internal/dynamicloading/DynamicLoaderFactory.java",
+        "com/google/android/gms/internal/ads/zzbcg.java",
+        "com/google/android/gms/internal/ads/zzgab.java",
+        "com/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditorUtils.java",
+        "defpackage/i5b.java",
+        "defpackage/z8c.java"
+      ],
+      "InMemoryDexClassLoader": [
+        "defpackage/uf2.java"
+      ],
+      "PathClassLoader": [
+        "defpackage/bjb.java"
+      ],
+      "Runtime.getRuntime().exec": [
+        "com/apm/insight/l/d.java",
+        "com/apm/insight/l/l.java",
+        "com/bytedance/sdk/openadsdk/utils/bhi.java",
+        "com/nexstreaming/app/general/util/LogUtils$capture$2.java",
+        "com/pgl/ssdk/af.java",
+        "defpackage/c51.java",
+        "defpackage/rm2.java"
+      ],
+      "System.load(": [
+        "com/pgl/ssdk/av.java"
+      ]
+    }
+  },
+  "bibliotecas": [
+    {
+      "arquivo": "libairbridgelib.so",
+      "tamanho": 12816,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".relro_padding",
+          "tamanho": 5872,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".text",
+          "tamanho": 4284,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.49
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 964,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 922,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 744,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 504,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 504,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.036
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 432,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 368,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 256,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 256,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 7.124
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 240,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.155,
+          "conteudo": "Linker: LLD 18.0.3; Android (12470979, +pgo, +bolt, +lto, +mlgo, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 192,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 140,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 96,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 62,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 8,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 8,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libairbridgelib.so",
+      "total_exportados": 19,
+      "simbolos_jni": [
+        "Java_co_ab180_airbridge_internal_signature_NativeLib_generate"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "co.ab180.airbridge.internal.signature.NativeLib"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libapminsighta.so",
+      "tamanho": 102256,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 59788,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.565
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 13176,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 12204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.059
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 10192,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 3192,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 2664,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 2592,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 1760,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 1692,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 1164,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 1008,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 896,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 888,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 592,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.558
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 432,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 230,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 222,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.164,
+          "conteudo": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362); Linker: LLD 17.0.2"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 64,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 48,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "soname": "libapminsighta.so",
+      "total_exportados": 1,
+      "simbolos_jni": [],
+      "jni_onload": true,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libapminsightb.so",
+      "tamanho": 124352,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 83312,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.716
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 23320,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 11312,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 8992,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.873
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 3360,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 2568,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 2020,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 1824,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 1802,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 1744,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 1128,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 880,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 880,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.532
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 496,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 280,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 242,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 208,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.164,
+          "conteudo": "Android (11349228, +pgo, +bolt, +lto, -mlgo, based on r487747e) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362); Linker: LLD 17.0.2"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 104,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 64,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 8,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "soname": "libapminsightb.so",
+      "total_exportados": 71,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libbuffer_pgl.so",
+      "tamanho": 9000,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0xfec",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 2088,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.605
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 996,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 720,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 432,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 408,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 396,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 304,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 278,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.074,
+          "conteudo": "Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d); Linker: LLD 11.0.5 (/buildbot/src/android/llvm-r399163b/out/llvm-project/lld 87f1315dfbea7c137aa2e6d362dbb457e388158d)"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 248,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 219,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 4.264
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 214,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 160,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 108,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 108,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 72,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 60,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 8,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libbuffer_pgl.so",
+      "total_exportados": 12,
+      "simbolos_jni": [
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nRelease",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nRead",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nFlush",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nRead",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nWrite",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MReMapBuffer_nMReMap",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nRelease",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nCreate",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nCreate",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nFlush",
+        "Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nWrite"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "com.bykv.vk.openvk.preload.geckox.buffer.impl.MMapBuffer",
+        "com.bykv.vk.openvk.preload.geckox.buffer.impl.MReMapBuffer",
+        "com.bykv.vk.openvk.preload.geckox.buffer.impl.MemoryBuffer"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libdatastore_shared_counter.so",
+      "tamanho": 7112,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 908,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.618
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 699,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 492,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 480,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 448,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 336,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 256,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 231,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 178,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.103,
+          "conteudo": "Linker: LLD 14.0.7; Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 168,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 140,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 136,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 96,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 76,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 40,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 39,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 4.477
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 8,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 8,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 1,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libdatastore_shared_counter.so",
+      "total_exportados": 9,
+      "simbolos_jni": [
+        "Java_androidx_datastore_core_NativeSharedCounter_nativeTruncateFile",
+        "Java_androidx_datastore_core_NativeSharedCounter_nativeCreateSharedCounter",
+        "Java_androidx_datastore_core_NativeSharedCounter_nativeGetCounterValue",
+        "Java_androidx_datastore_core_NativeSharedCounter_nativeIncrementAndGetCounterValue"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "androidx.datastore.core.NativeSharedCounter"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libfile_lock_pgl.so",
+      "tamanho": 6312,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0xa0c",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 1108,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.614
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 548,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 432,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 384,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 278,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.074,
+          "conteudo": "Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d); Linker: LLD 11.0.5 (/buildbot/src/android/llvm-r399163b/out/llvm-project/lld 87f1315dfbea7c137aa2e6d362dbb457e388158d)"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 236,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 216,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 214,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 176,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 136,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 96,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 85,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 4.65
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 72,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 60,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 60,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 8,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libfile_lock_pgl.so",
+      "total_exportados": 6,
+      "simbolos_jni": [
+        "Java_com_bykv_vk_openvk_preload_geckox_utils_FileLock_nGetFD",
+        "Java_com_bykv_vk_openvk_preload_geckox_utils_FileLock_nLockFile",
+        "Java_com_bykv_vk_openvk_preload_geckox_utils_FileLock_nLockFileSegment",
+        "Java_com_bykv_vk_openvk_preload_geckox_utils_FileLock_nRelease",
+        "Java_com_bykv_vk_openvk_preload_geckox_utils_FileLock_nTryLock",
+        "Java_com_bykv_vk_openvk_preload_geckox_utils_FileLock_nUnlockFile"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "com.bykv.vk.openvk.preload.geckox.utils.FileLock"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libkmSTTv4_armv80.so",
+      "tamanho": 2784416,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 1317564,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 7.011
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 640176,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 537104,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 302780,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 4.474
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 218464,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 120812,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 50024,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 32208,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 31192,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 20276,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 16752,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 11200,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 8108,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 5608,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 2684,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 1368,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 896,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.744
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 510,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.151,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 291,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 264,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 128,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 40,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libdl.so",
+        "libonnxruntime.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "libkmSTTv4_armv80.so",
+      "total_exportados": 1209,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libkmSTTv4_armv82.so",
+      "tamanho": 2783712,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 1316972,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 7.01
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 640176,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 537104,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 302772,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 4.474
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 218464,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 120728,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 50024,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 32208,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 31184,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 20268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 16752,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 11200,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 8108,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 5608,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 2684,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 1368,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 968,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 896,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.744
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 510,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.151,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 291,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 128,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 40,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libdl.so",
+        "libonnxruntime.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "libkmSTTv4_armv82.so",
+      "total_exportados": 1209,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libnexcralbody_mc_jb.so",
+      "tamanho": 801920,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 596216,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.776
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 56044,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.2
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 51168,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 50444,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 13008,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 8188,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 6308,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 6152,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 3.361
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 5728,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 2496,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 2352,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 1600,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 1456,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 1328,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 1120,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 808,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 510,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.151,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 496,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 291,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 208,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 168,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 64,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 44,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libGLESv2.so",
+        "libEGL.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "libnexcralbody_mc_jb.so",
+      "total_exportados": 4,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libnexeditorsdk.so",
+      "tamanho": 9691912,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 6760796,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.703
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 1073860,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.698
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 771676,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 437472,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 159712,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 140928,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 3.976
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 129976,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 121548,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 47464,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 37932,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 18648,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 11832,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 9504,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 6368,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 3192,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 2904,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 2900,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 1554,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 576,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 282,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 208,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 120,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libonnxruntime.so",
+        "libtensorflowlite_jni.so",
+        "libtensorflowlite_gpu_jni.so",
+        "libGLESv3.so",
+        "libEGL.so",
+        "libz.so",
+        "libandroid.so",
+        "libjnigraphics.so",
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "libnexeditorsdk.so",
+      "total_exportados": 372,
+      "simbolos_jni": [
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setProperty",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_sttStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_highlightStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setRenderToDefault",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setTemperature",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_scaleXY",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getRenderTargetTexture",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setLUT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_jumpCutStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_addUDTA",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setVibrance",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_releaseContext",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_asyncLoadList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_startNativeBeatDetection",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setZTest",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipAudioThumb",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiBoxTrackingStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_updateDrawInfo",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_setPlaceholders",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_modifyVisualClipN",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_getCropMaskN",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_setCTS",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_setForceRTT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_addVisualClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_endVoiceRecorder",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_noiseReductionStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_loadList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getGamma",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getEffectTextureHeight",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setHBlurEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getGain",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_initImageSegmentation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setLUTEnable",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setShadowTex",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getSystemProperty",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setHue",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_presetForDrawing",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setBrightness",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setSaturation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setTintcolor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawLayerRenderItem",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodeProjectJpeg",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_modifyAudioClipN",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_jumpCutStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setThumbnailRoutine",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_procImageSegmentation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawDirect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_createRenderItem",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawNexEDLBlend",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setBackgroundMusicVolume",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVocalSeparatorStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setRenderToMask",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setVignetteRange",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_releaseZTestMode",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_createEditor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_removeBitmap",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawRenderItemBlend",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setProjectBackgroundColor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTemperature",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setNativeEditorHandle",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_RemoveOriginal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_resumePlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiStyleStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVocalSeparatorStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_fastPreviewTime",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_checkIDRStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setCurrentTime",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setStrengthForLUT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getThemeID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVoiceRVCEmStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_asyncEffectList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_releaseLUTTexture",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setTemperature",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_SetPaddedTex",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getBrightness",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getSaturation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getOutputHeight",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTexNameForWhite",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setGain",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_superResolutionStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getPerformanceCount",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_deinitImageSuperResolution",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setContrast",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawNexEDLBitmap",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setAlphaVideoTextureFlag",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodeProject",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipEffectList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_swapBlendMain",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setRenderMode",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawLayerRenderItems",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_deinitImageAiStyle",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setShaderAndParam",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_resetMatrix",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVoiceIVCClStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTexNameForClipID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTexNameForClipIDExternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getScreenDimensionWidth",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_createCubeLUT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_initImageAiStyle",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_createScaledTexture",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipInfo",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_imageLabelingStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_fastPreviewStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_drawRenderItemOverlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_NexCheckMP3VBR",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawBitmapRepeat",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_highlightStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTexNameForBlend",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_superResolutionStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setHighlights",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setBlendFuncMultiply",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_prepareSurface",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_moveAudioClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setVBlurEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_init",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setPacakgeName4Protection",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_commandMarker",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipInfoSyncInternalStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_getKenBurnsRectsN",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawLayerNexEDLBlend",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_aquireContext",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setTime",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getHighlights",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipVideoThumbWithTimeTable",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_createNexEDL",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_compressVideoContentsInKMProject",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setColorLookupTable",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getTexMatrix",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getCurrentTime",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setBlendFuncNormal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_actionRecognitionStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setEffectStrength",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getTemperature",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_startPlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_fastPreviewStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setEventHandler",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_checkIDRTime",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setShadows",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_initImageSuperResolution",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_postRender",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setAlphaTestValue",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getLoadThemeError",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_clearUDTA",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setChromakeyViewMaskEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getThemeList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_releaseRenderItem",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_actionRecognitionStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_imageLabelingStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getAlpha",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_clearList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getVibrance",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getVignette",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_check4km",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_loadTheme",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setChromakeyEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_clearRenderItems",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_initUserData",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setProjectEffect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_directExport",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_cleanupMaskWithWhite",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setGamma",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getKedlMediaInfoList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_removeRenderer",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_clearScreen",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_releaseNexEDL",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getNativeBeatDetectionDoneResult",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_procImageSuperResolution",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setEffectTextureWidth",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_changeSurface",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodeProjectToWEBP",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodeResume",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipAudioThumbPartial",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getVersionNumber",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setVideoTrackUUID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setEffectTextureSize",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setZTestMode",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getGamma",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setDropShadow",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_closeOutputFile",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getVignetteRange",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawRenderItemBlendOverlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawBitmap",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_checkPFrameDirectExportSync",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getAudioSessionID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_resetFaceDetectInfo",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getMatrix",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setHomographyEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawRenderItemBitmap",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setProjectManualVolumeControl",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipStopThumb",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setBackgroundMusic",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiBoxTrackingStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_checkDirectExport",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_checkIDREnd",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_clearRenderItems",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_processVoiceRecorder",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_text2SpeechStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setTaskSleep",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setBrightness",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setSaturation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setDeviceGamma",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getEffectTextureWidth",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodeProjectToAIData",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipInfoSyncInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_asyncDrawInfoList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getLift",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setHomoPos",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getHue",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_getResultTex",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_addAudioClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_transcodingStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setGLVersion",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getHSLValues",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_clearClipEffect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTimeThumbData",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiStyleStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVoiceIVCEmStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setMaskEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_deinit",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawLayerRenderItemBlend",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setMediaTextureFlag",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_deleteClipID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVoiceStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getShadows",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_scale",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setProjectVolumeFade",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTitleEffectList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_set360VideoTrackPosition",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawLayerNexEDL",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_loadThemes",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_releaseZTest",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_render",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodeProjectToGIF",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_decryptKMAsset",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getScreenDimensionHeight",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setTargetTex",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_getResultTexWithOwnership",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_makeEffectResultWithTexture",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setRect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_encodePause",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setLift",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawNexEDLBlendOverlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_loadClipList",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_loadRenderItem",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getContrast",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawRenderItem",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_prepareSurface",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_pushLoadedBitmap",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setColorMatrix",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_createLGLUT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_deinitImageSegmentation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getOutputWidth",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setEffectTextureHeight",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setChromakeyColor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setHue",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_setClipEffect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getProperty",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_segmentationStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_sttStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_reverseStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getNativeSDKInfoWM",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_getCombinedTextureWidth",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_createProject",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_stopPlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_transcodingStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setVibrance",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setVignette",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getBrightness",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getSaturation",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getVibrance",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setDeviceLightLevel",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_surfaceChange",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_drawNexEDLOverlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getSharpness",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setMosaicEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getMaskEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_clearMasktoColor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_setTransitionEffect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setHighlights",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_save",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_clearTransitionEffect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setShadows",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_destroyEditor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setProjectVolume",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_captureCurrentFrame",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setBaseFilterRenderItem",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_requestCallbackInRenderContext",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setMediaTextureSize",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_text2SpeechStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_moveVisualClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getDuration",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_noiseReductionStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getGain",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_rotate",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getHomoPos",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setSourceTex",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setForceRTT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_procImageAiStyle",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_translate",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getAudioClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setPreviewScaleFactor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_translateXY",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setAlpha",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getChromakeyViewMaskEnabled",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setHSLValues",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_aiVoiceRVCClStart",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getEffectStrength",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setRenderTarget",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_makeEffectResult",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getTexNameForMask",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setOutputFile",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_clearMask",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_fillRect",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_clearMaskRegion",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getLift",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getRenderMode",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_getResultBuffer",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_videoStabilizerStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_cancelNativeBeatDetection",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_rotateAroundAxis",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setMaskTexID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawVideo",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getTintcolor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getColorMatrix",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_releaseNative",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setGain",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_preRender",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setGamma",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_videoStabilizerStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_getOutputResInfoImageAiStyle",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_startVoiceRecorder",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setTexNameForLUT",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_createRenderer",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_restore",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_drawNexEDL",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setGlowTex",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_fastOptionPreview",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getRenderTarget",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getContrast",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getHighlights",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_segmentationStartInternal",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_updateRenderInfo",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_captureSelectedClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_pausePlay",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_scaleXYZ",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_setOriginalTexSize",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getVisualClip",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setThemeID",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_getThumbnailCropMaskN",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setFrameDimensions",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_closeProject",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getPreviewScaleFactor",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setContrast",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditorUtils_NexGetClipInfo",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_clearSurface",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getClipVideoThumb",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_getHue",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setLift",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_clearCachedVisualTrack",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_reverseStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_setSharpness",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_compressVideoContentsStop",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_recycleRenderer",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_initNative",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexTextEffect_getCombinedTextureHeight",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexEditor_clearProject",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_setScreenDimenisions",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexLayerRenderer_getShadows",
+        "Java_com_kinemaster_module_nexeditormodule_nexvideoeditor_NexThemeRenderer_loadRenderItem"
+      ],
+      "jni_onload": true,
+      "classes_java_inferidas": [
+        "com.kinemaster.module.nexeditormodule.nexvideoeditor.NexEditor",
+        "com.kinemaster.module.nexeditormodule.nexvideoeditor.NexEditorUtils",
+        "com.kinemaster.module.nexeditormodule.nexvideoeditor.NexLayerRenderer",
+        "com.kinemaster.module.nexeditormodule.nexvideoeditor.NexTextEffect",
+        "com.kinemaster.module.nexeditormodule.nexvideoeditor.NexThemeRenderer"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libnexralbody_audio.so",
+      "tamanho": 420288,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 266532,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.666
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 38764,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 38544,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 35716,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.608
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 12640,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 6700,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 5968,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 5672,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 2688,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 2568,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 1744,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 1456,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 1352,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 2.987
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 1329,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 880,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 608,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 510,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.151,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 448,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 291,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 224,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 80,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 80,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 40,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "libnexralbody_audio.so",
+      "total_exportados": 3,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libnms.so",
+      "tamanho": 302248,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 176876,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.879
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 42672,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 33760,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 23721,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.919
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 11596,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 5844,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 3048,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.302
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 2796,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 984,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 912,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 640,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 480,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 464,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 429,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 336,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 328,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 313,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.153,
+          "conteudo": "Linker: LLD 14.0.7; Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6); clang version 14.0.7; clang version 9.0.0 (gitlab@git.byted.org:security/android-ndk-llvm.git 9f3a96b2ca7550528ffab623094b18501af7f4f3)"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 242,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 82,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 24,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 8,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libnms.so",
+      "total_exportados": 1,
+      "simbolos_jni": [],
+      "jni_onload": true,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libonnxruntime.so",
+      "tamanho": 17571152,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 12844596,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.795
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 1247212,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 1243772,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.557
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 1013424,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 602340,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 365480,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 218572,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 45024,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 7512,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 5016,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 4848,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 3264,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 2816,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.42
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 2267,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "malloc_hook",
+          "tamanho": 2176,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 1840,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 1680,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 1640,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 512,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 418,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 302,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 203,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.126,
+          "conteudo": "Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262); Linker: LLD 18.0.1"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 152,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 96,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.version_d",
+          "tamanho": 56,
+          "tipo": "SHT_GNU_verdef"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 48,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libdl.so",
+        "liblog.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "libonnxruntime.so",
+      "total_exportados": 5,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libpglarmor.so",
+      "tamanho": 68776,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 50704,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.805
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 6432,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 3083,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.391
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 1792,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 1292,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 448,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 360,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 348,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 344,
+          "tipo": "SHT_PROGBITS",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 313,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.153,
+          "conteudo": "Linker: LLD 14.0.7; Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6); clang version 14.0.7; clang version 9.0.0 (gitlab@git.byted.org:security/android-ndk-llvm.git 9f3a96b2ca7550528ffab623094b18501af7f4f3)"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 288,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 237,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 225,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 224,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 128,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 120,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 30,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 20,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libz.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libpglarmor.so",
+      "total_exportados": 1,
+      "simbolos_jni": [
+        "Java_com_bytedance_sdk_component_pglcrypt_PglCryptUtils_bc"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "com.bytedance.sdk.component.pglcrypt.PglCryptUtils"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "librenderscript-toolkit.so",
+      "tamanho": 3894848,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": true,
+      "possui_symtab": true,
+      "secoes": [
+        {
+          "nome": ".debug_info",
+          "tamanho": 1082855,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".debug_loc",
+          "tamanho": 910582,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".debug_str",
+          "tamanho": 491530,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".debug_line",
+          "tamanho": 311744,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".debug_ranges",
+          "tamanho": 308400,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".text",
+          "tamanho": 275204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.837
+        },
+        {
+          "nome": ".strtab",
+          "tamanho": 123563,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".symtab",
+          "tamanho": 110712,
+          "tipo": "SHT_SYMTAB"
+        },
+        {
+          "nome": ".debug_abbrev",
+          "tamanho": 55330,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 46516,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 46344,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 33647,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 22944,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 19100,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.674
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 16640,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 7796,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 6384,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 6144,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 5276,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 4208,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 4128,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 3448,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 2072,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 1912,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 464,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 401,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 388,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.147,
+          "conteudo": "Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2); Linker: LLD 19.0.0; ; Android (13324770, +pgo, -bolt, +lto, -mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 368,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.054
+        },
+        {
+          "nome": ".debug_aranges",
+          "tamanho": 336,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 96,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 16,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libjnigraphics.so",
+        "liblog.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "soname": "librenderscript-toolkit.so",
+      "total_exportados": 864,
+      "simbolos_jni": [
+        "Java_com_google_android_renderscript_Toolkit_nativeHistogramDot",
+        "Java_com_google_android_renderscript_Toolkit_nativeHistogramDotBitmap",
+        "Java_com_google_android_renderscript_Toolkit_destroyNative",
+        "Java_com_google_android_renderscript_Toolkit_nativeYuvToRgb",
+        "Java_com_google_android_renderscript_Toolkit_nativeConvolve",
+        "Java_com_google_android_renderscript_Toolkit_nativeBlendBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeHistogramBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeColorMatrix",
+        "Java_com_google_android_renderscript_Toolkit_nativeLut",
+        "Java_com_google_android_renderscript_Toolkit_nativeLutBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeResize",
+        "Java_com_google_android_renderscript_Toolkit_nativeYuvToRgbBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeBlur",
+        "Java_com_google_android_renderscript_Toolkit_createNative",
+        "Java_com_google_android_renderscript_Toolkit_nativeLut3d",
+        "Java_com_google_android_renderscript_Toolkit_nativeColorMatrixBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeConvolveBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeLut3dBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeBlurBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeHistogram",
+        "Java_com_google_android_renderscript_Toolkit_nativeResizeBitmap",
+        "Java_com_google_android_renderscript_Toolkit_nativeBlend"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "com.google.android.renderscript.Toolkit"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libtensorflowlite_gpu_jni.so",
+      "tamanho": 2471512,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 1389988,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.515
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 323300,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.85
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 301996,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 139656,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 135440,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 85804,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 53496,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 19600,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 4800,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 4680,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 3672,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 2974,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 2480,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 1568,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 1312,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 1248,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 528,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 424,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 1.247
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 390,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 318,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": "malloc_hook",
+          "tamanho": 256,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.167,
+          "conteudo": "Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2); Linker: LLD 19.0.0"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 96,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 80,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".gnu.version_d",
+          "tamanho": 56,
+          "tipo": "SHT_GNU_verdef"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 40,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 32,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libGLESv3.so",
+        "libEGL.so",
+        "libdl.so",
+        "libm.so",
+        "liblog.so",
+        "libc.so"
+      ],
+      "soname": "libtensorflowlite_gpu_jni.so",
+      "total_exportados": 10,
+      "simbolos_jni": [
+        "Java_org_tensorflow_lite_gpu_CompatibilityList_createCompatibilityList",
+        "Java_org_tensorflow_lite_gpu_GpuDelegate_createDelegate",
+        "Java_org_tensorflow_lite_gpu_GpuDelegateNative_nativeDoNothing",
+        "Java_org_tensorflow_lite_gpu_CompatibilityList_nativeIsDelegateSupportedOnThisDevice",
+        "Java_org_tensorflow_lite_gpu_CompatibilityList_deleteCompatibilityList",
+        "Java_org_tensorflow_lite_gpu_GpuDelegate_deleteDelegate"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "org.tensorflow.lite.gpu.CompatibilityList",
+        "org.tensorflow.lite.gpu.GpuDelegate",
+        "org.tensorflow.lite.gpu.GpuDelegateNative"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libtensorflowlite_jni.so",
+      "tamanho": 4152032,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 3399220,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 7.083
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 323840,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 131268,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.604
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 121728,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 104280,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 63076,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 29024,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 28088,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 21016,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.044
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 12027,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 9768,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 4032,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 3264,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 2720,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 2592,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 1912,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 1368,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 814,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 496,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 306,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.167,
+          "conteudo": "Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2); Linker: LLD 19.0.0"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 184,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 96,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.version_d",
+          "tamanho": 56,
+          "tipo": "SHT_GNU_verdef"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 32,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 24,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libm.so",
+        "libdl.so",
+        "liblog.so",
+        "libc.so"
+      ],
+      "soname": "libtensorflowlite_jni.so",
+      "total_exportados": 277,
+      "simbolos_jni": [
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getSignatureKeys",
+        "Java_org_tensorflow_lite_TensorImpl_numBytes",
+        "Java_org_tensorflow_lite_TensorImpl_hasDelegateBufferHandle",
+        "Java_org_tensorflow_lite_InterpreterFactoryImpl_nativeSchemaVersion",
+        "Java_org_tensorflow_lite_TensorImpl_dtype",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeOutputNames",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getOutputNames",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeGetOutputIndex",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getOutputTensorIndex",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_createInterpreter",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeInvoke",
+        "Java_org_tensorflow_lite_TensorImpl_quantizationScale",
+        "Java_org_tensorflow_lite_TensorImpl_name",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getExecutionPlanLength",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeGetSubgraphIndex",
+        "Java_org_tensorflow_lite_TensorImpl_shape",
+        "Java_org_tensorflow_lite_TensorImpl_writeScalar",
+        "Java_org_tensorflow_lite_TensorImpl_writeDirectBuffer",
+        "Java_org_tensorflow_lite_nnapi_NnApiDelegateImpl_createDelegate",
+        "Java_org_tensorflow_lite_nnapi_NnApiDelegateImpl_getNnapiErrno",
+        "Java_org_tensorflow_lite_TensorImpl_readMultiDimensionalArray",
+        "Java_org_tensorflow_lite_InterpreterFactoryImpl_nativeRuntimeVersion",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeResizeInput",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getOutputCount",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_run",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_setCancelled",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeAllocateTensors",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_resizeInput",
+        "Java_org_tensorflow_lite_TensorImpl_buffer",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_createModel",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getInputNames",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_createErrorReporter",
+        "Java_org_tensorflow_lite_TensorImpl_quantizationZeroPoint",
+        "Java_org_tensorflow_lite_TensorImpl_createSignatureOutputTensor",
+        "Java_org_tensorflow_lite_TensorImpl_create",
+        "Java_org_tensorflow_lite_nnapi_NnApiDelegateImpl_deleteDelegate",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapperExperimental_resetVariableTensors",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_allowFp16PrecisionForFp32",
+        "Java_org_tensorflow_lite_TensorFlowLite_nativeDoNothing",
+        "Java_org_tensorflow_lite_TensorImpl_shapeSignature",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_allocateTensors",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_createCancellationFlag",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_hasUnresolvedFlexOp",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_deleteCancellationFlag",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_delete",
+        "Java_org_tensorflow_lite_TensorImpl_createSignatureInputTensor",
+        "Java_org_tensorflow_lite_TensorImpl_delete",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeGetInputIndex",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeInputNames",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getInputCount",
+        "Java_org_tensorflow_lite_TensorImpl_writeMultiDimensionalArray",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_getInputTensorIndex",
+        "Java_org_tensorflow_lite_NativeSignatureRunnerWrapper_nativeGetSignatureRunner",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_allowBufferHandleOutput",
+        "Java_org_tensorflow_lite_NativeInterpreterWrapper_createModelWithBuffer",
+        "Java_org_tensorflow_lite_TensorImpl_index"
+      ],
+      "jni_onload": false,
+      "classes_java_inferidas": [
+        "org.tensorflow.lite.InterpreterFactoryImpl",
+        "org.tensorflow.lite.NativeInterpreterWrapper",
+        "org.tensorflow.lite.NativeInterpreterWrapperExperimental",
+        "org.tensorflow.lite.NativeSignatureRunnerWrapper",
+        "org.tensorflow.lite.TensorFlowLite",
+        "org.tensorflow.lite.TensorImpl",
+        "org.tensorflow.lite.nnapi.NnApiDelegateImpl"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libtranslate_jni.so",
+      "tamanho": 16361048,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 7191104,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.703
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 4176420,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 7.365
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 1479528,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 1200384,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.27
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 1189284,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 672952,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 359556,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 274528,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 29976,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 23052,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 6984,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 6456,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 4336,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 3947,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 2336,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 2176,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 1552,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 1424,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "google_init_cold",
+          "tamanho": 708,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 582,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 512,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 381,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.105,
+          "conteudo": "Android (dev, -pgo, -bolt, -lto, -mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262); ; Android (12027248, +pgo, +bolt, +lto, +mlgo, based on r522817) clang version 18.0.1 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262); Linker: LLD 18.0.1"
+        },
+        {
+          "nome": "malloc_hook",
+          "tamanho": 372,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 358,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 96,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 72,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".gnu.version_d",
+          "tamanho": 56,
+          "tipo": "SHT_GNU_verdef"
+        },
+        {
+          "nome": "filewrapper_toc",
+          "tamanho": 40,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 32,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": "pb_defaults",
+          "tamanho": 24,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libandroid.so",
+        "libdl.so",
+        "libm.so",
+        "liblog.so",
+        "libc.so"
+      ],
+      "soname": "libtranslate_jni.so",
+      "total_exportados": 8,
+      "simbolos_jni": [
+        "Java_com_google_mlkit_nl_translate_internal_TranslateJni_nativeInit",
+        "Java_com_google_mlkit_nl_translate_internal_TranslateJni_nativeDestroy",
+        "Java_com_google_mlkit_nl_translate_internal_TranslateJni_nativeTranslate"
+      ],
+      "jni_onload": true,
+      "classes_java_inferidas": [
+        "com.google.mlkit.nl.translate.internal.TranslateJni"
+      ],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libtt_ugen_layout.so",
+      "tamanho": 440672,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 224288,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.591
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 45192,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 44452,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 22724,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.716
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 22708,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 18240,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 14080,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 8664,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 7940,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".hash",
+          "tamanho": 6088,
+          "tipo": "SHT_HASH"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 5808,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 5604,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 4024,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 3088,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 2912,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 2536,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.044
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 1520,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 344,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 260,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 204,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.165,
+          "conteudo": "Linker: LLD 17.0.2; ; Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 96,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 16,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libtt_ugen_layout.so",
+      "total_exportados": 708,
+      "simbolos_jni": [],
+      "jni_onload": true,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libwrapnexgifcalbody.so",
+      "tamanho": 284584,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 145652,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.464
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 40752,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 27504,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 14968,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 13364,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.62
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 11736,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 9523,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 4900,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 3208,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 2952,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 2928,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 2000,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 1376,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 1008,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 978,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 744,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 510,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.151,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 352,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 291,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 104,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.215
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 64,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 16,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libwrapnexgifcalbody.so",
+      "total_exportados": 434,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libwrapneximagevideocalbody.so",
+      "tamanho": 285864,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 146468,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.462
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 40728,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 27584,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 14968,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 13828,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.611
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 11712,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 9521,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 4908,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 3552,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 3204,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 2952,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 2928,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 2000,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gcc_except_table",
+          "tamanho": 1376,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 1008,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 976,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 510,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.151,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 464,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 344,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 291,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": "__lcxx_override",
+          "tamanho": 268,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".data",
+          "tamanho": 96,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 0.167
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 64,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".init_array",
+          "tamanho": 16,
+          "tipo": "SHT_INIT_ARRAY",
+          "entropia": -0.0
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libwrapneximagevideocalbody.so",
+      "total_exportados": 433,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    },
+    {
+      "arquivo": "libwrapnexpcmcalbody.so",
+      "tamanho": 21192,
+      "classe": 64,
+      "little_endian": true,
+      "tipo": "ET_DYN",
+      "maquina": "EM_AARCH64",
+      "ponto_de_entrada": "0x0",
+      "possui_debug": false,
+      "possui_symtab": false,
+      "secoes": [
+        {
+          "nome": ".text",
+          "tamanho": 11316,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 6.63
+        },
+        {
+          "nome": ".relro_padding",
+          "tamanho": 1392,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".dynsym",
+          "tamanho": 1296,
+          "tipo": "SHT_DYNSYM"
+        },
+        {
+          "nome": ".eh_frame",
+          "tamanho": 1216,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".dynstr",
+          "tamanho": 982,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".rodata",
+          "tamanho": 856,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.234
+        },
+        {
+          "nome": ".rela.plt",
+          "tamanho": 504,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".dynamic",
+          "tamanho": 432,
+          "tipo": "SHT_DYNAMIC"
+        },
+        {
+          "nome": ".plt",
+          "tamanho": 368,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".rela.dyn",
+          "tamanho": 336,
+          "tipo": "SHT_RELA"
+        },
+        {
+          "nome": ".comment",
+          "tamanho": 327,
+          "tipo": "SHT_PROGBITS",
+          "entropia": 5.164,
+          "conteudo": "Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54); ; Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+        },
+        {
+          "nome": ".eh_frame_hdr",
+          "tamanho": 292,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".gnu.hash",
+          "tamanho": 260,
+          "tipo": "SHT_GNU_HASH"
+        },
+        {
+          "nome": ".shstrtab",
+          "tamanho": 239,
+          "tipo": "SHT_STRTAB"
+        },
+        {
+          "nome": ".got.plt",
+          "tamanho": 192,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".bss",
+          "tamanho": 160,
+          "tipo": "SHT_NOBITS"
+        },
+        {
+          "nome": ".note.android.ident",
+          "tamanho": 152,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version",
+          "tamanho": 108,
+          "tipo": "SHT_GNU_versym"
+        },
+        {
+          "nome": ".got",
+          "tamanho": 88,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": ".note.gnu.build-id",
+          "tamanho": 36,
+          "tipo": "SHT_NOTE"
+        },
+        {
+          "nome": ".gnu.version_r",
+          "tamanho": 32,
+          "tipo": "SHT_GNU_verneed"
+        },
+        {
+          "nome": ".fini_array",
+          "tamanho": 16,
+          "tipo": "SHT_FINI_ARRAY"
+        },
+        {
+          "nome": ".data.rel.ro",
+          "tamanho": 8,
+          "tipo": "SHT_PROGBITS"
+        },
+        {
+          "nome": "",
+          "tamanho": 0,
+          "tipo": "SHT_NULL"
+        }
+      ],
+      "dt_needed": [
+        "libandroid.so",
+        "liblog.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "soname": "libwrapnexpcmcalbody.so",
+      "total_exportados": 36,
+      "simbolos_jni": [],
+      "jni_onload": false,
+      "classes_java_inferidas": [],
+      "protetores_detectados": [],
+      "md5_like": null
+    }
+  ],
+  "limitacao": "Análise estrutural e de símbolos apenas. Não há descompilador nativo (Ghidra/IDA) disponível neste ambiente; pseudocódigo nativo não foi produzido. Nomes de classe derivados de Java_* são inferências (underscores ambíguos)."
+}
