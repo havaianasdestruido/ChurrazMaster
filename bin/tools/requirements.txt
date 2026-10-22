@@ -1,0 +1,8 @@
+# Dependências Python fixadas para a análise (instaladas em KM_WORKDIR/venv por scripts/preparar_ambiente.sh)
+# Cada versão foi verificada com pip no ambiente de análise (Python 3.11, Debian 12, x86_64).
+py7zr==0.22.0          # extração 7z (LGPL-2.1-or-later)
+androguard==4.1.3      # análise de APK/DEX e decodificação de manifesto (Apache-2.0)
+lief==0.16.6           # análise de binários ELF (Apache-2.0)
+pyelftools==0.32       # parsing de ELF (domínio público)
+capstone==5.0.6        # desmontagem de código ARM64 (BSD)
+jdk4py==21.0.8.2       # runtime Java 21 (Temurin 21.0.8) empacotado para pip

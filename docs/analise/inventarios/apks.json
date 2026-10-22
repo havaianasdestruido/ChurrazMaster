@@ -1,0 +1,813 @@
+{
+  "diretorio": "/home/user/kinemaster-work/extraido/xapk",
+  "apks": [
+    {
+      "arquivo": "com.nexstreaming.app.kinemasterfree.apk",
+      "tamanho_bytes": 109972018,
+      "sha256": "c923404b6ea4cf930399fa20550c9ea278644d7910254cbea756dd6832cfa552",
+      "entradas": 2841,
+      "categorias": {
+        "assets": 158,
+        "assinatura_ou_metadados_META-INF": 161,
+        "dex": 7,
+        "manifesto_binario": 1,
+        "metadados_kotlin_ou_biblioteca": 8,
+        "outros": 140,
+        "recursos_xml_binarios_ou_midia": 2365,
+        "tabela_de_recursos": 1
+      },
+      "dex": [
+        {
+          "nome": "assets/audience_network/classes.dex",
+          "tamanho_descompactado": 5455144,
+          "cabecalho": {
+            "versao_formato": "035",
+            "string_ids": 32685,
+            "type_ids": 5040,
+            "proto_ids": 7164,
+            "field_ids": 15544,
+            "method_ids": 30913,
+            "class_defs": 3605
+          },
+          "cabecalho_valido": true
+        },
+        {
+          "nome": "classes.dex",
+          "tamanho_descompactado": 4147876,
+          "cabecalho": {
+            "versao_formato": "038",
+            "string_ids": 27023,
+            "type_ids": 8388,
+            "proto_ids": 9043,
+            "field_ids": 14365,
+            "method_ids": 29981,
+            "class_defs": 4421
+          },
+          "cabecalho_valido": true
+        },
+        {
+          "nome": "classes2.dex",
+          "tamanho_descompactado": 1364,
+          "cabecalho": {
+            "versao_formato": "038",
+            "string_ids": 21,
+            "type_ids": 10,
+            "proto_ids": 5,
+            "field_ids": 0,
+            "method_ids": 5,
+            "class_defs": 1
+          },
+          "cabecalho_valido": true
+        },
+        {
+          "nome": "classes3.dex",
+          "tamanho_descompactado": 9328836,
+          "cabecalho": {
+            "versao_formato": "038",
+            "string_ids": 50699,
+            "type_ids": 14899,
+            "proto_ids": 16662,
+            "field_ids": 34436,
+            "method_ids": 65051,
+            "class_defs": 9752
+          },
+          "cabecalho_valido": true
+        },
+        {
+          "nome": "classes4.dex",
+          "tamanho_descompactado": 9061372,
+          "cabecalho": {
+            "versao_formato": "038",
+            "string_ids": 42910,
+            "type_ids": 15715,
+            "proto_ids": 16248,
+            "field_ids": 37693,
+            "method_ids": 64770,
+            "class_defs": 12854
+          },
+          "cabecalho_valido": true
+        },
+        {
+          "nome": "classes5.dex",
+          "tamanho_descompactado": 9420292,
+          "cabecalho": {
+            "versao_formato": "038",
+            "string_ids": 49961,
+            "type_ids": 19361,
+            "proto_ids": 14395,
+            "field_ids": 41115,
+            "method_ids": 63167,
+            "class_defs": 13493
+          },
+          "cabecalho_valido": true
+        },
+        {
+          "nome": "classes6.dex",
+          "tamanho_descompactado": 8280692,
+          "cabecalho": {
+            "versao_formato": "038",
+            "string_ids": 43971,
+            "type_ids": 13959,
+            "proto_ids": 13977,
+            "field_ids": 37009,
+            "method_ids": 54774,
+            "class_defs": 8777
+          },
+          "cabecalho_valido": true
+        }
+      ],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/NOTICE.md",
+        "META-INF/airbridge_release.kotlin_module",
+        "META-INF/androidx/annotation/annotation/LICENSE.txt",
+        "META-INF/androidx/collection/collection/LICENSE.txt",
+        "META-INF/androidx/collection/collection-ktx/LICENSE.txt",
+        "META-INF/androidx/constraintlayout/constraintlayout-core/LICENSE.txt",
+        "META-INF/androidx/emoji2/emoji2/LICENSE.txt",
+        "META-INF/androidx/hilt/hilt-common/LICENSE.txt",
+        "META-INF/androidx/lifecycle/lifecycle-common/LICENSE.txt",
+        "META-INF/androidx/paging/paging-common-ktx/LICENSE.txt",
+        "META-INF/androidx/room/room-common/LICENSE.txt",
+        "META-INF/androidx.activity_activity-ktx.version",
+        "META-INF/androidx.activity_activity.version",
+        "META-INF/androidx.annotation_annotation-experimental.version",
+        "META-INF/androidx.appcompat_appcompat-resources.version",
+        "META-INF/androidx.appcompat_appcompat.version",
+        "META-INF/androidx.arch.core_core-runtime.version",
+        "META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version",
+        "META-INF/androidx.browser_browser.version",
+        "META-INF/androidx.cardview_cardview.version",
+        "META-INF/androidx.constraintlayout_constraintlayout.version",
+        "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+        "META-INF/androidx.core_core-ktx.version",
+        "META-INF/androidx.core_core-splashscreen.version",
+        "META-INF/androidx.core_core-viewtree.version",
+        "META-INF/androidx.core_core.version",
+        "META-INF/androidx.credentials_credentials-play-services-auth.version",
+        "META-INF/androidx.credentials_credentials.version",
+        "META-INF/androidx.cursoradapter_cursoradapter.version",
+        "META-INF/androidx.customview_customview-poolingcontainer.version",
+        "META-INF/androidx.customview_customview.version",
+        "META-INF/androidx.databinding_baseAdapters.version",
+        "META-INF/androidx.databinding_databindingKtx.version",
+        "META-INF/androidx.databinding_library.version",
+        "META-INF/androidx.databinding_viewbinding.version",
+        "META-INF/androidx.datastore_datastore-core.version",
+        "META-INF/androidx.datastore_datastore-preferences-core.version",
+        "META-INF/androidx.datastore_datastore-preferences.version",
+        "META-INF/androidx.datastore_datastore.version",
+        "META-INF/androidx.documentfile_documentfile.version",
+        "META-INF/androidx.drawerlayout_drawerlayout.version",
+        "META-INF/androidx.dynamicanimation_dynamicanimation.version",
+        "META-INF/androidx.emoji2_emoji2-bundled.version",
+        "META-INF/androidx.emoji2_emoji2-views-helper.version",
+        "META-INF/androidx.emoji2_emoji2.version",
+        "META-INF/androidx.exifinterface_exifinterface.version",
+        "META-INF/androidx.fragment_fragment-ktx.version",
+        "META-INF/androidx.fragment_fragment.version",
+        "META-INF/androidx.graphics_graphics-shapes.version",
+        "META-INF/androidx.hilt_hilt-work.version",
+        "META-INF/androidx.interpolator_interpolator.version",
+        "META-INF/androidx.legacy_legacy-support-core-ui.version",
+        "META-INF/androidx.legacy_legacy-support-core-utils.version",
+        "META-INF/androidx.legacy_legacy-support-v13.version",
+        "META-INF/androidx.legacy_legacy-support-v4.version",
+        "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version",
+        "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+        "META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version",
+        "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+        "META-INF/androidx.lifecycle_lifecycle-process.version",
+        "META-INF/androidx.lifecycle_lifecycle-reactivestreams-ktx.version",
+        "META-INF/androidx.lifecycle_lifecycle-reactivestreams.version",
+        "META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version",
+        "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+        "META-INF/androidx.lifecycle_lifecycle-service.version",
+        "META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version",
+        "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+        "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+        "META-INF/androidx.loader_loader.version",
+        "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+        "META-INF/androidx.media_media.version",
+        "META-INF/androidx.navigation_navigation-common.version",
+        "META-INF/androidx.navigation_navigation-fragment-ktx.version",
+        "META-INF/androidx.navigation_navigation-fragment.version",
+        "META-INF/androidx.navigation_navigation-runtime.version",
+        "META-INF/androidx.navigation_navigation-ui-ktx.version",
+        "META-INF/androidx.navigation_navigation-ui.version",
+        "META-INF/androidx.paging_paging-common.version",
+        "META-INF/androidx.paging_paging-runtime-ktx.version",
+        "META-INF/androidx.paging_paging-runtime.version",
+        "META-INF/androidx.preference_preference-ktx.version",
+        "META-INF/androidx.preference_preference.version",
+        "META-INF/androidx.print_print.version",
+        "META-INF/androidx.privacysandbox.ads_ads-adservices-java.version",
+        "META-INF/androidx.privacysandbox.ads_ads-adservices.version",
+        "META-INF/androidx.profileinstaller_profileinstaller.version",
+        "META-INF/androidx.recyclerview_recyclerview-selection.version",
+        "META-INF/androidx.recyclerview_recyclerview.version",
+        "META-INF/androidx.room_room-ktx.version",
+        "META-INF/androidx.room_room-paging.version",
+        "META-INF/androidx.room_room-runtime.version",
+        "META-INF/androidx.room_room-rxjava2.version",
+        "META-INF/androidx.savedstate_savedstate-ktx.version",
+        "META-INF/androidx.savedstate_savedstate.version",
+        "META-INF/androidx.security_security-crypto.version",
+        "META-INF/androidx.slidingpanelayout_slidingpanelayout.version",
+        "META-INF/androidx.sqlite_sqlite-framework.version",
+        "META-INF/androidx.sqlite_sqlite.version",
+        "META-INF/androidx.startup_startup-runtime.version",
+        "META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version",
+        "META-INF/androidx.tracing_tracing-ktx.version",
+        "META-INF/androidx.tracing_tracing.version",
+        "META-INF/androidx.transition_transition.version",
+        "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+        "META-INF/androidx.vectordrawable_vectordrawable.version",
+        "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+        "META-INF/androidx.viewpager2_viewpager2.version",
+        "META-INF/androidx.viewpager_viewpager.version",
+        "META-INF/androidx.webkit_webkit.version",
+        "META-INF/androidx.window_window-core.version",
+        "META-INF/androidx.window_window.version",
+        "META-INF/androidx.work_work-runtime-ktx.version",
+        "META-INF/androidx.work_work-runtime.version",
+        "META-INF/com/android/build/gradle/app-metadata.properties",
+        "META-INF/com/fyber/marketplace-sdk/marketplace-sdk-8.4.7-ThirdPartyNotice.txt",
+        "META-INF/com/pangle/global/pag-sdk/verification.properties",
+        "META-INF/com.google.android.material_material.version",
+        "META-INF/com.google.dagger_dagger-lint-aar.version",
+        "META-INF/com.google.dagger_dagger.version",
+        "META-INF/com.google.dagger_hilt-android.version",
+        "META-INF/com.google.dagger_hilt-core.version",
+        "META-INF/com.google.firebase-appcheck-firebase-appcheck.kotlin_module",
+        "META-INF/com.google.firebase-firebase-common.kotlin_module",
+        "META-INF/com.google.firebase-firebase-config.kotlin_module",
+        "META-INF/com.google.firebase-firebase-crashlytics.kotlin_module",
+        "META-INF/com.google.firebase-firebase-firestore.kotlin_module",
+        "META-INF/com.google.firebase-firebase-inappmessaging-display.kotlin_module",
+        "META-INF/com.google.firebase-firebase-inappmessaging.kotlin_module",
+        "META-INF/com.google.firebase-firebase-installations.kotlin_module",
+        "META-INF/com.google.firebase-firebase-messaging.kotlin_module",
+        "META-INF/com.google.firebase-firebase-perf.kotlin_module",
+        "META-INF/com.google.firebase-firebase-storage.kotlin_module",
+        "META-INF/java.com.google.android.apps.play.store.sdk.assetpacks.ktx_playcore_asset_delivery_ktx.kotlin_module",
+        "META-INF/java.com.google.android.apps.play.store.sdk.playcore.ktx_playcore_app_update_ktx.kotlin_module",
+        "META-INF/java.com.google.android.apps.play.store.sdk.playcore.ktx_playcore_feature_delivery_ktx.kotlin_module",
+        "META-INF/java.com.google.android.apps.play.store.sdk.review.ktx_playcore_review_ktx.kotlin_module",
+        "META-INF/java.com.google.android.gmscore.integ.client.firebase-auth-api_firebase-auth-api.kotlin_module",
+        "META-INF/java.com.google.android.gmscore.integ.client.measurement_api_measurement_api.kotlin_module",
+        "META-INF/java.com.google.android.libraries.play.billing.public.ktbilling_granule.kotlin_module",
+        "META-INF/kotlinx-coroutines-android.kotlin_module",
+        "META-INF/kotlinx_coroutines_android.version",
+        "META-INF/kotlinx_coroutines_core.version",
+        "META-INF/kotlinx_coroutines_play_services.version",
+        "META-INF/kotlinx_coroutines_reactive.version",
+        "META-INF/kotlinx_coroutines_rx2.version",
+        "META-INF/network.kotlin_module",
+        "META-INF/okhttp.kotlin_module",
+        "META-INF/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/verification.properties",
+        "META-INF/renderscript.kotlin_module",
+        "META-INF/room-paging.kotlin_module",
+        "META-INF/room-runtime.kotlin_module",
+        "META-INF/services/ca5",
+        "META-INF/services/dv2",
+        "META-INF/services/jz5",
+        "META-INF/services/mp5",
+        "META-INF/services/on1",
+        "META-INF/services/ws0",
+        "META-INF/services/x85",
+        "META-INF/services/y35",
+        "META-INF/services/ya6",
+        "META-INF/version-control-info.textproto"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.ar.apk",
+      "tamanho_bytes": 287467,
+      "sha256": "b34ba63e84276cee635ffe11d2162ec26e3ddc994d3b729c094e18b2f128df93",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.arm64_v8a.apk",
+      "tamanho_bytes": 62769226,
+      "sha256": "fa790065d2961b438e647339f1e44b4f7a3dc6e8c30bb52ce01161de987bcb27",
+      "entradas": 27,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "biblioteca_nativa": 22,
+        "manifesto_binario": 1,
+        "outros": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [
+        {
+          "nome": "lib/arm64-v8a/libairbridgelib.so",
+          "tamanho_descompactado": 12816,
+          "tamanho_comprimido": 12816
+        },
+        {
+          "nome": "lib/arm64-v8a/libapminsighta.so",
+          "tamanho_descompactado": 102256,
+          "tamanho_comprimido": 102256
+        },
+        {
+          "nome": "lib/arm64-v8a/libapminsightb.so",
+          "tamanho_descompactado": 124352,
+          "tamanho_comprimido": 124352
+        },
+        {
+          "nome": "lib/arm64-v8a/libbuffer_pgl.so",
+          "tamanho_descompactado": 9000,
+          "tamanho_comprimido": 9000
+        },
+        {
+          "nome": "lib/arm64-v8a/libdatastore_shared_counter.so",
+          "tamanho_descompactado": 7112,
+          "tamanho_comprimido": 7112
+        },
+        {
+          "nome": "lib/arm64-v8a/libfile_lock_pgl.so",
+          "tamanho_descompactado": 6312,
+          "tamanho_comprimido": 6312
+        },
+        {
+          "nome": "lib/arm64-v8a/libkmSTTv4_armv80.so",
+          "tamanho_descompactado": 2784416,
+          "tamanho_comprimido": 2784416
+        },
+        {
+          "nome": "lib/arm64-v8a/libkmSTTv4_armv82.so",
+          "tamanho_descompactado": 2783712,
+          "tamanho_comprimido": 2783712
+        },
+        {
+          "nome": "lib/arm64-v8a/libnexcralbody_mc_jb.so",
+          "tamanho_descompactado": 801920,
+          "tamanho_comprimido": 801920
+        },
+        {
+          "nome": "lib/arm64-v8a/libnexeditorsdk.so",
+          "tamanho_descompactado": 9691912,
+          "tamanho_comprimido": 9691912
+        },
+        {
+          "nome": "lib/arm64-v8a/libnexralbody_audio.so",
+          "tamanho_descompactado": 420288,
+          "tamanho_comprimido": 420288
+        },
+        {
+          "nome": "lib/arm64-v8a/libnms.so",
+          "tamanho_descompactado": 302248,
+          "tamanho_comprimido": 302248
+        },
+        {
+          "nome": "lib/arm64-v8a/libonnxruntime.so",
+          "tamanho_descompactado": 17571152,
+          "tamanho_comprimido": 17571152
+        },
+        {
+          "nome": "lib/arm64-v8a/libpglarmor.so",
+          "tamanho_descompactado": 68776,
+          "tamanho_comprimido": 68776
+        },
+        {
+          "nome": "lib/arm64-v8a/librenderscript-toolkit.so",
+          "tamanho_descompactado": 3894848,
+          "tamanho_comprimido": 3894848
+        },
+        {
+          "nome": "lib/arm64-v8a/libtensorflowlite_gpu_jni.so",
+          "tamanho_descompactado": 2471512,
+          "tamanho_comprimido": 2471512
+        },
+        {
+          "nome": "lib/arm64-v8a/libtensorflowlite_jni.so",
+          "tamanho_descompactado": 4152032,
+          "tamanho_comprimido": 4152032
+        },
+        {
+          "nome": "lib/arm64-v8a/libtranslate_jni.so",
+          "tamanho_descompactado": 16361048,
+          "tamanho_comprimido": 16361048
+        },
+        {
+          "nome": "lib/arm64-v8a/libtt_ugen_layout.so",
+          "tamanho_descompactado": 440672,
+          "tamanho_comprimido": 440672
+        },
+        {
+          "nome": "lib/arm64-v8a/libwrapnexgifcalbody.so",
+          "tamanho_descompactado": 284584,
+          "tamanho_comprimido": 284584
+        },
+        {
+          "nome": "lib/arm64-v8a/libwrapneximagevideocalbody.so",
+          "tamanho_descompactado": 285864,
+          "tamanho_comprimido": 285864
+        },
+        {
+          "nome": "lib/arm64-v8a/libwrapnexpcmcalbody.so",
+          "tamanho_descompactado": 21192,
+          "tamanho_comprimido": 21192
+        }
+      ],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.de.apk",
+      "tamanho_bytes": 254699,
+      "sha256": "649ea3657bb5cbef9cdaa987d85c0bbf04c5af345457c1119fa762c23a142d47",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.en.apk",
+      "tamanho_bytes": 143769,
+      "sha256": "e892798bbddee6c58eb80aa2fbf3674b3e3b3716bb60f741b2c076f74538fa67",
+      "entradas": 6,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.es.apk",
+      "tamanho_bytes": 275179,
+      "sha256": "99601bf81880ab69a51efe69d655d141ea5fbcb9caa6ec2d3238d448b20ec794",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.fr.apk",
+      "tamanho_bytes": 262891,
+      "sha256": "aaf2feebf556d5dfbbcfcd505f0bb16592169d6285a43857a1ad926103956988",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.hi.apk",
+      "tamanho_bytes": 303851,
+      "sha256": "c21e84a005f16ba0e0639d1181697421b43af0ec546e16c2bd19bc2a1ee005ee",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.in.apk",
+      "tamanho_bytes": 246507,
+      "sha256": "78eecb482e144e75aaf237666358a8c33c8c9e8e7d8b5b4a47354357437aaa37",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.it.apk",
+      "tamanho_bytes": 234219,
+      "sha256": "1b593acf500c823965b044b640e67c2e37088e827c2174e5ec2bd2ea74b9747f",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.ja.apk",
+      "tamanho_bytes": 271083,
+      "sha256": "cf3ef319a54058a2a0c91fa210d2579b102be654634eec5d03999f3f03dedc2a",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.ko.apk",
+      "tamanho_bytes": 230123,
+      "sha256": "3c1de366b43e85e70e120f4bcafed83b4bb410ac56a3a7ea25bcb5edb39f532d",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.my.apk",
+      "tamanho_bytes": 65945,
+      "sha256": "103779eb16b4bf86a53b4d58420cbf392b4035aa4ac8f028d5966ef7f1eb46fd",
+      "entradas": 6,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.pt.apk",
+      "tamanho_bytes": 275179,
+      "sha256": "350492f71ced841b7dfa6cac5ece36464892e38ffbb38879006d2911eec26349",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.ru.apk",
+      "tamanho_bytes": 275179,
+      "sha256": "e62d63659f67766ccf62e1a4d48a1e05c669b62054e69ed3ddb3c869f51236d9",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.th.apk",
+      "tamanho_bytes": 312043,
+      "sha256": "855ca397858a1261a47cbc9e40e0c3e317988a72300475e44e980bc81913bc40",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.tr.apk",
+      "tamanho_bytes": 234219,
+      "sha256": "4a75bbc3975f0abaf2077bf4115250936e26b44754ecdc1fe98dede2a4ed51ac",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.vi.apk",
+      "tamanho_bytes": 246507,
+      "sha256": "7f39d2f6aa2949ad917472f98c759330d931f5de469173b60f4c1b36c2b1df6a",
+      "entradas": 10,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 4,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.xxhdpi.apk",
+      "tamanho_bytes": 2820048,
+      "sha256": "3d3f3545b100a9677e5b54038569e16e20f866460234b65ffe29873fece01ac8",
+      "entradas": 106,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 100,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    },
+    {
+      "arquivo": "config.zh.apk",
+      "tamanho_bytes": 488629,
+      "sha256": "757ee096e006fa985dc13a63701e44fe20117e0adaeeb3d60ef15f5b9d15c7f4",
+      "entradas": 15,
+      "categorias": {
+        "assinatura_ou_metadados_META-INF": 3,
+        "manifesto_binario": 1,
+        "outros": 1,
+        "recursos_xml_binarios_ou_midia": 9,
+        "tabela_de_recursos": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "assinatura_META_INF": [
+        "META-INF/BNDLTOOL.SF",
+        "META-INF/BNDLTOOL.RSA",
+        "META-INF/MANIFEST.MF"
+      ],
+      "erro": null,
+      "teste_integridade_zip": "ok"
+    }
+  ]
+}

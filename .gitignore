@@ -1,0 +1,28 @@
+# Ambientes virtuais Python locais (recriados por scripts/preparar_ambiente.sh)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Saídas temporárias e logs descartáveis
+*.log
+*.tmp
+.cache/
+
+# Arquivos gerados pelo sistema operacional e editores
+.DS_Store
+Thumbs.db
+*.swp
+
+# Saídas de descompilação e extrações (grandes; ficam fora do Git em KM_WORKDIR)
+# Observação: bin/tools/ NÃO deve ser ignorado. Regra proposital: não excluir bin/tools/.
+/decompilado/
+/extraido/
+
+# Credenciais e segredos (nunca versionar)
+.env
+.env.*
+*.pem
+*.key
+.netrc
+.git-credentials

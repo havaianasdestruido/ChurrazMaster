@@ -1,0 +1,278 @@
+# Erros do JADX (gerado por scripts/analisar_log_jadx.py)
+
+Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
+
+- Contagem informada pelo JADX ("N errors occurred in following nodes"): **112**
+- Nós com falha (resumo final + erros 'Error saving class'): **124** (classes listadas no resumo: 17, métodos: 95, classes 'Error saving class': 12)
+- Linhas `ERROR` individuais no log (exceto o resumo): **121**
+- Fonte primária de falha: a lista de nós do resumo final. As linhas `ERROR` individuais trazem causas,
+  mas não correspondem 1:1 aos nós listados.
+
+## Nós com falha (resumo final do JADX)
+
+- ClasseNaoSalva: `androidx.room.coroutines.RunBlockingUninterruptible_androidKt$runBlockingUninterruptible$1`
+- ClasseNaoSalva: `androidx.paging.PageFetcher$injectRemoteEvents$1$invokeSuspend$$inlined$combineWithoutBatching$1`
+- ClasseNaoSalva: `androidx.paging.PageFetcher$flow$1`
+- ClasseNaoSalva: `com.kinemaster.app.database.util.DbFailureRetryKt$retryOnDbFailure$2`
+- ClasseNaoSalva: `com.kinemaster.app.screen.home.home.HomeViewModel$setup$3`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.handwriting.HandwritingPresenter$setup$2`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel$initSubcategory$1`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$editFullInputText$1`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.selection.sidebar.MultipleSelectionBarViewModel$1`
+- ClasseNaoSalva: `com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$2`
+- ClasseNaoSalva: `com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$1`
+- Class: `androidx.room.paging.CommonLimitOffsetImpl$initialLoad$2.1`
+- Class: `com.google.firebase.sessions.SharedSessionRepositoryImpl.1`
+- Class: `com.kinemaster.app.repository.font.FontRepository$assetUpdated$4.1`
+- Class: `com.kinemaster.app.screen.home.account.youtube.YouTubeChannelCheckFragment$observeViewModel$2.1`
+- Class: `com.kinemaster.app.screen.home.account.youtube.YouTubeChannelListFragment$observeViewModel$1.1`
+- Class: `com.kinemaster.app.screen.projecteditor.main.ProjectEditorPresenter$initializeValues$1$1.1`
+- Class: `com.kinemaster.app.screen.projecteditor.options.musicmatch.MusicMatchPresenter$analyze$2.1`
+- Class: `com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$setup$9.1`
+- Class: `com.kinemaster.app.screen.projecteditor.postpayment.PostPaymentPresenter$2.2`
+- Class: `com.kinemaster.app.screen.projecteditor.selection.option.MultipleSelectionPresenter$setup$5.1`
+- Class: `com.kinemaster.app.screen.projecteditor.tts.TTSMainInputPresenter$1.1`
+- Class: `com.kinemaster.app.screen.saveas.main.SaveAsMainPresenter$saveAs$onHasPermission$1$1.1`
+- Class: `com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$onResume$1$1.1`
+- Class: `com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$2.1`
+- Class: `com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$3.1`
+- Class: `com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$4.2`
+- Class: `com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$5.1`
+- Method: `a80.handleMessage(android.os.Message):void`
+- Method: `af.a():void`
+- Method: `androidx.media3.exoplayer.source.b.e(long):long`
+- Method: `androidx.paging.RemoteMediatorAccessImpl$launchBoundary$1.1.invokeSuspend(java.lang.Object):java.lang.Object`
+- Method: `androidx.work.impl.b.c(android.content.Context):androidx.work.impl.b`
+- Method: `b03.run():void`
+- Method: `com.bumptech.glide.a.d(int):void`
+- Method: `com.bytedance.sdk.openadsdk.utils.thx.ycx(java.lang.String,`
+- Method: `com.facebook.ads.redexgen.X.HG.A05(com.facebook.ads.redexgen.X.Hh,`
+- Method: `com.facebook.ads.redexgen.X.Pz.A00(com.facebook.ads.redexgen.X.LQ,`
+- Method: `com.facebook.ads.redexgen.X.St.A07(com.facebook.ads.redexgen.X.Xh):void`
+- Method: `com.facebook.ads.redexgen.X.YH.A05(java.util.List,`
+- Method: `com.facebook.ads.redexgen.X.qB.run():void`
+- Method: `com.fyber.inneractive.sdk.config.s0.a(android.content.Context,`
+- Method: `com.fyber.inneractive.sdk.flow.vast.c.a(com.fyber.inneractive.sdk.model.vast.f,`
+- Method: `com.google.android.gms.ads.internal.util.zzaa.a():float`
+- Method: `com.google.android.gms.ads.internal.util.zzch.a(java.lang.String):java.util.List`
+- Method: `com.google.android.gms.common.api.internal.zact.a():void`
+- Method: `com.google.android.gms.dynamite.DynamiteModule.d(android.content.Context,`
+- Method: `com.google.android.gms.internal.ads.d0.b(java.lang.String):void`
+- Method: `com.google.android.gms.internal.ads.d0.h():void`
+- Method: `com.google.android.gms.internal.ads.k2.x(java.lang.Object,`
+- Method: `com.google.android.gms.internal.ads.w1.f(com.google.android.gms.internal.ads.x1,`
+- Method: `com.google.android.gms.internal.ads.zzbgg.run():void`
+- Method: `com.google.android.gms.internal.ads.zzbum.zzb(com.google.android.gms.internal.ads.zzbbd):com.google.android.gms.internal.ads.zzbug`
+- Method: `com.google.android.gms.internal.ads.zzcea.zzh(java.util.Map):com.google.common.util.concurrent.ListenableFuture`
+- Method: `com.google.android.gms.internal.ads.zzdmx.zza(boolean,`
+- Method: `com.google.android.gms.internal.ads.zzdrk.zzl():java.lang.String`
+- Method: `com.google.android.gms.internal.ads.zzegq.zza():com.google.common.util.concurrent.ListenableFuture`
+- Method: `com.google.android.gms.internal.ads.zzfuj.zza(java.util.List,`
+- Method: `com.google.android.gms.internal.auth.c.m(java.lang.Object,`
+- Method: `com.google.android.gms.internal.auth.zzdc.zzd(android.content.Context):void`
+- Method: `com.google.android.gms.internal.firebase-auth-api.g.f(java.lang.Object,`
+- Method: `com.google.android.gms.internal.measurement.zzlw.zza(android.content.Context):void`
+- Method: `com.google.android.gms.internal.mlkit_translate.zzvy.zzi(int):void`
+- Method: `com.google.android.gms.internal.play_billing.f.a(com.google.android.gms.internal.play_billing.g,`
+- Method: `com.google.android.gms.internal.play_billing.o.r(java.lang.Object,`
+- Method: `com.google.android.gms.measurement.internal.zzfx.a(java.lang.Object):java.lang.Object`
+- Method: `com.google.android.play.core.splitinstall.zzx.c(ira):void`
+- Method: `com.google.android.recaptcha.internal.zzol.zzc(java.lang.Object,`
+- Method: `com.google.firebase.remoteconfig.FirebaseRemoteConfig.g(boolean):void`
+- Method: `com.google.firebase.remoteconfig.RemoteConfigComponent.b(com.google.firebase.FirebaseApp,`
+- Method: `com.google.protobuf.e.B(int,`
+- Method: `com.google.re2j.j.a(com.google.re2j.h):com.google.re2j.h`
+- Method: `com.inmobi.media.Rn.a(org.xmlpull.v1.XmlPullParser,`
+- Method: `com.kinemaster.app.database.font.FontDatabase$updateCollectionId$1.invokeSuspend(java.lang.Object):java.lang.Object`
+- Method: `com.kinemaster.app.modules.mvp.MVPPresenterLifecycle$performPendingStateBlocks$2.invokeSuspend(java.lang.Object):java.lang.Object`
+- Method: `com.kinemaster.app.repository.home.b.l(java.lang.String,`
+- Method: `com.kinemaster.app.screen.home.create.CreateFragment.n1(int,`
+- Method: `com.kinemaster.app.screen.projecteditor.aimodel.m.S(com.kinemaster.app.screen.projecteditor.aimodel.m,`
+- Method: `com.kinemaster.app.util.file.ClipCopyHelper$copyContent$1.invokeSuspend(java.lang.Object):java.lang.Object`
+- Method: `com.kinemaster.module.nexeditormodule.nexvideoeditor.NexImageLoader.loadBitmap(java.lang.String,`
+- Method: `com.kinemaster.module.nexeditormodule.nexvideoeditor.NexTextEffect.init():void`
+- Method: `com.nexstreaming.app.general.nexasset.assetpackage.b.d(org.xmlpull.v1.XmlPullParser):lia`
+- Method: `com.nexstreaming.kinemaster.editorwrapper.ProjectImporter$unzipProject$2.invokeSuspend(java.lang.Object):java.lang.Object`
+- Method: `com.nextreaming.nexeditorui.NexTimeline.addPrimaryItem(int,`
+- Method: `com.nextreaming.nexeditorui.NexTimeline.deletePrimaryItem(int):void`
+- Method: `com.pgl.ssdk.f.c():void`
+- Method: `cp3.a():java.util.ArrayList`
+- Method: `dn7.b(int):void`
+- Method: `eca.b(com.google.android.gms.internal.ads.zzagi,`
+- Method: `eoa.e(una,`
+- Method: `fd7.k():void`
+- Method: `g9d.a(int):java.lang.Object`
+- Method: `i03.a():boolean`
+- Method: `io.grpc.internal.f.i(java.lang.String,`
+- Method: `io.grpc.okhttp.d.c(int,`
+- Method: `io.reactivex.internal.operators.flowable.FlowablePublish$PublishSubscriber.dispatch():void`
+- Method: `jea.c():void`
+- Method: `jw7.r(long,`
+- Method: `kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(java.lang.Object):java.lang.Object`
+- Method: `l2d.run():void`
+- Method: `l86.c():void`
+- Method: `lab.b(java.lang.String,`
+- Method: `mt.f(com.google.android.gms.internal.measurement.zzdd):void`
+- Method: `p92.clear():void`
+- Method: `qv8.a(android.app.Activity,`
+- Method: `qvb.b(com.google.android.gms.internal.ads.zzeqc,`
+- Method: `qvb.c(com.google.android.gms.internal.ads.zzfld):void`
+- Method: `qvb.d():boolean`
+- Method: `rvb.zza(java.lang.Throwable):void`
+- Method: `sd3.h():void`
+- Method: `sx4.get():java.lang.Object`
+- Method: `t16.d(int,`
+- Method: `uf2.c():void`
+- Method: `vo0.e():void`
+- Method: `vo0.h():void`
+- Method: `we.then(com.google.android.gms.tasks.Task):java.lang.Object`
+- Method: `wi5.I0(ki5):android.view.Surface`
+- Method: `xk9.a(long):long`
+- Method: `xm.run():void`
+- Method: `xp7.c():void`
+- Method: `yq2.C(java.io.BufferedInputStream,`
+- Method: `yv4.p(java.util.ArrayList,`
+- Method: `zi3.g(java.io.InputStream,`
+
+## Linhas de erro individuais por categoria
+
+- `nao_classificado_outro_tipo`: 99
+- `recurso_9patch_png_nao_decodificado`: 9
+- `excecao_de_runtime_do_JADX`: 8
+- `estouro_de_pilha_em_passo_do_JADX`: 4
+- `falha_geracao_codigo_metodo`: 1
+
+## Linhas de erro individuais por DEX de origem
+
+- `classes6.dex`: 33
+- `classes4.dex`: 28
+- `classes.dex`: 19
+- `classes3.dex`: 16
+- `classes5.dex`: 11
+- `desconhecido`: 9
+- `assets/audience_network/classes.dex`: 5
+
+## Mensagens das linhas de erro individuais
+
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xhdpi-v4/tt_shadow_fullscreen_top.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/btn_a_pre.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/btn_getmore_normal.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/btn_a_nor.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/btn_getmore_press.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/grip_clip_normal.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/grip_clip_focused.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/grip_clip_selected_end.9.png
+- [recurso_9patch_png_nao_decodificado] dex=`-` alvo=`-` — Failed to decode 9-patch png image, path: res/drawable-xxhdpi-v4/grip_clip_selected_start_end.9.png
+- [excecao_de_runtime_do_JADX] dex=`assets/audience_network/classes.dex` alvo=`com.facebook.ads.redexgen.X.HG.A05` — JadxRuntimeException in pass: CodeShrinkVisitor in method: com.facebook.ads.redexgen.X.HG.A05(com.facebook.ads.redexgen.X.Hh, com.facebook.ads.redexgen.X.lR, com.facebook.ads.redexgen.X.bs):com.facebo
+- [excecao_de_runtime_do_JADX] dex=`assets/audience_network/classes.dex` alvo=`com.facebook.ads.redexgen.X.Pz.A00` — JadxRuntimeException in pass: IfRegionVisitor in method: com.facebook.ads.redexgen.X.Pz.A00(com.facebook.ads.redexgen.X.LQ, com.facebook.ads.redexgen.X.9l, com.facebook.ads.redexgen.X.Rk, com.facebook
+- [nao_classificado_outro_tipo] dex=`assets/audience_network/classes.dex` alvo=`com.facebook.ads.redexgen.X.St.A07` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.facebook.ads.redexgen.X.St.A07(com.facebook.ads.redexgen.X.Xh):void, dex: assets/audience_network/classes.dex
+- [excecao_de_runtime_do_JADX] dex=`assets/audience_network/classes.dex` alvo=`com.facebook.ads.redexgen.X.YH.A05` — JadxRuntimeException in pass: CodeShrinkVisitor in method: com.facebook.ads.redexgen.X.YH.A05(java.util.List, int, int, boolean):java.lang.String, dex: assets/audience_network/classes.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.nextreaming.nexeditorui.NexTimeline.addPrimaryItem` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.nextreaming.nexeditorui.NexTimeline.addPrimaryItem(int, p46):void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.nextreaming.nexeditorui.NexTimeline.deletePrimaryItem` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.nextreaming.nexeditorui.NexTimeline.deletePrimaryItem(int):void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`assets/audience_network/classes.dex` alvo=`com.facebook.ads.redexgen.X.qB.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.facebook.ads.redexgen.X.qB.run():void, dex: assets/audience_network/classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`io.grpc.internal.f.i` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: io.grpc.internal.f.i(java.lang.String, kz5, dz5, java.util.Collection):sa3, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`sx4.get` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: sx4.get():java.lang.Object, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`xm.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: xm.run():void, dex: classes6.dex
+- [excecao_de_runtime_do_JADX] dex=`classes.dex` alvo=`t16.d` — JadxRuntimeException in pass: SimplifyVisitor in method: t16.d(int, int, int, int, int[], int, int[]):boolean, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`b03.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: b03.run():void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`cp3.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: cp3.a():java.util.ArrayList, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.bumptech.glide.a.d` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.bumptech.glide.a.d(int):void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`i03.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: i03.a():boolean, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`uf2.c` — IndexOutOfBoundsException in pass: MethodInlineVisitor in method: uf2.c():void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.google.android.gms.dynamite.DynamiteModule.d` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.dynamite.DynamiteModule.d(android.content.Context, java.lang.String, boolean):int, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`lab.b` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: lab.b(java.lang.String, int, java.lang.Throwable, byte[], java.util.Map):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`dn7.b` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: dn7.b(int):void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`sd3.h` — JadxOverflowException in pass: LoopRegionVisitor in method: sd3.h():void, dex: classes.dex, details: LoopRegionVisitor.assignOnlyInLoop endless recursion
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.google.firebase.remoteconfig.FirebaseRemoteConfig.g` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.firebase.remoteconfig.FirebaseRemoteConfig.g(boolean):void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.google.firebase.remoteconfig.RemoteConfigComponent.b` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.firebase.remoteconfig.RemoteConfigComponent.b(com.google.firebase.FirebaseApp, java.lang.String, com.google.firebase.install
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`we.then` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: we.then(com.google.android.gms.tasks.Task):java.lang.Object, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`-` — Inner class code generation error in class: com.google.firebase.sessions.SharedSessionRepositoryImpl.1, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.mlkit_translate.zzvy.zzi` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.mlkit_translate.zzvy.zzi(int):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.kinemaster.app.repository.home.b.l` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.kinemaster.app.repository.home.b.l(java.lang.String, java.lang.String, kotlin.coroutines.jvm.internal.ContinuationImpl):java.lang.O
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.google.protobuf.e.B` — JadxOverflowException in pass: RegionMakerVisitor in method: com.google.protobuf.e.B(int, byte[], int, int, com.google.protobuf.Internal$ProtobufList, lv):int, dex: classes5.dex, details: Regions coun
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.kinemaster.app.database.font.FontDatabase$updateCollectionId$1.invokeSuspend` — JadxOverflowException in pass: RegionMakerVisitor in method: com.kinemaster.app.database.font.FontDatabase$updateCollectionId$1.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes5.dex, det
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.kinemaster.app.modules.mvp.MVPPresenterLifecycle$performPendingStateBlocks$2.invokeSuspend` — JadxOverflowException in pass: RegionMakerVisitor in method: com.kinemaster.app.modules.mvp.MVPPresenterLifecycle$performPendingStateBlocks$2.invokeSuspend(java.lang.Object):java.lang.Object, dex: cla
+- [estouro_de_pilha_em_passo_do_JADX] dex=`classes6.dex` alvo=`xp7.c` — StackOverflow in pass: RegionMakerVisitor in method: xp7.c():void, dex: classes6.dex, details: 
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`io.grpc.okhttp.d.c` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: io.grpc.okhttp.d.c(int, java.util.ArrayList, boolean):void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`fd7.k` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: fd7.k():void, dex: classes.dex
+- [excecao_de_runtime_do_JADX] dex=`classes.dex` alvo=`io.reactivex.internal.operators.flowable.FlowablePublish$PublishSubscriber.dispatch` — JadxRuntimeException in pass: CodeShrinkVisitor in method: io.reactivex.internal.operators.flowable.FlowablePublish$PublishSubscriber.dispatch():void, dex: classes.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`vo0.e` — IndexOutOfBoundsException in pass: MethodInlineVisitor in method: vo0.e():void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`vo0.h` — IndexOutOfBoundsException in pass: MethodInlineVisitor in method: vo0.h():void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`mt.f` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: mt.f(com.google.android.gms.internal.measurement.zzdd):void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`p92.clear` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: p92.clear():void, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.kinemaster.module.nexeditormodule.nexvideoeditor.NexImageLoader.loadBitmap` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.kinemaster.module.nexeditormodule.nexvideoeditor.NexImageLoader.loadBitmap(java.lang.String, int, int, int, android.graphics.Bitmap
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`com.google.android.gms.measurement.internal.zzfx.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.measurement.internal.zzfx.a(java.lang.Object):java.lang.Object, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`a80.handleMessage` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: a80.handleMessage(android.os.Message):void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`jw7.r` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: jw7.r(long, boolean):boolean, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`androidx.media3.exoplayer.source.b.e` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.media3.exoplayer.source.b.e(long):long, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`androidx.paging.RemoteMediatorAccessImpl$launchBoundary$1.1.invokeSuspend` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.paging.RemoteMediatorAccessImpl$launchBoundary$1.1.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`-` — Inner class code generation error in class: androidx.room.paging.CommonLimitOffsetImpl$initialLoad$2.1, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`androidx.work.impl.b.c` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.work.impl.b.c(android.content.Context):androidx.work.impl.b, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`xk9.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: xk9.a(long):long, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`com.bytedance.sdk.openadsdk.utils.thx.ycx` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.bytedance.sdk.openadsdk.utils.thx.ycx(java.lang.String, com.bytedance.sdk.component.jw.fby, android.os.Bundle):void, dex: classes3.
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`eoa.e` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: eoa.e(una, int):void, dex: classes3.dex
+- [estouro_de_pilha_em_passo_do_JADX] dex=`classes3.dex` alvo=`com.google.android.gms.internal.play_billing.f.a` — StackOverflow in pass: RegionMakerVisitor in method: com.google.android.gms.internal.play_billing.f.a(com.google.android.gms.internal.play_billing.g, ihb):ihb, dex: classes3.dex, details: 
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.measurement.zzlw.zza` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.measurement.zzlw.zza(android.content.Context):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`l2d.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: l2d.run():void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`com.google.android.gms.internal.play_billing.o.r` — JadxOverflowException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.play_billing.o.r(java.lang.Object, byte[], int, int, int, lv):int, dex: classes3.dex, details: Regions coun
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.kinemaster.module.nexeditormodule.nexvideoeditor.NexTextEffect.init` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.kinemaster.module.nexeditormodule.nexvideoeditor.NexTextEffect.init():void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`eca.b` — JadxOverflowException in pass: RegionMakerVisitor in method: eca.b(com.google.android.gms.internal.ads.zzagi, long):boolean, dex: classes3.dex, details: Regions count limit reached
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.d0.b` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.d0.b(java.lang.String):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.d0.h` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.d0.h():void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzbgg.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.zzbgg.run():void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzbum.zzb` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.zzbum.zzb(com.google.android.gms.internal.ads.zzbbd):com.google.android.gms.internal.ads.zzbug, dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzcea.zzh` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.zzcea.zzh(java.util.Map):com.google.common.util.concurrent.ListenableFuture, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`wi5.I0` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: wi5.I0(ki5):android.view.Surface, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`yq2.C` — JadxOverflowException in pass: RegionMakerVisitor in method: yq2.C(java.io.BufferedInputStream, java.io.BufferedOutputStream):void, dex: classes3.dex, details: Regions count limit reached
+- [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`jea.c` — IndexOutOfBoundsException in pass: MethodInlineVisitor in method: jea.c():void, dex: classes3.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`af.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: af.a():void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.google.android.play.core.splitinstall.zzx.c` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.play.core.splitinstall.zzx.c(ira):void, dex: classes5.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.k2.x` — JadxOverflowException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.k2.x(java.lang.Object, byte[], int, int, int, lv):int, dex: classes4.dex, details: Regions count limit 
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.fyber.inneractive.sdk.config.s0.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.fyber.inneractive.sdk.config.s0.a(android.content.Context, com.fyber.inneractive.sdk.config.z):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.fyber.inneractive.sdk.flow.vast.c.a` — IF instruction can be used only in fallback mode in method: com.fyber.inneractive.sdk.flow.vast.c.a(com.fyber.inneractive.sdk.model.vast.f, java.util.List, java.lang.String):com.fyber.inneractive.sdk.
+- [excecao_de_runtime_do_JADX] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzdrk.zzl` — JadxRuntimeException in pass: BlockFinish in method: com.google.android.gms.internal.ads.zzdrk.zzl():java.lang.String, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.ads.internal.util.zzaa.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.ads.internal.util.zzaa.a():float, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.ads.internal.util.zzch.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.ads.internal.util.zzch.a(java.lang.String):java.util.List, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.common.api.internal.zact.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.common.api.internal.zact.a():void, dex: classes4.dex
+- [estouro_de_pilha_em_passo_do_JADX] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.w1.f` — StackOverflow in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.w1.f(com.google.android.gms.internal.ads.x1, tec):tec, dex: classes4.dex, details: 
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzegq.zza` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.zzegq.zza():com.google.common.util.concurrent.ListenableFuture, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzdmx.zza` — IF instruction can be used only in fallback mode in method: com.google.android.gms.internal.ads.zzdmx.zza(boolean, android.app.Activity):boolean, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`qvb.b` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: qvb.b(com.google.android.gms.internal.ads.zzeqc, com.google.android.gms.internal.ads.zzfld):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`qvb.c` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: qvb.c(com.google.android.gms.internal.ads.zzfld):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`qvb.d` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: qvb.d():boolean, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`rvb.zza` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: rvb.zza(java.lang.Throwable):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.ads.zzfuj.zza` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.ads.zzfuj.zza(java.util.List, com.google.android.gms.ads.internal.client.zzcb):void, dex: classes4.dex
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`g9d.a` — JadxOverflowException in pass: RegionMakerVisitor in method: g9d.a(int):java.lang.Object, dex: classes4.dex, details: Regions count limit reached
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.auth.zzdc.zzd` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.auth.zzdc.zzd(android.content.Context):void, dex: classes4.dex
+- [estouro_de_pilha_em_passo_do_JADX] dex=`classes4.dex` alvo=`com.google.android.gms.internal.firebase-auth-api.g.f` — StackOverflow in pass: MarkFinallyVisitor in method: com.google.android.gms.internal.firebase-auth-api.g.f(java.lang.Object, com.google.android.gms.internal.firebase-auth-api.d, com.google.android.gms
+- [nao_classificado_outro_tipo] dex=`classes4.dex` alvo=`com.google.android.gms.internal.auth.c.m` — JadxOverflowException in pass: RegionMakerVisitor in method: com.google.android.gms.internal.auth.c.m(java.lang.Object, byte[], int, int, int, g11):int, dex: classes4.dex, details: Regions count limit
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.google.android.recaptcha.internal.zzol.zzc` — JadxOverflowException in pass: RegionMakerVisitor in method: com.google.android.recaptcha.internal.zzol.zzc(java.lang.Object, byte[], int, int, int, com.google.android.recaptcha.internal.zzkt):int, de
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.google.re2j.j.a` — IF instruction can be used only in fallback mode in method: com.google.re2j.j.a(com.google.re2j.h):com.google.re2j.h, dex: classes5.dex
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.inmobi.media.Rn.a` — JadxOverflowException in pass: RegionMakerVisitor in method: com.inmobi.media.Rn.a(org.xmlpull.v1.XmlPullParser, java.lang.String, ye3, kotlin.coroutines.jvm.internal.ContinuationImpl):java.lang.Objec
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.repository.font.FontRepository$assetUpdated$4.1, dex: classes5.dex
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.home.account.youtube.YouTubeChannelCheckFragment$observeViewModel$2.1, dex: classes5.dex
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.home.account.youtube.YouTubeChannelListFragment$observeViewModel$1.1, dex: classes5.dex
+- [excecao_de_runtime_do_JADX] dex=`classes5.dex` alvo=`com.kinemaster.app.screen.home.create.CreateFragment.n1` — JadxRuntimeException in pass: SimplifyVisitor in method: com.kinemaster.app.screen.home.create.CreateFragment.n1(int, android.os.Bundle):void, dex: classes5.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`qv8.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: qv8.a(android.app.Activity, lc7, ov8, java.lang.String, java.lang.String, java.io.File[]):boolean, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`zi3.g` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: zi3.g(java.io.InputStream, android.util.Size):android.graphics.Bitmap, dex: classes5.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.kinemaster.app.screen.projecteditor.aimodel.m.S` — JadxOverflowException in pass: RegionMakerVisitor in method: com.kinemaster.app.screen.projecteditor.aimodel.m.S(com.kinemaster.app.screen.projecteditor.aimodel.m, java.util.List, kotlin.coroutines.jv
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.nexstreaming.app.general.nexasset.assetpackage.b.d` — JadxOverflowException in pass: RegionMakerVisitor in method: com.nexstreaming.app.general.nexasset.assetpackage.b.d(org.xmlpull.v1.XmlPullParser):lia, dex: classes6.dex, details: Regions count limit r
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.main.ProjectEditorPresenter$initializeValues$1$1.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.options.musicmatch.MusicMatchPresenter$analyze$2.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$setup$9.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.postpayment.PostPaymentPresenter$2.2, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.selection.option.MultipleSelectionPresenter$setup$5.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.tts.TTSMainInputPresenter$1.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.saveas.main.SaveAsMainPresenter$saveAs$onHasPermission$1$1.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$onResume$1$1.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$2.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$3.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$4.2, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$5.1, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.kinemaster.app.util.file.ClipCopyHelper$copyContent$1.invokeSuspend` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.kinemaster.app.util.file.ClipCopyHelper$copyContent$1.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`l86.c` — IndexOutOfBoundsException in pass: MethodInlineVisitor in method: l86.c():void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.nexstreaming.kinemaster.editorwrapper.ProjectImporter$unzipProject$2.invokeSuspend` — JadxOverflowException in pass: RegionMakerVisitor in method: com.nexstreaming.kinemaster.editorwrapper.ProjectImporter$unzipProject$2.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes6.de
+- [excecao_de_runtime_do_JADX] dex=`classes6.dex` alvo=`com.pgl.ssdk.f.c` — JadxRuntimeException in pass: BlockFinish in method: com.pgl.ssdk.f.c():void, dex: classes6.dex
+- [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend` — IF instruction can be used only in fallback mode in method: kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes6.dex
+- [falha_geracao_codigo_metodo] dex=`classes6.dex` alvo=`yv4.p` — Method code generation error in method: yv4.p(java.util.ArrayList, int):void, dex: classes6.dex
