@@ -33,11 +33,23 @@ def main():
                     if not alvo.is_relative_to(pasta.resolve()) or not (membro.isfile() or membro.isdir()):
                         raise SystemExit('Entrada insegura no pacote de ferramenta.')
                 pacote.extractall(pasta)
+        with tarfile.open(RAIZ / origem) as pacote:
+            for membro in pacote.getmembers():
+                if membro.isfile():
+                    alvo = pasta / membro.name
+                    if not alvo.is_file() or hashlib.sha256(alvo.read_bytes()).digest() != hashlib.sha256(pacote.extractfile(membro).read()).digest():
+                        raise SystemExit(f'Ferramenta extraída diverge do arquivo versionado: {alvo.name}')
     java = destino / 'java'
     if not java.exists():
         java.mkdir()
         with zipfile.ZipFile(next((RAIZ / 'bin/tools/java').glob('jdk4py-*.whl'))) as pacote:
             pacote.extractall(java)
+    with zipfile.ZipFile(next((RAIZ / 'bin/tools/java').glob('jdk4py-*.whl'))) as pacote:
+        for item in pacote.infolist():
+            if not item.is_dir():
+                alvo = java / item.filename
+                if not alvo.is_file() or hashlib.sha256(alvo.read_bytes()).digest() != hashlib.sha256(pacote.read(item)).digest():
+                    raise SystemExit(f'Runtime extraído diverge do wheel versionado: {alvo.name}')
     for arquivo in (java / 'jdk4py/java-runtime/bin').iterdir():
         arquivo.chmod(0o755)
     (destino / '7zip/package/linux/x64/7za').chmod(0o755)

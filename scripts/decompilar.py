@@ -34,9 +34,22 @@ def main():
         saida = destino / identidade
         registro = relatorios / f'{identidade}.json'
         if registro.exists():
-            print(f'Resultado existente, não sobrescrito: {identidade}', flush=True)
-            continue
-        if saida.exists():
+            anterior = json.loads(registro.read_text())
+            if anterior['sha256'] != hashlib.sha256(dex.read_bytes()).hexdigest():
+                raise SystemExit(f'Entrada difere do relatório existente: {identidade}')
+            if saida.exists():
+                import gzip
+                indice_anterior = relatorios / f'{identidade}.fontes.jsonl.gz'
+                itens = [json.loads(l) for l in gzip.decompress(indice_anterior.read_bytes()).decode().splitlines()]
+                if len(list(saida.rglob('*.java'))) != len(itens) or any(
+                    not (saida / i['arquivo']).is_file() or hashlib.sha256((saida / i['arquivo']).read_bytes()).hexdigest() != i['sha256']
+                    for i in itens
+                ):
+                    raise SystemExit(f'Saída existente diverge do índice; não sobrescrita: {identidade}')
+                print(f'Resultado existente com entrada e saídas verificadas: {identidade}', flush=True)
+                continue
+            # Relatórios são versionados; em checkout novo, regenerar os arquivos ausentes.
+        elif saida.exists():
             raise SystemExit(f'Saída sem relatório; inspecione antes de retomar: {saida}')
         log = RAIZ / '.trabalho' / f'{modo}-{identidade}.log'
         comando = ['bash', str(programa), '-j', '2', '-r', '--no-inline-anonymous',

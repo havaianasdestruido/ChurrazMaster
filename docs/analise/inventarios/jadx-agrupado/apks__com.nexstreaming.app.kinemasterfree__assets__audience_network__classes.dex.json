@@ -3,11 +3,11 @@
   "sha256": "215dbef81a8373f008ab324db1d90458ccd44273b3621c331fa1f42374b6a70a",
   "ferramenta": "JADX 1.1.0",
   "codigo_saida": 0,
-  "duracao_segundos": 10.12,
+  "duracao_segundos": 8.36,
   "arquivos_java": 3539,
   "arquivos_vazios": 0,
   "marcadores_de_problema": 3155,
-  "log_sha256": "6910717ad0cb672160e9db538e4883b38f05d33ff0b7253ffb5055465564dfbb",
+  "log_sha256": "7ccf647b329ba8b54c618ee6d12f22dd1cb6a08fbbe9272bc5eabcaa087ee788",
   "diagnosticos_total": 4566,
   "diagnosticos_distintos": 2648,
   "erros_distintos": [
