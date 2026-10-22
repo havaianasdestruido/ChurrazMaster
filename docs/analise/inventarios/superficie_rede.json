@@ -1,0 +1,1732 @@
+{
+  "gerado_em": "2026-10-22T16:06:16.354965+00:00",
+  "urls_de_producao": [
+    {
+      "url": "https://api-account.kinemasters.com",
+      "host": "api-account.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/communication/account/api/AccountApiV3.java"
+      ]
+    },
+    {
+      "url": "https://api-account.kinemasters.com/",
+      "host": "api-account.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-asset-item-info.kinemasters.com/",
+      "host": "api-asset-item-info.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-asset.kinemasters.com/",
+      "host": "api-asset.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-assetstore.kinemasters.com/",
+      "host": "api-assetstore.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-auth.kinemasters.com/",
+      "host": "api-auth.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-dci.kinemasters.com/",
+      "host": "api-dci.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-health.kinemasters.com",
+      "host": "api-health.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://api-mix.kinemasters.com",
+      "host": "api-mix.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java"
+      ]
+    },
+    {
+      "url": "https://api-mix.kinemasters.com/",
+      "host": "api-mix.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://api-my-template.kinemasters.com/",
+      "host": "api-my-template.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java"
+      ]
+    },
+    {
+      "url": "https://api-notice.kinemasters.com/",
+      "host": "api-notice.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-payments.kinemasters.com",
+      "host": "api-payments.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java",
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://api-policy.kinemasters.com",
+      "host": "api-policy.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://api-project-feed.kinemasters.com/",
+      "host": "api-project-feed.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://api-spring-mix.kinemasters.com/",
+      "host": "api-spring-mix.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://api-spring-my-template.kinemasters.com/",
+      "host": "api-spring-my-template.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java"
+      ]
+    },
+    {
+      "url": "https://api-spring-payments.kinemasters.com",
+      "host": "api-spring-payments.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java",
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://as.kinemix.com/aka.json",
+      "host": "as.kinemix.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/assetstore/util/a.java"
+      ]
+    },
+    {
+      "url": "https://kinemaster.com",
+      "host": "kinemaster.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/nexstreaming/kinemaster/ui/projectgallery/webview/WebViewClientImpl$ParsingUrlType.java"
+      ]
+    },
+    {
+      "url": "https://notice.kinemasters.com",
+      "host": "notice.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 5,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/faq/FaqFragment.java",
+        "com/kinemaster/app/screen/home/notice/NoticeFragment.java"
+      ]
+    },
+    {
+      "url": "https://notice.kinemasters.com/faq",
+      "host": "notice.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/faq/FaqFragment.java"
+      ]
+    },
+    {
+      "url": "https://product-sku.kinemaster.com/prod/com.kinemaster.app.spring.json",
+      "host": "product-sku.kinemaster.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/modules/lifeline/present/f.java"
+      ]
+    },
+    {
+      "url": "https://product-sku.kinemaster.com/prod/com.nexstreaming.app.kinemasterfree.json",
+      "host": "product-sku.kinemaster.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/modules/lifeline/present/f.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/contentguideline/android/?lang=",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/oe6.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/faq2/android/china",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/faq/FaqFragment.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/oss/android?lang=",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/oe6.java",
+        "defpackage/xn4.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/privacy/android/?lang=",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "defpackage/cv9.java",
+        "defpackage/oe6.java",
+        "defpackage/xn4.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/tos/android/?lang=",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "defpackage/cv9.java",
+        "defpackage/oe6.java",
+        "defpackage/xn4.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/uploadguide/android",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/upload/guide/TemplateUploadGuideFragment.java"
+      ]
+    },
+    {
+      "url": "https://tts-t.kinemix.com/",
+      "host": "tts-t.kinemix.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://verify.kinemaster.com",
+      "host": "verify.kinemaster.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/dn8.java"
+      ]
+    }
+  ],
+  "urls_de_teste": [
+    {
+      "url": "https://product-sku.kinemaster.com/test/com.kinemaster.app.spring.json",
+      "host": "product-sku.kinemaster.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/modules/lifeline/present/f.java"
+      ]
+    },
+    {
+      "url": "https://product-sku.kinemaster.com/test/com.nexstreaming.app.kinemasterfree.json",
+      "host": "product-sku.kinemaster.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/modules/lifeline/present/f.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/test/faq2/android/china",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/faq/FaqFragment.java"
+      ]
+    },
+    {
+      "url": "https://redirect.kinemasters.com/test/uploadguide/android",
+      "host": "redirect.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/upload/guide/TemplateUploadGuideFragment.java"
+      ]
+    },
+    {
+      "url": "https://test-api-account.kinemasters.com",
+      "host": "test-api-account.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/communication/account/api/AccountApiV3.java"
+      ]
+    },
+    {
+      "url": "https://test-api-account.kinemasters.com/",
+      "host": "test-api-account.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-asset-item-info.kinemasters.com/",
+      "host": "test-api-asset-item-info.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-asset.kinemasters.com/",
+      "host": "test-api-asset.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-assetstore.kinemasters.com/",
+      "host": "test-api-assetstore.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-auth.kinemasters.com/",
+      "host": "test-api-auth.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-dci.kinemasters.com/",
+      "host": "test-api-dci.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-health.kinemasters.com",
+      "host": "test-api-health.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://test-api-mix.kinemasters.com",
+      "host": "test-api-mix.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java"
+      ]
+    },
+    {
+      "url": "https://test-api-mix.kinemasters.com/",
+      "host": "test-api-mix.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://test-api-my-template.kinemasters.com/",
+      "host": "test-api-my-template.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java"
+      ]
+    },
+    {
+      "url": "https://test-api-notice.kinemasters.com/",
+      "host": "test-api-notice.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-payments.kinemasters.com",
+      "host": "test-api-payments.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java",
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://test-api-policy.kinemasters.com",
+      "host": "test-api-policy.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://test-api-project-feed.kinemasters.com/",
+      "host": "test-api-project-feed.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    },
+    {
+      "url": "https://test-api-spring-mix.kinemasters.com/",
+      "host": "test-api-spring-mix.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://test-api-spring-my-template.kinemasters.com/",
+      "host": "test-api-spring-my-template.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java"
+      ]
+    },
+    {
+      "url": "https://test-api-spring-payments.kinemasters.com",
+      "host": "test-api-spring-payments.kinemasters.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "defpackage/ac.java",
+        "defpackage/ev1.java"
+      ]
+    },
+    {
+      "url": "https://test-notice.kinemasters.com",
+      "host": "test-notice.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 5,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/faq/FaqFragment.java",
+        "com/kinemaster/app/screen/home/notice/NoticeFragment.java"
+      ]
+    },
+    {
+      "url": "https://test-notice.kinemasters.com/faq",
+      "host": "test-notice.kinemasters.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/faq/FaqFragment.java"
+      ]
+    },
+    {
+      "url": "https://test-tts-t.kinemix.com/",
+      "host": "test-tts-t.kinemix.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/module/network/remote/KinemasterService$ServiceType.java"
+      ]
+    }
+  ],
+  "urls_de_terceiros": [
+    {
+      "url": "http://localhost",
+      "host": "localhost",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/p002firebaseauthapi/zzage.java",
+        "com/google/android/gms/internal/p002firebaseauthapi/zzaij.java"
+      ]
+    },
+    {
+      "url": "http://ns.adobe.com/xap/1.0/",
+      "host": "ns.adobe.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 4,
+      "exemplos_de_arquivo": [
+        "defpackage/tya.java",
+        "defpackage/xd4.java"
+      ]
+    },
+    {
+      "url": "http://ns.adobe.com/xap/1.0/\\u0000",
+      "host": "ns.adobe.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/yq2.java"
+      ]
+    },
+    {
+      "url": "http://schemas.android.com/apk/lib/com.inmobi.ads",
+      "host": "schemas.android.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "com/inmobi/ads/InMobiAudio.java",
+        "com/inmobi/ads/InMobiBanner.java"
+      ]
+    },
+    {
+      "url": "http://schemas.android.com/apk/res-auto",
+      "host": "schemas.android.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 6,
+      "exemplos_de_arquivo": [
+        "com/google/android/material/chip/Chip.java"
+      ]
+    },
+    {
+      "url": "http://schemas.android.com/apk/res/android",
+      "host": "schemas.android.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 42,
+      "exemplos_de_arquivo": [
+        "com/google/android/material/chip/Chip.java",
+        "com/google/android/play/core/splitinstall/internal/zzam.java",
+        "defpackage/c2a.java"
+      ]
+    },
+    {
+      "url": "http://www.example.com",
+      "host": "www.example.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 5,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/ycx/ycx.java",
+        "com/google/android/gms/internal/ads/zzbkh.java",
+        "defpackage/bzb.java"
+      ]
+    },
+    {
+      "url": "http://www.fyber.com",
+      "host": "www.fyber.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/click/l.java"
+      ]
+    },
+    {
+      "url": "http://www.google.com",
+      "host": "www.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzcby.java",
+        "com/inmobi/media/H5.java",
+        "defpackage/bzb.java"
+      ]
+    },
+    {
+      "url": "http://www.w3.org/ns/ttml#parameter",
+      "host": "www.w3.org",
+      "no_codigo_do_app": false,
+      "ocorrencias": 6,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzaoz.java",
+        "defpackage/at9.java"
+      ]
+    },
+    {
+      "url": "http://xmlpull.org/v1/doc/features.html#process-docdecl",
+      "host": "xmlpull.org",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/Rn.java"
+      ]
+    },
+    {
+      "url": "http://xmlpull.org/v1/doc/features.html#process-namespaces",
+      "host": "xmlpull.org",
+      "no_codigo_do_app": true,
+      "ocorrencias": 4,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/xkz/ycx/ycx/lud.java",
+        "com/fyber/inneractive/sdk/response/h.java",
+        "com/nexstreaming/app/general/nexasset/assetpackage/b.java"
+      ]
+    },
+    {
+      "url": "https://accounts.google.com/o/oauth2/revoke?token=",
+      "host": "accounts.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/auth/api/signin/internal/zbb.java"
+      ]
+    },
+    {
+      "url": "https://admob-gmats.uc.r.appspot.com/",
+      "host": "admob-gmats.uc.r.appspot.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://ads.inmobi.com/sdk",
+      "host": "ads.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/AdConfig.java"
+      ]
+    },
+    {
+      "url": "https://analytics.us.tiktok.com/api/v1/app_sdk/cache/config",
+      "host": "analytics.us.tiktok.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/tiktok/util/UrlConst.java"
+      ]
+    },
+    {
+      "url": "https://analytics.us.tiktok.com/api/v1/app_sdk/config",
+      "host": "analytics.us.tiktok.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/tiktok/util/UrlConst.java"
+      ]
+    },
+    {
+      "url": "https://aomedia.org/emsg/ID3",
+      "host": "aomedia.org",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/cq2.java"
+      ]
+    },
+    {
+      "url": "https://api.pexels.com",
+      "host": "api.pexels.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/mediastore/pexels/a.java"
+      ]
+    },
+    {
+      "url": "https://api16-access-sg.pangle.io/api/ad/union/sdk/get_ads/?aid=1371&device_platform=android&version_code=4250",
+      "host": "api16-access-sg.pangle.io",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/ok/sya.java"
+      ]
+    },
+    {
+      "url": "https://api16-access-ttp.tiktokpangle.us/service/2/app_log/",
+      "host": "api16-access-ttp.tiktokpangle.us",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/utils/oby.java"
+      ]
+    },
+    {
+      "url": "https://app-measurement.com/a",
+      "host": "app-measurement.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/measurement/zzagu.java",
+        "com/google/android/gms/measurement/internal/zzfy.java"
+      ]
+    },
+    {
+      "url": "https://app-measurement.com/s/d",
+      "host": "app-measurement.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/measurement/zzagu.java",
+        "com/google/android/gms/measurement/internal/zzfy.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/IA-JSTag/Production/centering_v1.css",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/cache/l.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/IA-JSTag/Production/centering_v1.css\\",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/util/d.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/IA-JSTag/Production/centering_v1.js",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/cache/l.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/IA-JSTag/Production/centering_v1.js\\",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/util/d.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/app-detail-page-v0/[BUNDLE_ID].html",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/flow/w.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/fyber-i-icon/index.html",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/activities/FyberReportAdActivity.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/ia-js-tags/dt-mraid-video-controller.js",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/cache/l.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/ia-js-tags/dt-mraid-video-controller.js\\",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/util/d.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/ia-js-tags/omsdk/",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/measurement/e.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/ia-js-tags/omsdk/dt-omsdk-mraid-video-tracker.js",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/measurement/e.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/ia-js-tags/omsdk/omid-session-client-",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/measurement/e.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/client/ia-js-tags/playable_detect.js",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/cache/l.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/ia-sdk-config/config_android.json",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/cache/f.java"
+      ]
+    },
+    {
+      "url": "https://cdn2.inner-active.mobi/ia-sdk-config/features_config.json",
+      "host": "cdn2.inner-active.mobi",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/config/global/m.java"
+      ]
+    },
+    {
+      "url": "https://config.inmobi.com/config-server/v1/config/secure.cfg",
+      "host": "config.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/RootConfig.java"
+      ]
+    },
+    {
+      "url": "https://console.firebase.google.com/project/",
+      "host": "console.firebase.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/firebase/perf/logging/ConsoleUrlGenerator.java"
+      ]
+    },
+    {
+      "url": "https://crash-metrics.sdk.inmobi.com/trace",
+      "host": "crash-metrics.sdk.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/CrashConfig.java"
+      ]
+    },
+    {
+      "url": "https://csi.gstatic.com/csi",
+      "host": "csi.gstatic.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzblb.java"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/streaming/emsg-id3",
+      "host": "developer.apple.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/cq2.java"
+      ]
+    },
+    {
+      "url": "https://dl.google.com/translate/offline/v5/high/r29/",
+      "host": "dl.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/mlkit/nl/translate/internal/zzt.java"
+      ]
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Sqq5zw3-lpYDMoMXdJS0ioaepgnXx36YUMPU-N3cIYc/edit",
+      "host": "docs.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/b82.java"
+      ]
+    },
+    {
+      "url": "https://fcmregistrations.googleapis.com/v1/projects/",
+      "host": "fcmregistrations.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/jm7.java"
+      ]
+    },
+    {
+      "url": "https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/",
+      "host": "firebase-settings.crashlytics.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/yk1.java"
+      ]
+    },
+    {
+      "url": "https://firebaseinstallations.googleapis.com/v1",
+      "host": "firebaseinstallations.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/mlkit_translate/zztz.java"
+      ]
+    },
+    {
+      "url": "https://firebaseinstallations.googleapis.com/v1/",
+      "host": "firebaseinstallations.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/firebase/installations/remote/FirebaseInstallationServiceClient.java"
+      ]
+    },
+    {
+      "url": "https://firebaseremoteconfig.googleapis.com/v1/projects/",
+      "host": "firebaseremoteconfig.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/mlkit_translate/f.java",
+        "com/google/firebase/remoteconfig/internal/ConfigFetchHttpClient.java"
+      ]
+    },
+    {
+      "url": "https://firebaseremoteconfigrealtime.googleapis.com/v1/projects/",
+      "host": "firebaseremoteconfigrealtime.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/firebase/remoteconfig/internal/ConfigRealtimeHttpClient.java"
+      ]
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0",
+      "host": "firebasestorage.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/firebase/storage/network/NetworkRequest.java"
+      ]
+    },
+    {
+      "url": "https://fonts.googleapis.com",
+      "host": "fonts.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/flow/storepromo/controller/webview/b.java"
+      ]
+    },
+    {
+      "url": "https://fundingchoicesmessages.google.com/a/consent",
+      "host": "fundingchoicesmessages.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/v6d.java"
+      ]
+    },
+    {
+      "url": "https://github.com/google/gson/blob/main/Troubleshooting.md#",
+      "host": "github.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzidl.java",
+        "com/google/android/gms/internal/mlkit_translate/zzda.java",
+        "com/google/gson/internal/TroubleshootingGuide.java"
+      ]
+    },
+    {
+      "url": "https://google.com",
+      "host": "google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/fj8.java"
+      ]
+    },
+    {
+      "url": "https://google.com/search?",
+      "host": "google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/z5c.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net,https://pubads.g.doubleclick.net",
+      "host": "googleads.g.doubleclick.net,https",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzblr.java"
+      ]
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/mads/static/sdk/native/sdk-core-v40.html",
+      "host": "googleads.g.doubleclick.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://imasdk.googleapis.com/admob/sdkloader/native_video.html",
+      "host": "imasdk.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://init-mp.fyber.com/init",
+      "host": "init-mp.fyber.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/network/a1.java"
+      ]
+    },
+    {
+      "url": "https://issuetracker.google.com/issues/new?component=413107&template=1096568",
+      "host": "issuetracker.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "androidx/room/paging/CommonLimitOffsetImpl.java",
+        "androidx/room/paging/LimitOffsetDataSource.java",
+        "androidx/room/support/AutoCloser.java"
+      ]
+    },
+    {
+      "url": "https://lf-static.tiktokpangle-cdn-us.com/obj/ad-pattern-tx/",
+      "host": "lf-static.tiktokpangle-cdn-us.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/settings/ea.java",
+        "com/bytedance/sdk/openadsdk/core/settings/fby.java"
+      ]
+    },
+    {
+      "url": "https://lf-static.tiktokpangle-cdn-us.com/obj/ad-pattern-tx/3p_monitor.9db44671.js",
+      "host": "lf-static.tiktokpangle-cdn-us.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/settings/lt.java"
+      ]
+    },
+    {
+      "url": "https://lf-static.tiktokpangle-cdn-us.com/obj/ad-pattern-tx/renderer/package_tx.json",
+      "host": "lf-static.tiktokpangle-cdn-us.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/utils/oby.java"
+      ]
+    },
+    {
+      "url": "https://lf-static.tiktokpangle-cdn-us.com/obj/ad-pattern-tx/static/images/2023620white.jpeg",
+      "host": "lf-static.tiktokpangle-cdn-us.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/zb.java"
+      ]
+    },
+    {
+      "url": "https://log-activity.templates.inmobi.com/api/v1/ingest",
+      "host": "log-activity.templates.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/TelemetryConfig.java"
+      ]
+    },
+    {
+      "url": "https://log.byteoversea.com/service/2/app_log_test/",
+      "host": "log.byteoversea.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/utils/oby.java"
+      ]
+    },
+    {
+      "url": "https://mail.google.com/mail/?view=cm&fs=1&ui=2&to=",
+      "host": "mail.google.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/template/report/ReportFragment$setupViewModel$1$1.java"
+      ]
+    },
+    {
+      "url": "https://mediation.goog/mads/static/sdk/native/sdk-core-v40.html",
+      "host": "mediation.goog",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://pag_open_icon_id/appicon.png",
+      "host": "pag_open_icon_id",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/core/jc/zb/sya.java"
+      ]
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/mads/asp",
+      "host": "pagead2.googlesyndication.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzgfc.java"
+      ]
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps",
+      "host": "pagead2.googlesyndication.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/ads/identifier/a.java"
+      ]
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1",
+      "host": "pagead2.googlesyndication.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java",
+        "com/google/android/gms/internal/ads/zzgfa.java"
+      ]
+    },
+    {
+      "url": "https://pixabay.com",
+      "host": "pixabay.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/ro6.java"
+      ]
+    },
+    {
+      "url": "https://play.google.com/d",
+      "host": "play.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzcor.java"
+      ]
+    },
+    {
+      "url": "https://play.google.com/d?",
+      "host": "play.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/ads/network/common/model/InlineParams.java"
+      ]
+    },
+    {
+      "url": "https://play.google.com/store",
+      "host": "play.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/bt8.java"
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/account/subscriptions?sku=%s&package=%s",
+      "host": "play.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/lz4.java"
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=",
+      "host": "play.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 3,
+      "exemplos_de_arquivo": [
+        "com/fyber/inneractive/sdk/click/e.java",
+        "defpackage/lz4.java",
+        "defpackage/tt.java"
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/paymentmethods",
+      "host": "play.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/bt8.java"
+      ]
+    },
+    {
+      "url": "https://redirector.gvt1.com/edgedl/translate/offline/v5/high/r29/",
+      "host": "redirector.gvt1.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/mlkit/nl/translate/internal/zzt.java"
+      ]
+    },
+    {
+      "url": "https://sf16-static.i18n-pglstatp.com/obj/ad-pattern-sg/static/images/",
+      "host": "sf16-static.i18n-pglstatp.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/component/adexpress/dynamic/lud/ycx.java"
+      ]
+    },
+    {
+      "url": "https://spadsync.com/sync",
+      "host": "spadsync.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/SignalsConfig.java"
+      ]
+    },
+    {
+      "url": "https://supply.inmobicdn.net/javascript/1.5.7/omsdk-service.js",
+      "host": "supply.inmobicdn.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/AdConfig.java"
+      ]
+    },
+    {
+      "url": "https://supply.inmobicdn.net/lagom-icons/AdChoices-11.png",
+      "host": "supply.inmobicdn.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/AdConfig.java"
+      ]
+    },
+    {
+      "url": "https://supply.inmobicdn.net/sdk/sdk/1121/android/mraid.js",
+      "host": "supply.inmobicdn.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/AdConfig.java"
+      ]
+    },
+    {
+      "url": "https://support.google.com/dfp_premium/answer/7160685#push",
+      "host": "support.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/rya.java"
+      ]
+    },
+    {
+      "url": "https://synapse.exchange.inmobi.com/v1/signals/push",
+      "host": "synapse.exchange.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/SignalsConfig.java"
+      ]
+    },
+    {
+      "url": "https://telemetry.sdk.inmobi.com/metrics",
+      "host": "telemetry.sdk.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 5,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/RootConfig.java",
+        "com/inmobi/media/core/config/models/TelemetryConfig.java"
+      ]
+    },
+    {
+      "url": "https://unif-id.ssp.inmobi.com/fetch",
+      "host": "unif-id.ssp.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/SignalsConfig.java"
+      ]
+    },
+    {
+      "url": "https://www.example.com",
+      "host": "www.example.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/utils/oby.java",
+        "com/google/android/gms/internal/ads/zziom.java"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/",
+      "host": "www.facebook.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/t8.java"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/adnw_logging/",
+      "host": "www.facebook.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/facebook/ads/internal/dynamicloading/DexLoadErrorReporter.java"
+      ]
+    },
+    {
+      "url": "https://www.google.com/dfp/debugSignals",
+      "host": "www.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://www.google.com/dfp/inAppPreview",
+      "host": "www.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://www.google.com/dfp/linkDevice",
+      "host": "www.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://www.google.com/dfp/sendDebugData",
+      "host": "www.google.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/internal/ads/zzbjg.java"
+      ]
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version=",
+      "host": "www.googleadservices.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/frc.java"
+      ]
+    },
+    {
+      "url": "https://www.googleapis.com/auth/games",
+      "host": "www.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/auth/api/signin/GoogleSignInOptions.java"
+      ]
+    },
+    {
+      "url": "https://www.googleapis.com/auth/games_lite",
+      "host": "www.googleapis.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/google/android/gms/auth/api/signin/GoogleSignInOptions.java"
+      ]
+    },
+    {
+      "url": "https://www.inmobi.com",
+      "host": "www.inmobi.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/inmobi/media/core/config/models/AdConfig.java"
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/",
+      "host": "www.instagram.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/t8.java"
+      ]
+    },
+    {
+      "url": "https://www.pangleglobal.com/",
+      "host": "www.pangleglobal.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/bytedance/sdk/openadsdk/TTAdConstant.java"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com",
+      "host": "www.pexels.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/projecteditor/browser/media/MediaBrowserItemServiceType.java"
+      ]
+    },
+    {
+      "url": "https://www.pixabay.com",
+      "host": "www.pixabay.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/projecteditor/browser/media/MediaBrowserItemServiceType.java"
+      ]
+    },
+    {
+      "url": "https://www.recaptcha.net/recaptcha/api3",
+      "host": "www.recaptcha.net",
+      "no_codigo_do_app": false,
+      "ocorrencias": 6,
+      "exemplos_de_arquivo": [
+        "com/google/android/recaptcha/internal/zzbr.java",
+        "com/google/android/recaptcha/internal/zzcv.java"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/",
+      "host": "www.youtube.com",
+      "no_codigo_do_app": true,
+      "ocorrencias": 2,
+      "exemplos_de_arquivo": [
+        "com/kinemaster/app/screen/home/account/youtube/YouTubeChannelCheckFragment.java",
+        "defpackage/rja.java"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/@springvideoapp/shorts",
+      "host": "www.youtube.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/dp1.java"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLmqmCnrRTizp_8megNcRXCDBffba4eBVm",
+      "host": "www.youtube.com",
+      "no_codigo_do_app": false,
+      "ocorrencias": 1,
+      "exemplos_de_arquivo": [
+        "defpackage/dp1.java"
+      ]
+    }
+  ],
+  "total_urls": 173,
+  "hosts_citados_como_constante": [
+    [
+      "play.google.com",
+      7
+    ],
+    [
+      "com.chrome.dev",
+      4
+    ],
+    [
+      "app-measurement.com",
+      4
+    ],
+    [
+      "market.android.com",
+      4
+    ],
+    [
+      "kinemaster.com",
+      4
+    ],
+    [
+      "mobileads.google.com",
+      3
+    ],
+    [
+      "ad.doubleclick.net",
+      2
+    ],
+    [
+      "www.googleadservices.com",
+      2
+    ],
+    [
+      "google-analytics.com",
+      2
+    ],
+    [
+      "facebook.com",
+      2
+    ],
+    [
+      "github.com",
+      2
+    ],
+    [
+      "google.com",
+      2
+    ],
+    [
+      "apple.com",
+      2
+    ],
+    [
+      "playgames.google.com",
+      2
+    ],
+    [
+      "twitter.com",
+      2
+    ],
+    [
+      "airbridge.io",
+      2
+    ],
+    [
+      "www.google.com",
+      1
+    ],
+    [
+      "com.google.android.wearable.app",
+      1
+    ],
+    [
+      "firebaseapp.com",
+      1
+    ],
+    [
+      "web.app",
+      1
+    ],
+    [
+      "debug.firebase.analytics.app",
+      1
+    ],
+    [
+      "www.recaptcha.net",
+      1
+    ],
+    [
+      "firebaseinappmessaging.googleapis.com",
+      1
+    ],
+    [
+      "firebase-settings.crashlytics.com",
+      1
+    ],
+    [
+      "support.kinemaster.com",
+      1
+    ],
+    [
+      "kinemaster1573111923.zendesk.com",
+      1
+    ],
+    [
+      "connect.facebook.net",
+      1
+    ],
+    [
+      "supply.inmobicdn.net",
+      1
+    ],
+    [
+      "analytics.us.tiktok.com",
+      1
+    ],
+    [
+      "java.io",
+      1
+    ]
+  ],
+  "politica_de_rede": {
+    "arquivo": "res/xml/network_security_config.xml",
+    "conteudo": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<network-security-config>\n    <debug-overrides>\n        <trust-anchors>\n            <certificates src=\"user\" />\n        </trust-anchors>\n    </debug-overrides>\n    <base-config cleartextTrafficPermitted=\"true\" />\n    <domain-config cleartextTrafficPermitted=\"true\">\n        <domain includeSubdomains=\"true\">127.0.0.1</domain>\n        <domain includeSubdomains=\"true\">cdn-project-feed.kinemasters.com</domain>\n    </domain-config>\n</network-security-config>"
+  },
+  "aviso": "Análise estática; nenhuma requisição foi executada. URL presente no código não implica endpoint ativo."
+}

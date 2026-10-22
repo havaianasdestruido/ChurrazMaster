@@ -65,6 +65,17 @@ python3 scripts/08_formatos_proprietarios.py
 Saídas: `docs/analise/relatorios/formatos_proprietarios.md` e
 `docs/analise/inventarios/formatos.json`.
 
+## 6.1 Bancos de dados e rede (Fase 5)
+
+```bash
+python3 scripts/11_esquema_room.py        # 12 bancos, 49 entidades, 517 campos
+python3 scripts/12_superficie_rede.py     # 173 URLs, política de rede
+```
+
+Saídas: `docs/analise/relatorios/esquema_banco_de_dados.md`,
+`docs/analise/relatorios/superficie_de_rede.md` e os JSON correspondentes em
+`docs/analise/inventarios/`.
+
 ## 7. Consulta interativa ao decompilador (ferramenta MCP)
 
 ```bash

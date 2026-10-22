@@ -28,6 +28,9 @@ descompilação nativa **bloqueadas neste ambiente** (motivos técnicos document
 - **Formatos proprietários:** [`docs/analise/relatorios/formatos_proprietarios.md`](docs/analise/relatorios/formatos_proprietarios.md)
 - **Análise dinâmica (bloqueada + procedimento):** [`docs/analise/relatorios/analise_dinamica.md`](docs/analise/relatorios/analise_dinamica.md)
 - **Como reproduzir:** [`docs/analise/relatorios/guia_reproducao.md`](docs/analise/relatorios/guia_reproducao.md)
+- **Esquema dos bancos (Room):** [`docs/analise/relatorios/esquema_banco_de_dados.md`](docs/analise/relatorios/esquema_banco_de_dados.md)
+- **Superfície de rede:** [`docs/analise/relatorios/superficie_de_rede.md`](docs/analise/relatorios/superficie_de_rede.md)
+- **Guia de modificação:** [`docs/analise/relatorios/guia_modificacao.md`](docs/analise/relatorios/guia_modificacao.md)
 - **Ferramentas (versões, licenças, hashes):** [`bin/tools/MANIFESTO.md`](bin/tools/MANIFESTO.md)
 - **Inventários e índices:** `docs/analise/inventarios/` e `decompilado/indices/`
 
@@ -42,8 +45,10 @@ bash scripts/03_recursos.sh                # Apktool nos 20 APKs
 bash scripts/04_decompilar_jadx.sh         # descompilação Java
 python3 scripts/05_metricas_dex.py         # métricas e cobertura
 python3 scripts/07_analise_nativa.py       # inventário ELF/JNI
-python3 scripts/08_formatos_proprietarios.py
-python3 scripts/10_selecionar_artefatos.py # atualiza decompilado/
+python3 scripts/08_formatos_proprietarios.py  # assets, .nef, .kine/.kmproject
+python3 scripts/11_esquema_room.py            # bancos Room a partir das anotações
+python3 scripts/12_superficie_rede.py         # URLs e política de rede
+python3 scripts/10_selecionar_artefatos.py    # atualiza decompilado/
 ```
 
 ## Aviso legal

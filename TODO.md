@@ -120,6 +120,13 @@ os artefatos oficiais (jadx 1.1.0, Apktool 2.4.1, jar MCP 0.7.0, wheel jdk4py), 
       (`formatos_proprietarios.md` §3).
 - [x] Não inventar especificações para formatos não compreendidos — `.nef` explicitamente marcado
       como não especificado.
+- [x] Esquema dos bancos Room reconstruído das anotações (12 bancos, 49 entidades, 517 campos)
+      — `docs/analise/relatorios/esquema_banco_de_dados.md`.
+- [x] Superfície de rede estática (173 URLs; 32 de produção, 25 de teste) e política de rede
+      — `docs/analise/relatorios/superficie_de_rede.md`.
+- [ ] Recuperar o DDL real (`CREATE TABLE`) e as consultas `@Query` das classes delegadas do Room
+      (ofuscadas pelo R8) — pendente.
+- [x] Mapa de modificação (classes, assets, riscos e limites) — `guia_modificacao.md`.
 
 ## Fase 6 — Análise dinâmica autorizada
 
@@ -183,8 +190,8 @@ os artefatos oficiais (jadx 1.1.0, Apktool 2.4.1, jar MCP 0.7.0, wheel jdk4py), 
 1. **[Alto] Descompilação nativa** — executar Ghidra 12.2 em `libnexeditorsdk.so` (e nos leitores de
    `.nef`) em host com rede liberada; produzir pseudocódigo e mapa de funções.
 2. **[Alto] Análise dinâmica** — seguir `analise_dinamica.md` em dispositivo ARM64 dedicado.
-3. **[Médio] Esquema dos bancos Room** — extrair `ProjectDatabase`/`TemplateDatabase` e o
-   `.kmproject` de um projeto real para documentar o modelo de timeline.
+3. **[Médio] Esquema dos bancos Room** — anotações já recuperadas (12 bancos/49 entidades);
+   falta o **DDL** gerado pelo Room e o `.kmproject` de um projeto real para o modelo de timeline.
 4. **[Médio] Migrar o descompilador principal** para jadx 1.5.x quando houver canal de download,
    reduzindo os 148 erros de geração de código.
 5. **[Baixo] Inventariar endpoints de rede** a partir de `com.kinemaster.module.network.communication`.

@@ -191,6 +191,42 @@ Relatório dedicado: `docs/analise/relatorios/formatos_proprietarios.md`. Resumo
   importação/exportação por ZIP com `contents/`. Estrutura interna do `.kmproject`: **não recuperada**.
 - **Modelos de IA embarcados:** `.tflite` e `.bin` (ver §3.6).
 
+### 5.1 Esquema dos bancos Room (reconstruído estaticamente)
+
+Relatório dedicado: `docs/analise/relatorios/esquema_banco_de_dados.md` (dados em `esquema_room.json`).
+
+**Fato observado:** existem **12** classes `@Database`, **49** entidades `@Entity` e **517** campos
+declarados, todos legíveis nas anotações preservadas no bytecode:
+
+| Banco (`@Database`) | Versão | Entidades |
+|---|---:|---:|
+| `ProjectDatabase` | 3 | 1 (`project_table`) |
+| `TemplateDatabase` | 9 | 15 (+1 *view*) |
+| `InstalledAssetsDatabase` | 8 | 6 |
+| `FontDatabase` | 6 | 7 |
+| `StoreDatabase` | 8 | 6 |
+| `HotFeaturedDatabase` / `NewFeaturedDatabase` | 4 / 4 | 1 / 1 |
+| `SaveAsVideoDatabase`, `LimitDatabase`, `SearchRecentDatabase`, `AudioSearchKeywordDatabase` | 3, 3, 1, 2 | 1, 2, 1, 1 |
+
+**Limitação:** o DDL (`CREATE TABLE`) e as consultas `@Query` **não** estão no código Java decompilado —
+o Room os gera em classes delegadas que foram ofuscadas/renomeadas pelo R8. Os nomes de tabela/coluna
+vêm das anotações `@Entity(tableName=…)` e `@ColumnInfo(name=…)`; quando ausentes, valem os nomes de
+classe/campo (regra do Room) e o relatório marca isso como **inferido**.
+
+### 5.2 Superfície de rede (estática)
+
+Relatório dedicado: `docs/analise/relatorios/superficie_de_rede.md`.
+
+**Fato observado:** **173** URLs distintas no código, das quais **32** apontam para domínios do
+fabricante e **25** são variantes de teste/homologação (pares `test-api-*` / `api-*`).
+Hosts de produção identificados: `api-account`, `api-asset`, `api-asset-item-info`, `api-assetstore`,
+`api-auth`, `api-dci`, `api-notice`, `api-project-feed`, `redirect`, `notice`, `product-sku`
+(`kinemasters.com` / `kinemaster.com`), além de `tts-t.kinemix.com` (TTS).
+**Fato observado:** `res/xml/network_security_config.xml` permite **tráfego em claro**
+(`cleartextTrafficPermitted="true"`), inclusive para `cdn-project-feed.kinemasters.com` e `127.0.0.1`,
+e confia em certificados de usuário apenas em `debug-overrides`.
+**Nenhuma requisição foi executada**; a lista não prova que um endpoint esteja ativo.
+
 ## 6. Análise dinâmica (Fase 6) — **NÃO EXECUTADA**
 
 Ver `docs/analise/relatorios/analise_dinamica.md`. Motivo objetivo: ausência de `/dev/kvm`,
@@ -201,6 +237,7 @@ Nenhuma afirmação deste relatório depende de execução do aplicativo.
 
 - Manifesto completo (versão, licença, origem, SHA-256, situação no Git): `bin/tools/MANIFESTO.md`.
 - Guia passo a passo: `docs/analise/relatorios/guia_reproducao.md`.
+- Guia de modificação (o que é seguro e útil alterar): `docs/analise/relatorios/guia_modificacao.md`.
 - Scripts: `scripts/00` … `scripts/10` (todos com comentários e mensagens em português).
 
 ## 8. O que foi recuperado, parcialmente recuperado e desconhecido
