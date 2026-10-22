@@ -1,0 +1,1296 @@
+{
+  "gerado_em": "2026-10-22T15:55:35.916079+00:00",
+  "origem": "bin/ (volumes 7z) -> XAPK -> APKs",
+  "aviso": "Observação: os identificadores originais do aplicativo são preservados; as descrições são em português brasileiro.",
+  "manifesto_xapk": {
+    "xapk_version": 2,
+    "package_name": "com.nexstreaming.app.kinemasterfree",
+    "name": "KineMaster",
+    "version_code": "37398",
+    "version_name": "8.2.14.37398.GP",
+    "min_sdk_version": "26",
+    "target_sdk_version": "36",
+    "permissions": [
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.BLUETOOTH_ADVERTISE",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_IMAGES",
+      "android.permission.READ_MEDIA_VIDEO",
+      "android.permission.READ_MEDIA_AUDIO",
+      "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.WAKE_LOCK",
+      "android.permission.VIBRATE",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.USE_CREDENTIALS",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.POST_NOTIFICATIONS",
+      "com.android.vending.CHECK_LICENSE",
+      "com.android.vending.BILLING",
+      "com.google.android.gms.permission.AD_ID",
+      "android.permission.FLAG_GRANT_READ_URI_PERMISSION",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "com.google.android.providers.gsf.permission.READ_GSERVICES",
+      "com.nexstreaming.app.kinemasterfree.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "split_configs": [
+      "config.ar",
+      "config.arm64_v8a",
+      "config.de",
+      "config.en",
+      "config.es",
+      "config.fr",
+      "config.hi",
+      "config.in",
+      "config.it",
+      "config.ja",
+      "config.ko",
+      "config.my",
+      "config.pt",
+      "config.ru",
+      "config.th",
+      "config.tr",
+      "config.vi",
+      "config.xxhdpi",
+      "config.zh"
+    ],
+    "total_size": 179968781,
+    "icon": "icon.png",
+    "split_apks": [
+      {
+        "file": "com.nexstreaming.app.kinemasterfree.apk",
+        "id": "base"
+      },
+      {
+        "file": "config.ar.apk",
+        "id": "config.ar"
+      },
+      {
+        "file": "config.arm64_v8a.apk",
+        "id": "config.arm64_v8a"
+      },
+      {
+        "file": "config.de.apk",
+        "id": "config.de"
+      },
+      {
+        "file": "config.en.apk",
+        "id": "config.en"
+      },
+      {
+        "file": "config.es.apk",
+        "id": "config.es"
+      },
+      {
+        "file": "config.fr.apk",
+        "id": "config.fr"
+      },
+      {
+        "file": "config.hi.apk",
+        "id": "config.hi"
+      },
+      {
+        "file": "config.in.apk",
+        "id": "config.in"
+      },
+      {
+        "file": "config.it.apk",
+        "id": "config.it"
+      },
+      {
+        "file": "config.ja.apk",
+        "id": "config.ja"
+      },
+      {
+        "file": "config.ko.apk",
+        "id": "config.ko"
+      },
+      {
+        "file": "config.my.apk",
+        "id": "config.my"
+      },
+      {
+        "file": "config.pt.apk",
+        "id": "config.pt"
+      },
+      {
+        "file": "config.ru.apk",
+        "id": "config.ru"
+      },
+      {
+        "file": "config.th.apk",
+        "id": "config.th"
+      },
+      {
+        "file": "config.tr.apk",
+        "id": "config.tr"
+      },
+      {
+        "file": "config.vi.apk",
+        "id": "config.vi"
+      },
+      {
+        "file": "config.xxhdpi.apk",
+        "id": "config.xxhdpi"
+      },
+      {
+        "file": "config.zh.apk",
+        "id": "config.zh"
+      }
+    ]
+  },
+  "membros_do_xapk": [
+    {
+      "caminho": "com.nexstreaming.app.kinemasterfree.apk",
+      "tamanho": 109972018,
+      "sha256": "c923404b6ea4cf930399fa20550c9ea278644d7910254cbea756dd6832cfa552"
+    },
+    {
+      "caminho": "icon.png",
+      "tamanho": 118490,
+      "sha256": "4e10e33c4910ed47679ed3595713b72867a1a9f5b5a806100923456ea1c05cfd"
+    },
+    {
+      "caminho": "config.ar.apk",
+      "tamanho": 287467,
+      "sha256": "b34ba63e84276cee635ffe11d2162ec26e3ddc994d3b729c094e18b2f128df93"
+    },
+    {
+      "caminho": "config.arm64_v8a.apk",
+      "tamanho": 62769226,
+      "sha256": "fa790065d2961b438e647339f1e44b4f7a3dc6e8c30bb52ce01161de987bcb27"
+    },
+    {
+      "caminho": "config.de.apk",
+      "tamanho": 254699,
+      "sha256": "649ea3657bb5cbef9cdaa987d85c0bbf04c5af345457c1119fa762c23a142d47"
+    },
+    {
+      "caminho": "config.en.apk",
+      "tamanho": 143769,
+      "sha256": "e892798bbddee6c58eb80aa2fbf3674b3e3b3716bb60f741b2c076f74538fa67"
+    },
+    {
+      "caminho": "config.es.apk",
+      "tamanho": 275179,
+      "sha256": "99601bf81880ab69a51efe69d655d141ea5fbcb9caa6ec2d3238d448b20ec794"
+    },
+    {
+      "caminho": "config.fr.apk",
+      "tamanho": 262891,
+      "sha256": "aaf2feebf556d5dfbbcfcd505f0bb16592169d6285a43857a1ad926103956988"
+    },
+    {
+      "caminho": "config.hi.apk",
+      "tamanho": 303851,
+      "sha256": "c21e84a005f16ba0e0639d1181697421b43af0ec546e16c2bd19bc2a1ee005ee"
+    },
+    {
+      "caminho": "config.in.apk",
+      "tamanho": 246507,
+      "sha256": "78eecb482e144e75aaf237666358a8c33c8c9e8e7d8b5b4a47354357437aaa37"
+    },
+    {
+      "caminho": "config.it.apk",
+      "tamanho": 234219,
+      "sha256": "1b593acf500c823965b044b640e67c2e37088e827c2174e5ec2bd2ea74b9747f"
+    },
+    {
+      "caminho": "config.ja.apk",
+      "tamanho": 271083,
+      "sha256": "cf3ef319a54058a2a0c91fa210d2579b102be654634eec5d03999f3f03dedc2a"
+    },
+    {
+      "caminho": "config.ko.apk",
+      "tamanho": 230123,
+      "sha256": "3c1de366b43e85e70e120f4bcafed83b4bb410ac56a3a7ea25bcb5edb39f532d"
+    },
+    {
+      "caminho": "config.my.apk",
+      "tamanho": 65945,
+      "sha256": "103779eb16b4bf86a53b4d58420cbf392b4035aa4ac8f028d5966ef7f1eb46fd"
+    },
+    {
+      "caminho": "config.pt.apk",
+      "tamanho": 275179,
+      "sha256": "350492f71ced841b7dfa6cac5ece36464892e38ffbb38879006d2911eec26349"
+    },
+    {
+      "caminho": "config.ru.apk",
+      "tamanho": 275179,
+      "sha256": "e62d63659f67766ccf62e1a4d48a1e05c669b62054e69ed3ddb3c869f51236d9"
+    },
+    {
+      "caminho": "config.th.apk",
+      "tamanho": 312043,
+      "sha256": "855ca397858a1261a47cbc9e40e0c3e317988a72300475e44e980bc81913bc40"
+    },
+    {
+      "caminho": "config.tr.apk",
+      "tamanho": 234219,
+      "sha256": "4a75bbc3975f0abaf2077bf4115250936e26b44754ecdc1fe98dede2a4ed51ac"
+    },
+    {
+      "caminho": "config.vi.apk",
+      "tamanho": 246507,
+      "sha256": "7f39d2f6aa2949ad917472f98c759330d931f5de469173b60f4c1b36c2b1df6a"
+    },
+    {
+      "caminho": "config.xxhdpi.apk",
+      "tamanho": 2820048,
+      "sha256": "3d3f3545b100a9677e5b54038569e16e20f866460234b65ffe29873fece01ac8"
+    },
+    {
+      "caminho": "config.zh.apk",
+      "tamanho": 488629,
+      "sha256": "757ee096e006fa985dc13a63701e44fe20117e0adaeeb3d60ef15f5b9d15c7f4"
+    },
+    {
+      "caminho": "manifest.json",
+      "tamanho": 2791,
+      "sha256": "ad924e992e220d9a4ee61d693f0042caa64c81d171a757e4109a2e4027a710fe"
+    }
+  ],
+  "apks": [
+    {
+      "arquivo": "com.nexstreaming.app.kinemasterfree.apk",
+      "tamanho": 109972018,
+      "sha256": "c923404b6ea4cf930399fa20550c9ea278644d7910254cbea756dd6832cfa552",
+      "quantidade_de_entradas": 2841,
+      "tamanho_descomprimido": 120103187,
+      "metodo_de_compressao": {
+        "deflate": 2588,
+        "armazenado": 253
+      },
+      "dex": [
+        {
+          "caminho": "assets/audience_network/classes.dex",
+          "tamanho": 5455144,
+          "sha256": "215dbef81a8373f008ab324db1d90458ccd44273b3621c331fa1f42374b6a70a"
+        },
+        {
+          "caminho": "classes.dex",
+          "tamanho": 4147876,
+          "sha256": "25c3dfea0a51a1d10e2be3130c57a2b8ffb1ea8e00b9dd0e5d8897a8aabe076c"
+        },
+        {
+          "caminho": "classes2.dex",
+          "tamanho": 1364,
+          "sha256": "74bfc453138fbc61c86e1897a870deea382c0384a4afed18b38430ebf166aa66"
+        },
+        {
+          "caminho": "classes3.dex",
+          "tamanho": 9328836,
+          "sha256": "744ee9a2b3ac164e86b50e31a85c326f2acd6ef5bbce113601ee56a470412069"
+        },
+        {
+          "caminho": "classes4.dex",
+          "tamanho": 9061372,
+          "sha256": "2d54ada6b13f625d7c081798c77175a996e35f2e51e9b90f663945c63b31da9b"
+        },
+        {
+          "caminho": "classes5.dex",
+          "tamanho": 9420292,
+          "sha256": "bb6d5f93a6c1ed48183742b6d1d06a4bb498d757cdbbe243aca3005bbeb9c241"
+        },
+        {
+          "caminho": "classes6.dex",
+          "tamanho": 8280692,
+          "sha256": "22da5f4719e8de2c5f00ce47cf8e9060a5aa2200b8f8c73a893e6042e1841b17"
+        }
+      ],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 2365,
+        "META-INF/": 161,
+        "assets/": 159,
+        "google/": 77,
+        "kotlin/": 8,
+        "firebase/": 4,
+        "AndroidManifest.xml": 1,
+        "DebugProbesKt.bin": 1,
+        "LICENSE_OFL": 1,
+        "LICENSE_UNICODE": 1,
+        "app-update-ktx.properties": 1,
+        "app-update.properties": 1,
+        "asset-delivery-ktx.properties": 1,
+        "asset-delivery.properties": 1,
+        "billing-ktx.properties": 1
+      },
+      "total_dex_bytes": 45695576,
+      "assinatura": {
+        "esquemas": [
+          "v2",
+          "v3"
+        ],
+        "certificados": [
+          {
+            "sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+            "assunto": {
+              "country_name": "KR",
+              "locality_name": "Seoul",
+              "organization_name": "NexStreaming"
+            },
+            "emissor": {
+              "country_name": "KR",
+              "locality_name": "Seoul",
+              "organization_name": "NexStreaming"
+            },
+            "numero_de_serie": "1363565999",
+            "valido_de": "2013-03-18 00:19:59+00:00",
+            "valido_ate": "2063-03-06 00:19:59+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "config.ar.apk",
+      "tamanho": 287467,
+      "sha256": "b34ba63e84276cee635ffe11d2162ec26e3ddc994d3b729c094e18b2f128df93",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 355381,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.arm64_v8a.apk",
+      "tamanho": 62769226,
+      "sha256": "fa790065d2961b438e647339f1e44b4f7a3dc6e8c30bb52ce01161de987bcb27",
+      "quantidade_de_entradas": 27,
+      "tamanho_descomprimido": 62604189,
+      "metodo_de_compressao": {
+        "deflate": 5,
+        "armazenado": 22
+      },
+      "dex": [],
+      "bibliotecas_nativas": [
+        {
+          "caminho": "lib/arm64-v8a/libairbridgelib.so",
+          "tamanho": 12816,
+          "sha256": "f923f525fa79de03f4ebd9605a4ce34dfc6a560d62cb27e4bc29590d6f6e6b75",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libapminsighta.so",
+          "tamanho": 102256,
+          "sha256": "4da62be9b09106a077481a376365b861f1ffdc10b03e25362c24bc7c5efafb0c",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libapminsightb.so",
+          "tamanho": 124352,
+          "sha256": "229c907fc65dffbf7742ed9a4b83418ac984267da3d81af3c5a5509ef1f3a5c2",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libbuffer_pgl.so",
+          "tamanho": 9000,
+          "sha256": "d416381c202993e4a03fd6ae0c5b407f1531f61fc45f518ad5b7f4620d5a2133",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0xfec"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libdatastore_shared_counter.so",
+          "tamanho": 7112,
+          "sha256": "d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libfile_lock_pgl.so",
+          "tamanho": 6312,
+          "sha256": "d14096b150b4b2f21263fdb4f1c61eea3fcd76804c776de2395b13dfbe1d8ca0",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0xa0c"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libkmSTTv4_armv80.so",
+          "tamanho": 2784416,
+          "sha256": "ea994b8a964c3f4a999f69af21ce45945cd4af462426e520d86fcc3d582fb8fd",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libkmSTTv4_armv82.so",
+          "tamanho": 2783712,
+          "sha256": "d929da2e7555033e3b1cfecfb2fdf1241ee703ca6b6ab7f9102c8c14c1364715",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libnexcralbody_mc_jb.so",
+          "tamanho": 801920,
+          "sha256": "f0e73a55535b716a5a39ba0b060716a8d0e3383e40ca4d0dcaeec49405fbaf56",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libnexeditorsdk.so",
+          "tamanho": 9691912,
+          "sha256": "c2dc64d1495444adeb4de459f344190f673d2d136147f79633a0af3708d54cbd",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libnexralbody_audio.so",
+          "tamanho": 420288,
+          "sha256": "e0b71c804ff73c43560aad6a6ef793bcda53b00c6023cbde5f40526bb9bd8a3c",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libnms.so",
+          "tamanho": 302248,
+          "sha256": "c3708e40e93f33b30595c5e19ee1328a7ab62e98050849c798035bba6ade03de",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libonnxruntime.so",
+          "tamanho": 17571152,
+          "sha256": "e3233d399e6eec5ec3e15c724fad7ecb826e7a95dc2bb08952ecaffea5e7d952",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libpglarmor.so",
+          "tamanho": 68776,
+          "sha256": "69218eb7accd450feb707bfe9fa6533c390a2c0bf63b5c685c5548c18a0fe716",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/librenderscript-toolkit.so",
+          "tamanho": 3894848,
+          "sha256": "df99f99ae7444eaae6cd544ee92d7439cf3af4dcb6e72c602d7280df02dc4ecb",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libtensorflowlite_gpu_jni.so",
+          "tamanho": 2471512,
+          "sha256": "4fd1429a3a9d6988d1f09eceda2b3ace7b1ab922149df932dbad59a777ac41e5",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libtensorflowlite_jni.so",
+          "tamanho": 4152032,
+          "sha256": "8dd2c8b9d6df14bfb8651e419847cb2837c391cea9ab8f8a890629e8d18c64b8",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libtranslate_jni.so",
+          "tamanho": 16361048,
+          "sha256": "35b3d0366291347e3f25e80e809ee398d716aea49cd03278007fedd526a1496f",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libtt_ugen_layout.so",
+          "tamanho": 440672,
+          "sha256": "6356784adf27dac5d18cd14a052d4ab9c161fb74eb4df3d4107d00f2549edeb2",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libwrapnexgifcalbody.so",
+          "tamanho": 284584,
+          "sha256": "ec8b8f61c809f258eaca5a8bf446796e8cfdb80a781f94e0cd1fc1c8004c4dc0",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libwrapneximagevideocalbody.so",
+          "tamanho": 285864,
+          "sha256": "fb354f606ddaa941b24056357241534ecd6c5284c37500ae1ec7489a2155f6f6",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        },
+        {
+          "caminho": "lib/arm64-v8a/libwrapnexpcmcalbody.so",
+          "tamanho": 21192,
+          "sha256": "909d8f53481109d3dab66aaef72f8cec53482aab8f66cdd649f3b663a43951d4",
+          "classe": "ELF64",
+          "endianness": "little",
+          "tipo": "ET_DYN",
+          "machine": "AArch64",
+          "ponto_de_entrada": "0x0"
+        }
+      ],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 2202
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 2094
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": false,
+      "entradas_por_prefixo": {
+        "lib/": 22,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.de.apk",
+      "tamanho": 254699,
+      "sha256": "649ea3657bb5cbef9cdaa987d85c0bbf04c5af345457c1119fa762c23a142d47",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 283505,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.en.apk",
+      "tamanho": 143769,
+      "sha256": "e892798bbddee6c58eb80aa2fbf3674b3e3b3716bb60f741b2c076f74538fa67",
+      "quantidade_de_entradas": 6,
+      "tamanho_descomprimido": 132753,
+      "metodo_de_compressao": {
+        "deflate": 5,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 342
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 234
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.es.apk",
+      "tamanho": 275179,
+      "sha256": "99601bf81880ab69a51efe69d655d141ea5fbcb9caa6ec2d3238d448b20ec794",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 296981,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.fr.apk",
+      "tamanho": 262891,
+      "sha256": "aaf2feebf556d5dfbbcfcd505f0bb16592169d6285a43857a1ad926103956988",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 288825,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.hi.apk",
+      "tamanho": 303851,
+      "sha256": "c21e84a005f16ba0e0639d1181697421b43af0ec546e16c2bd19bc2a1ee005ee",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 326805,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.in.apk",
+      "tamanho": 246507,
+      "sha256": "78eecb482e144e75aaf237666358a8c33c8c9e8e7d8b5b4a47354357437aaa37",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 270165,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.it.apk",
+      "tamanho": 234219,
+      "sha256": "1b593acf500c823965b044b640e67c2e37088e827c2174e5ec2bd2ea74b9747f",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 258729,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.ja.apk",
+      "tamanho": 271083,
+      "sha256": "cf3ef319a54058a2a0c91fa210d2579b102be654634eec5d03999f3f03dedc2a",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 328037,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.ko.apk",
+      "tamanho": 230123,
+      "sha256": "3c1de366b43e85e70e120f4bcafed83b4bb410ac56a3a7ea25bcb5edb39f532d",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 239629,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.my.apk",
+      "tamanho": 65945,
+      "sha256": "103779eb16b4bf86a53b4d58420cbf392b4035aa4ac8f028d5966ef7f1eb46fd",
+      "quantidade_de_entradas": 6,
+      "tamanho_descomprimido": 55297,
+      "metodo_de_compressao": {
+        "deflate": 5,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 342
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 234
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.pt.apk",
+      "tamanho": 275179,
+      "sha256": "350492f71ced841b7dfa6cac5ece36464892e38ffbb38879006d2911eec26349",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 300433,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.ru.apk",
+      "tamanho": 275179,
+      "sha256": "e62d63659f67766ccf62e1a4d48a1e05c669b62054e69ed3ddb3c869f51236d9",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 294757,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.th.apk",
+      "tamanho": 312043,
+      "sha256": "855ca397858a1261a47cbc9e40e0c3e317988a72300475e44e980bc81913bc40",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 361057,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.tr.apk",
+      "tamanho": 234219,
+      "sha256": "4a75bbc3975f0abaf2077bf4115250936e26b44754ecdc1fe98dede2a4ed51ac",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 263201,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.vi.apk",
+      "tamanho": 246507,
+      "sha256": "7f39d2f6aa2949ad917472f98c759330d931f5de469173b60f4c1b36c2b1df6a",
+      "quantidade_de_entradas": 10,
+      "tamanho_descomprimido": 271997,
+      "metodo_de_compressao": {
+        "deflate": 9,
+        "armazenado": 1
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 708
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 600
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 4,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.xxhdpi.apk",
+      "tamanho": 2820048,
+      "sha256": "3d3f3545b100a9677e5b54038569e16e20f866460234b65ffe29873fece01ac8",
+      "quantidade_de_entradas": 106,
+      "tamanho_descomprimido": 2825625,
+      "metodo_de_compressao": {
+        "deflate": 65,
+        "armazenado": 41
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 10855
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 10747
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 100,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    },
+    {
+      "arquivo": "config.zh.apk",
+      "tamanho": 488629,
+      "sha256": "757ee096e006fa985dc13a63701e44fe20117e0adaeeb3d60ef15f5b9d15c7f4",
+      "quantidade_de_entradas": 15,
+      "tamanho_descomprimido": 599664,
+      "metodo_de_compressao": {
+        "deflate": 13,
+        "armazenado": 2
+      },
+      "dex": [],
+      "bibliotecas_nativas": [],
+      "arquivos_de_assinatura_v1": [
+        {
+          "caminho": "META-INF/BNDLTOOL.SF",
+          "tamanho": 1201
+        },
+        {
+          "caminho": "META-INF/BNDLTOOL.RSA",
+          "tamanho": 769
+        },
+        {
+          "caminho": "META-INF/MANIFEST.MF",
+          "tamanho": 1093
+        }
+      ],
+      "possui_android_manifest": true,
+      "possui_resources_arsc": true,
+      "entradas_por_prefixo": {
+        "res/": 9,
+        "META-INF/": 3,
+        "AndroidManifest.xml": 1,
+        "resources.arsc": 1,
+        "stamp-cert-sha256": 1
+      },
+      "total_dex_bytes": 0
+    }
+  ],
+  "duplicados_entre_apks": {},
+  "totais": {
+    "apks": 20,
+    "entradas_totais": 3141,
+    "bytes_descomprimidos_totais": 190460217,
+    "arquivos_dex": 7,
+    "bytes_dex": 45695576,
+    "bibliotecas_nativas": 22,
+    "bytes_nativos": 62598024,
+    "abis": [
+      "AArch64"
+    ],
+    "assinaturas_por_esquema": {}
+  }
+}

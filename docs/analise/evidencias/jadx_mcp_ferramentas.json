@@ -1,0 +1,371 @@
+[
+  {
+    "name": "list_classes",
+    "inputSchema": {
+      "properties": {
+        "package": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        },
+        "offset": {
+          "type": "integer",
+          "default": 0
+        }
+      },
+      "type": "object"
+    },
+    "description": "List classes with pagination, package filtering, and search."
+  },
+  {
+    "name": "get_class_source",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "class"
+      ],
+      "type": "object"
+    },
+    "description": "Get the decompiled source code of a specific class."
+  },
+  {
+    "name": "search_code",
+    "inputSchema": {
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "search_in": {
+          "type": "string",
+          "description": "class,method,field,code,comment (comma-separated, default: code)"
+        },
+        "package": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 20
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "type": "object"
+    },
+    "description": "Search for a keyword in decompiled code. Supports search_in (class/method/field/code/comment) and package filtering."
+  },
+  {
+    "name": "get_method_code",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "class",
+        "method"
+      ],
+      "type": "object"
+    },
+    "description": "Get the decompiled code of a specific method. Use get_methods_of_class first to discover available methods."
+  },
+  {
+    "name": "get_methods_of_class",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "class"
+      ],
+      "type": "object"
+    },
+    "description": "List all methods of a class with access flags, return types, and parameters."
+  },
+  {
+    "name": "get_fields_of_class",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "class"
+      ],
+      "type": "object"
+    },
+    "description": "List all fields of a class with access flags and types."
+  },
+  {
+    "name": "get_smali_of_class",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "class"
+      ],
+      "type": "object"
+    },
+    "description": "Get the smali representation of a specific class."
+  },
+  {
+    "name": "get_resource_file",
+    "inputSchema": {
+      "properties": {
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "type": "object"
+    },
+    "description": "Get the content of a resource file (e.g. res/layout/activity_main.xml). Use get_all_resource_file_names to discover available files."
+  },
+  {
+    "name": "get_all_resource_file_names",
+    "inputSchema": {
+      "properties": {
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "type": "object"
+    },
+    "description": "List all resource file paths in the APK (drawables, layouts, etc.). Supports pagination."
+  },
+  {
+    "name": "get_strings",
+    "inputSchema": {
+      "properties": {
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "type": "object"
+    },
+    "description": "Get the content of res/values/strings.xml. Supports pagination for large string resources."
+  },
+  {
+    "name": "get_manifest",
+    "inputSchema": {
+      "properties": {},
+      "type": "object"
+    },
+    "description": "Get the AndroidManifest.xml content to inspect activities and components."
+  },
+  {
+    "name": "get_main_activity_class",
+    "inputSchema": {
+      "properties": {},
+      "type": "object"
+    },
+    "description": "Get the main activity class (entry point) as defined in AndroidManifest.xml. Returns class name and source code."
+  },
+  {
+    "name": "get_main_application_classes",
+    "inputSchema": {
+      "properties": {
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "type": "object"
+    },
+    "description": "Get all classes belonging to the main application package (excludes libraries). Determines the package from Manifest. Supports pagination."
+  },
+  {
+    "name": "get_package_tree",
+    "inputSchema": {
+      "properties": {},
+      "type": "object"
+    },
+    "description": "Show package structure with class counts, sorted by size. Marks likely library packages. Helps navigate large APKs."
+  },
+  {
+    "name": "get_method_by_name",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "class",
+        "method"
+      ],
+      "type": "object"
+    },
+    "description": "Get a method's code by class name and method name. Combines class lookup and method lookup in one call."
+  },
+  {
+    "name": "search_method_by_name",
+    "inputSchema": {
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "required": [
+        "method"
+      ],
+      "type": "object"
+    },
+    "description": "Search for a method name across all classes. Returns all classes containing a method matching the name."
+  },
+  {
+    "name": "get_manifest_component",
+    "inputSchema": {
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "activity, provider, service, or receiver"
+        },
+        "exported_only": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "type": "object"
+    },
+    "description": "Extract specific component data (activity, provider, service, receiver) from AndroidManifest.xml. Supports filtering by exported status. Useful for security analysis."
+  },
+  {
+    "name": "get_info",
+    "inputSchema": {
+      "properties": {},
+      "type": "object"
+    },
+    "description": "Get decompiler information."
+  },
+  {
+    "name": "get_xrefs_to_class",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "required": [
+        "class"
+      ],
+      "type": "object"
+    },
+    "description": "Find all references to a class (callers, field types, method parameters, etc.). Returns a list of referencing classes and the methods where the class is used."
+  },
+  {
+    "name": "get_xrefs_to_method",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "required": [
+        "class",
+        "method"
+      ],
+      "type": "object"
+    },
+    "description": "Find all call-sites of a method. Shows where a method is invoked including override chain analysis."
+  },
+  {
+    "name": "get_xrefs_to_field",
+    "inputSchema": {
+      "properties": {
+        "class": {
+          "type": "string"
+        },
+        "field": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer",
+          "default": 0
+        },
+        "limit": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "required": [
+        "class",
+        "field"
+      ],
+      "type": "object"
+    },
+    "description": "Find all places where a field is read or written."
+  }
+]

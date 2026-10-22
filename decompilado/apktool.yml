@@ -1,0 +1,289 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.nexstreaming.app.kinemasterfree.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.constraintlayout_constraintlayout.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core-splashscreen.version
+- META-INF/androidx.core_core-viewtree.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.credentials_credentials-play-services-auth.version
+- META-INF/androidx.credentials_credentials.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview-poolingcontainer.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_baseAdapters.version
+- META-INF/androidx.databinding_databindingKtx.version
+- META-INF/androidx.databinding_library.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.datastore_datastore-core.version
+- META-INF/androidx.datastore_datastore-preferences-core.version
+- META-INF/androidx.datastore_datastore-preferences.version
+- META-INF/androidx.datastore_datastore.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.emoji2_emoji2-bundled.version
+- META-INF/androidx.emoji2_emoji2-views-helper.version
+- META-INF/androidx.emoji2_emoji2.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.graphics_graphics-shapes.version
+- META-INF/androidx.hilt_hilt-work.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v13.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-reactivestreams-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-reactivestreams.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.navigation_navigation-common.version
+- META-INF/androidx.navigation_navigation-fragment-ktx.version
+- META-INF/androidx.navigation_navigation-fragment.version
+- META-INF/androidx.navigation_navigation-runtime.version
+- META-INF/androidx.navigation_navigation-ui-ktx.version
+- META-INF/androidx.navigation_navigation-ui.version
+- META-INF/androidx.paging_paging-common.version
+- META-INF/androidx.paging_paging-runtime-ktx.version
+- META-INF/androidx.paging_paging-runtime.version
+- META-INF/androidx.preference_preference-ktx.version
+- META-INF/androidx.preference_preference.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices-java.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices.version
+- META-INF/androidx.profileinstaller_profileinstaller.version
+- META-INF/androidx.recyclerview_recyclerview-selection.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-ktx.version
+- META-INF/androidx.room_room-paging.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.room_room-rxjava2.version
+- META-INF/androidx.savedstate_savedstate-ktx.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.security_security-crypto.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing-ktx.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.window_window-core.version
+- META-INF/androidx.window_window.version
+- META-INF/androidx.work_work-runtime-ktx.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.dagger_dagger-lint-aar.version
+- META-INF/com.google.dagger_dagger.version
+- META-INF/com.google.dagger_hilt-android.version
+- META-INF/com.google.dagger_hilt-core.version
+- META-INF/kotlinx_coroutines_android.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/kotlinx_coroutines_play_services.version
+- META-INF/kotlinx_coroutines_reactive.version
+- META-INF/kotlinx_coroutines_rx2.version
+- META-INF/version-control-info.textproto
+- META-INF/services/ca5
+- META-INF/services/dv2
+- META-INF/services/jz5
+- META-INF/services/mp5
+- META-INF/services/y35
+- META-INF/services/ya6
+- jpg
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- res/drawable-nodpi-v4/blue_noise.webp
+- mp4
+- res/raw/vignette.webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '26'
+  targetSdkVersion: '36'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  LICENSE_OFL: '8'
+  LICENSE_UNICODE: '8'
+  app-update-ktx.properties: '8'
+  app-update.properties: '8'
+  asset-delivery-ktx.properties: '8'
+  asset-delivery.properties: '8'
+  billing-ktx.properties: '8'
+  billing.properties: '8'
+  client_analytics.proto: '8'
+  common.properties: '8'
+  core-common.properties: '8'
+  feature-delivery-ktx.properties: '8'
+  feature-delivery.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-auth-interop.properties: '8'
+  firebase-auth.properties: '8'
+  firebase-database-collection.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  googleid.properties: '8'
+  hsdp.properties: '8'
+  integrity.properties: '8'
+  language-id-common.properties: '8'
+  messaging_event.proto: '8'
+  messaging_event_extension.proto: '8'
+  play-services-ads-api.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-fido.properties: '8'
+  play-services-location.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-mlkit-language-id.properties: '8'
+  play-services-nearby.properties: '8'
+  play-services-places-placereport.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  recaptcha.properties: '8'
+  review-ktx.properties: '8'
+  review.properties: '8'
+  translate.properties: '8'
+  user-messaging-platform.properties: '8'
+  stamp-cert-sha256: '8'
+  developers/mobile/targeting/proto/client_signals.proto: '8'
+  firebase/inappmessaging/proto/common_types.proto: '8'
+  firebase/inappmessaging/proto/experiment_payload.proto: '8'
+  firebase/inappmessaging/proto/messages.proto: '8'
+  firebase/perf/v1/perf_metric.proto: '8'
+  google/api/annotations.proto: '8'
+  google/api/auth.proto: '8'
+  google/api/backend.proto: '8'
+  google/api/billing.proto: '8'
+  google/api/client.proto: '8'
+  google/api/config_change.proto: '8'
+  google/api/consumer.proto: '8'
+  google/api/context.proto: '8'
+  google/api/control.proto: '8'
+  google/api/distribution.proto: '8'
+  google/api/documentation.proto: '8'
+  google/api/endpoint.proto: '8'
+  google/api/field_behavior.proto: '8'
+  google/api/http.proto: '8'
+  google/api/httpbody.proto: '8'
+  google/api/label.proto: '8'
+  google/api/launch_stage.proto: '8'
+  google/api/log.proto: '8'
+  google/api/logging.proto: '8'
+  google/api/metric.proto: '8'
+  google/api/monitored_resource.proto: '8'
+  google/api/monitoring.proto: '8'
+  google/api/quota.proto: '8'
+  google/api/resource.proto: '8'
+  google/api/service.proto: '8'
+  google/api/source_info.proto: '8'
+  google/api/system_parameter.proto: '8'
+  google/api/usage.proto: '8'
+  google/apphosting/datastore/testing/datastore_test_trace.proto: '8'
+  google/cloud/audit/audit_log.proto: '8'
+  google/firebase/firestore/proto/bundle.proto: '8'
+  google/firebase/firestore/proto/maybe_document.proto: '8'
+  google/firebase/firestore/proto/mutation.proto: '8'
+  google/firebase/firestore/proto/target.proto: '8'
+  google/firestore/admin/index.proto: '8'
+  google/firestore/v1/aggregation_result.proto: '8'
+  google/firestore/v1/bloom_filter.proto: '8'
+  google/firestore/v1/common.proto: '8'
+  google/firestore/v1/document.proto: '8'
+  google/firestore/v1/firestore.proto: '8'
+  google/firestore/v1/pipeline.proto: '8'
+  google/firestore/v1/query.proto: '8'
+  google/firestore/v1/write.proto: '8'
+  google/geo/type/viewport.proto: '8'
+  google/internal/firebase/inappmessaging/internal/rate_limit.proto: '8'
+  google/internal/firebase/inappmessaging/v1/campaign.proto: '8'
+  google/internal/firebase/inappmessaging/v1/sdkserving/fiam_fetch_service.proto: '8'
+  google/logging/type/http_request.proto: '8'
+  google/logging/type/log_severity.proto: '8'
+  google/longrunning/operations.proto: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/rpc/code.proto: '8'
+  google/rpc/error_details.proto: '8'
+  google/rpc/status.proto: '8'
+  google/rpc/context/attribute_context.proto: '8'
+  google/type/calendar_period.proto: '8'
+  google/type/color.proto: '8'
+  google/type/date.proto: '8'
+  google/type/datetime.proto: '8'
+  google/type/dayofweek.proto: '8'
+  google/type/expr.proto: '8'
+  google/type/fraction.proto: '8'
+  google/type/latlng.proto: '8'
+  google/type/money.proto: '8'
+  google/type/postal_address.proto: '8'
+  google/type/quaternion.proto: '8'
+  google/type/timeofday.proto: '8'
+  logs/proto/firebase/inappmessaging/campaign_analytics.proto: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '37398'
+  versionName: 8.2.14.37398.GP
