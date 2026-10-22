@@ -1,0 +1,1257 @@
+{
+  "apk": "com.nexstreaming.app.kinemasterfree.apk",
+  "manifesto": {
+    "pacote": "com.nexstreaming.app.kinemasterfree",
+    "versao_nome": null,
+    "versao_codigo": null,
+    "compile_sdk": "37",
+    "tipos_de_split_requeridos": "base__abi,base__density",
+    "permissoes_declaradas": [
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.BLUETOOTH_ADVERTISE",
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.FLAG_GRANT_READ_URI_PERMISSION",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+      "android.permission.INTERNET",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_AUDIO",
+      "android.permission.READ_MEDIA_IMAGES",
+      "android.permission.READ_MEDIA_VIDEO",
+      "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.USE_CREDENTIALS",
+      "android.permission.VIBRATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "com.android.vending.BILLING",
+      "com.android.vending.CHECK_LICENSE",
+      "com.google.android.c2dm.permission.RECEIVE",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+      "com.google.android.gms.permission.AD_ID",
+      "com.google.android.providers.gsf.permission.READ_GSERVICES",
+      "com.nexstreaming.app.kinemasterfree.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "permissoes_de_maior_risco_declaradas": [
+      "android.permission.BLUETOOTH_CONNECT",
+      "android.permission.BLUETOOTH_SCAN",
+      "android.permission.NEARBY_WIFI_DEVICES",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_AUDIO",
+      "android.permission.READ_MEDIA_IMAGES",
+      "android.permission.READ_MEDIA_VIDEO",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.USE_CREDENTIALS",
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ],
+    "permissoes_customizadas": [
+      "com.nexstreaming.app.kinemasterfree.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "recursos_de_hardware_declarados": [
+      "android.hardware.bluetooth",
+      "android.hardware.bluetooth_le",
+      "android.hardware.location",
+      "android.hardware.location.gps",
+      "android.hardware.microphone",
+      "android.hardware.wifi",
+      "android.software.picture_in_picture",
+      "android.software.webview"
+    ],
+    "sdk": {
+      "minSdk": null,
+      "targetSdk": null
+    },
+    "application": {
+      "nome": "com.kinemaster.app.base.KineMasterApplication",
+      "debuggable": null,
+      "allowBackup": "false",
+      "usesCleartextTraffic": null,
+      "networkSecurityConfig": "@xml/network_security_config",
+      "extractNativeLibs": "false",
+      "largeHeap": "true",
+      "requestLegacyExternalStorage": "true",
+      "usesNonSdkApi": null
+    },
+    "activities": [
+      {
+        "nome": "androidx.credentials.playservices.HiddenActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.android.billingclient.api.ProxyBillingActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.android.billingclient.api.ProxyBillingActivityV2",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.TTFullWebActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.TTRewardWebActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.IABLandingPageActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTAdActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTAppOpenAdActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTAppOpenAdTransActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTCeilingLandingPageActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTDelegateActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTFullScreenExpressVideoActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTFullScreenVideoActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTHistoryActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTHistoryLandingPageActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTLandingPageActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTPlayableLandingPageActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTRewardExpressVideoActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTRewardVideoActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTVideoLandingPageLink2Activity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.bytedance.sdk.openadsdk.activity.single.TTWebsiteActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.facebook.ads.AudienceNetworkActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.fyber.inneractive.sdk.activities.FyberReportAdActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.fyber.inneractive.sdk.activities.InneractiveInternalBrowserActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.fyber.inneractive.sdk.activities.InternalStoreWebpageActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.ads.AdActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.ads.NotificationHandlerActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.ads.OutOfContextTestingActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.auth.api.signin.internal.SignInHubActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.common.api.GoogleApiActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.play.core.hsdp.service.HsdpShimActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.firebase.auth.internal.GenericIdpActivity",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "android.intent.action.VIEW"
+        ],
+        "categorias_intent_filter": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "dados_intent_filter": [
+          {
+            "android:host": "firebase.auth",
+            "android:path": "/",
+            "android:scheme": "genericidp"
+          }
+        ]
+      },
+      {
+        "nome": "com.google.firebase.auth.internal.RecaptchaActivity",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "android.intent.action.VIEW"
+        ],
+        "categorias_intent_filter": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "dados_intent_filter": [
+          {
+            "android:host": "firebase.auth",
+            "android:path": "/",
+            "android:scheme": "recaptcha"
+          }
+        ]
+      },
+      {
+        "nome": "com.inmobi.ads.rendering.InMobiAdActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.inmobi.ads.rendering.InMobiInAppBrowserActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.assetstore.AssetStoreActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.handover.HandoverReceivingActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.home.HomeActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.input.InputTextActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.launch.kmscheme.KMSchemePendingActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.launch.shareintent.ShareIntentActivity",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "android.intent.action.SEND",
+          "android.intent.action.SEND_MULTIPLE",
+          "android.intent.action.VIEW",
+          "com.kinemaster.intent.NEW_PROJECT",
+          "com.kinemaster.intent.SHARE_PROJECT"
+        ],
+        "categorias_intent_filter": [
+          "android.intent.category.BROWSABLE",
+          "android.intent.category.DEFAULT"
+        ],
+        "dados_intent_filter": [
+          {
+            "android:mimeType": "image/*"
+          },
+          {
+            "android:mimeType": "video/*"
+          },
+          {
+            "android:mimeType": "application/octet-stream"
+          },
+          {
+            "android:mimeType": "kine/*"
+          },
+          {
+            "android:mimeType": "application/kine"
+          },
+          {
+            "android:mimeType": "application/x-font-ttf"
+          },
+          {
+            "android:host": "*",
+            "android:mimeType": "*/*",
+            "android:pathPattern": ".*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\.kine"
+          },
+          {
+            "android:mimeType": "*/*",
+            "android:pathPattern": ".*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:mimeType": "*/*",
+            "android:pathPattern": ".*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\.otf"
+          },
+          {
+            "android:host": "media",
+            "android:mimeType": "*/*",
+            "android:pathPrefix": "/external/file/",
+            "android:scheme": "content"
+          },
+          {
+            "android:mimeType": "application/kine",
+            "android:scheme": "content"
+          },
+          {
+            "android:host": "*",
+            "android:mimeType": "*/*",
+            "android:pathPattern": ".*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\.kine"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\.kine"
+          },
+          {
+            "android:mimeType": "*/*",
+            "android:pathPattern": ".*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\.ttf"
+          },
+          {
+            "android:mimeType": "*/*",
+            "android:pathPattern": ".*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\..*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\..*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\..*\\\\.otf"
+          },
+          {
+            "android:pathPattern": ".*\\\\..*\\\\.otf"
+          },
+          {
+            "android:scheme": "kinemaster"
+          },
+          {
+            "android:host": "kinemaster"
+          },
+          {
+            "android:scheme": "appupdate"
+          },
+          {
+            "android:host": "kinemaster.com"
+          },
+          {
+            "android:scheme": "http"
+          },
+          {
+            "android:scheme": "https"
+          },
+          {
+            "android:host": "kinemaster.com"
+          },
+          {
+            "android:scheme": "https"
+          },
+          {
+            "android:host": "scheme.kine.to"
+          },
+          {
+            "android:host": "kine.to",
+            "android:scheme": "https"
+          },
+          {
+            "android:scheme": "https"
+          },
+          {
+            "android:host": "scheme.ai.kine.to"
+          },
+          {
+            "android:host": "ai.kine.to",
+            "android:scheme": "https"
+          },
+          {
+            "android:scheme": "kinemaster"
+          },
+          {
+            "android:host": "ai.kinemaster"
+          }
+        ]
+      },
+      {
+        "nome": "com.kinemaster.app.screen.projecteditor.ProjectEditorActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.saveas.SaveAsActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.saveas.SaveAsPanelActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.sign.SignActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.splash.SplashActivity",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "android.intent.action.MAIN"
+        ],
+        "categorias_intent_filter": [
+          "android.intent.category.DEFAULT",
+          "android.intent.category.LAUNCHER"
+        ],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.subscription.SubscriptionActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": null,
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.templar.TemplarActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.upload.TemplateUploadActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.nexstreaming.kinemaster.ad.bridge.InterstitialAdsActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.nexstreaming.kinemaster.ui.settings.SettingsActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.nexstreaming.kinemaster.util.update.AssetUpdateActivity",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      }
+    ],
+    "services": [
+      {
+        "nome": "androidx.credentials.playservices.CredentialProviderMetadataHolder",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "androidx.room.MultiInstanceInvalidationService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "androidx.work.impl.background.systemjob.SystemJobService",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": "android.permission.BIND_JOB_SERVICE",
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "androidx.work.impl.foreground.SystemForegroundService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": "android.permission.BIND_JOB_SERVICE",
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.ads.AdService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.auth.api.signin.RevocationBoundService",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": "com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION",
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.measurement.AppMeasurementJobService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": "android.permission.BIND_JOB_SERVICE",
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.measurement.AppMeasurementService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.play.core.assetpacks.AssetPackExtractionService",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.play.core.assetpacks.ExtractionForegroundService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.firebase.components.ComponentDiscoveryService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.firebase.messaging.FirebaseMessagingService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "com.google.firebase.MESSAGING_EVENT"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.firebase.sessions.SessionLifecycleService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.mlkit.common.internal.MlKitComponentDiscoveryService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.dci.service.DCIService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": ":perf",
+        "acoes_intent_filter": [
+          "com.nexstreaming.app.kinemasterfree.ACTION_PERF_CANCEL",
+          "com.nexstreaming.app.kinemasterfree.ACTION_PERF_CHECK"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.kinemaster.app.screen.handover.HandoverTransferService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.nexstreaming.kinemaster.notification.PushNotificationService",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "com.google.firebase.MESSAGING_EVENT"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      }
+    ],
+    "receivers": [
+      {
+        "nome": "androidx.profileinstaller.ProfileInstallReceiver",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": "android.permission.DUMP",
+        "processo": null,
+        "acoes_intent_filter": [
+          "androidx.profileinstaller.action.BENCHMARK_OPERATION",
+          "androidx.profileinstaller.action.INSTALL_PROFILE",
+          "androidx.profileinstaller.action.SAVE_PROFILE",
+          "androidx.profileinstaller.action.SKIP_FILE"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [
+          "android.intent.action.BOOT_COMPLETED"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": "android.permission.DUMP",
+        "processo": null,
+        "acoes_intent_filter": [
+          "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.measurement.AppMeasurementReceiver",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": "android.permission.INSTALL_PACKAGES",
+        "processo": null,
+        "acoes_intent_filter": [
+          "com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "exportado_efetivo": true,
+        "exportado_declarado": "true",
+        "permissao": "com.google.android.c2dm.permission.SEND",
+        "processo": null,
+        "acoes_intent_filter": [
+          "com.google.android.c2dm.intent.RECEIVE"
+        ],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      }
+    ],
+    "providers": [
+      {
+        "nome": "androidx.core.content.FileProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "co.ab180.airbridge.internal.lifecycle.AirbridgeLifecycleProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.facebook.ads.AudienceNetworkContentProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.android.gms.ads.MobileAdsInitProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.firebase.provider.FirebaseInitProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.google.mlkit.common.internal.MlKitInitProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.inmobi.sdk.InMobiInitProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      },
+      {
+        "nome": "com.squareup.picasso.PicassoProvider",
+        "exportado_efetivo": false,
+        "exportado_declarado": "false",
+        "permissao": null,
+        "processo": null,
+        "acoes_intent_filter": [],
+        "categorias_intent_filter": [],
+        "dados_intent_filter": []
+      }
+    ],
+    "queries_pacotes": [
+      "com.android.vending",
+      "com.facebook.katana",
+      "com.instagram.android",
+      "com.kinemaster.app.beatsync",
+      "com.koushikdutta.superuser",
+      "com.noshufou.android.su",
+      "com.thirdparty.superuser",
+      "com.topjohnwu.magisk",
+      "eu.chainfire.supersu"
+    ]
+  },
+  "assinatura": {
+    "manifesto_lido_pelo_androguard": {
+      "pacote": "com.nexstreaming.app.kinemasterfree",
+      "versao_nome": "8.2.14.37398.GP",
+      "versao_codigo": "37398",
+      "minSdk": "26",
+      "targetSdk": "36"
+    },
+    "esquema_v1": false,
+    "esquema_v2": true,
+    "esquema_v3": true,
+    "certificados": [
+      {
+        "sha256_der": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+        "assunto": "O=NexStreaming,L=Seoul,C=KR",
+        "emissor": "O=NexStreaming,L=Seoul,C=KR",
+        "valido_de": "2013-03-18T00:19:59+00:00",
+        "valido_ate": "2063-03-06T00:19:59+00:00",
+        "sha256_certificado": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+        "algoritmo_chave": "RSAPublicKey"
+      }
+    ]
+  }
+}

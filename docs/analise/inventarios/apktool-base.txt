@@ -1,0 +1,9 @@
+# Resumo da decodificação Apktool (gerado por scripts/decompilar_apktool.sh)
+apk: com.nexstreaming.app.kinemasterfree.apk
+sha256: c923404b6ea4cf930399fa20550c9ea278644d7910254cbea756dd6832cfa552
+apktool: 2.4.1
+codigo_saida_apktool: 0
+arquivos_smali: 52903
+arquivos_xml_de_recursos: 2263
+linhas_de_erro_no_log: 0
+manifesto_decodificado: sim
