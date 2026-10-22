@@ -1,0 +1,48 @@
+# .gitignore do projeto ChurrazMaster
+# Objetivo: manter fora do Git apenas artefatos derivados, temporários ou não redistribuíveis.
+# ATENÇÃO: nada aqui deve excluir "bin/tools/" de forma genérica — as ferramentas versionadas
+# precisam estar no repositório (ver bin/tools/MANIFESTO.md).
+
+# --- Ambiente Python / virtualenv ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Diretório de trabalho pesado (intermediários reproduzíveis) ---
+# Por padrão os scripts usam /tmp/churraz-trabalho; esta regra cobre quem apontar DIR_TRABALHO
+# para dentro do repositório.
+trabalho/
+build/
+dist/
+out/
+
+# --- Logs e capturas descartáveis ---
+*.log
+logs/
+/tmp/
+
+# --- JDK local extraído do wheel versionado (reproduzível por scripts/instalar_ferramentas.sh) ---
+# O wheel (bin/tools/java/*.whl) É versionado; a árvore extraída é derivada e grande.
+bin/tools/java/jdk/
+bin/tools/java/jdk-*/
+
+# --- Ghidra extraído (não versionado: 543 MB, acima do limite de 100 MB por arquivo do GitHub) ---
+bin/tools/native/ghidra/
+bin/tools/native/ghidra-*/
+
+# --- Árvores completas de descompilação (geradas por script, muito grandes) ---
+decompilado/_completo/
+decompilado/jadx_completo/
+decompilado/apktool_completo/
+decompilado/smali_completo/
+
+# --- Artefatos de descompilação típicos de ferramentas ---
+*.apk
+*.dex
+*.smali
+*.class
+!decompilado/**/README.md
