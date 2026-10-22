@@ -1,0 +1,13 @@
+# Artefatos regeneráveis e cópias locais; nunca excluir bin/tools/.
+/.trabalho/
+/.venv/
+/decompilado/gerado/
+__pycache__/
+*.pyc
+# Proteção de credenciais e dados de sessões de teste.
+.env
+.env.*
+*.keystore
+*.jks
+/segredos/
+/dados-dinamicos/
