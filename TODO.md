@@ -129,5 +129,5 @@ Fase 0 → Fase 1 → Fase 2 → (Fase 3 ∥ Fase 4 ∥ Fase 5) → Fase 6 → F
 - [ ] Incluir comandos reproduzíveis e versões das ferramentas em todos os scripts.
 - [~] Garantir que todos os documentos estejam em português brasileiro. *(Revisão pendente de todos os arquivos.)*
 - [ ] Revisar o estado do Git e arquivos ignorados indevidamente.
-- [ ] Preparar um pull request com evidências, limitações e resultados. *(Não aberto; sem merge.)*
+- [~] Preparar um pull request com evidências, limitações e resultados. *(PR #2 aberto, sem merge; será atualizado conforme o trabalho avança.)*
 - [ ] Não declarar conclusão total enquanto houver lacunas relevantes sem justificativa.
