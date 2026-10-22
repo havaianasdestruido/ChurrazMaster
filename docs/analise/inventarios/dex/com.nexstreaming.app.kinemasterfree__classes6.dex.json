@@ -1,0 +1,18 @@
+{
+  "arquivo": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes6.dex",
+  "sha256": "22da5f4719e8de2c5f00ce47cf8e9060a5aa2200b8f8c73a893e6042e1841b17",
+  "magic": "dex\n038\u0000",
+  "tamanho": 8280692,
+  "adler32_valido": true,
+  "sha1_interno_valido": true,
+  "strings_referenciadas": 43971,
+  "tipos_referenciados": 13959,
+  "metodos_referenciados": 54774,
+  "classes_definidas_cabecalho": 8777,
+  "classes_indexadas": 8777,
+  "metodos_definidos": 45297,
+  "metodos_com_codigo": 43039,
+  "metodos_nativos": 397,
+  "chamadas_selecionadas": 1531,
+  "falhas_instrucoes": 0
+}

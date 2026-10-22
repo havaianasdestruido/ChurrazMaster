@@ -1,0 +1,484 @@
+{
+  "ocorrencias_de_classes_por_namespace": {
+    "Landroidx/": 1213,
+    "Lkotlin/": 377,
+    "Lkotlinx/": 186,
+    "Lcom/kinemaster/": 5629,
+    "Lcom/nexstreaming/": 443,
+    "Lcom/nextreaming/": 41,
+    "Lcom/squareup/wire/": 18,
+    "Lokhttp3/": 356,
+    "Lokio/": 2,
+    "Lcom/facebook/ads/": 3739,
+    "Lcom/google/android/gms/": 10034,
+    "Lcom/google/firebase/": 2229,
+    "Lcom/google/protobuf/": 355,
+    "Lcom/bytedance/": 3729,
+    "Lcom/applovin/": 0,
+    "Lcom/ironsource/": 0,
+    "Lcom/mbridge/": 0,
+    "Lco/ab180/": 704,
+    "Lio/grpc/": 49
+  },
+  "metadados_de_bibliotecas": [
+    {
+      "arquivo": "app-update-ktx.properties",
+      "sha256": "4ce49f0551a23930593efd94310ce157d187a18e017849922c4a666a8ee4186d",
+      "declaracoes_de_versao": {
+        "version": "2.1.0",
+        "client": "app-update-ktx",
+        "app-update-ktx_client": "2.1.0"
+      }
+    },
+    {
+      "arquivo": "app-update.properties",
+      "sha256": "7692b3890873f747082a599d0074601514b73b2861908a9b8fa47d6f99ee1228",
+      "declaracoes_de_versao": {
+        "version": "2.1.0",
+        "client": "app-update",
+        "app-update_client": "2.1.0"
+      }
+    },
+    {
+      "arquivo": "asset-delivery-ktx.properties",
+      "sha256": "888ae31e001088b408afaf0ea7669fbfab79a23824b21795d9b913e46163ff04",
+      "declaracoes_de_versao": {
+        "version": "2.3.0",
+        "client": "asset-delivery-ktx",
+        "asset-delivery-ktx_client": "2.3.0"
+      }
+    },
+    {
+      "arquivo": "asset-delivery.properties",
+      "sha256": "3d9f2a27572c80eeae0b38d8d2646ca1e311487134085090301c7e752ddaee97",
+      "declaracoes_de_versao": {
+        "version": "2.3.0",
+        "client": "asset-delivery",
+        "asset-delivery_client": "2.3.0"
+      }
+    },
+    {
+      "arquivo": "billing-ktx.properties",
+      "sha256": "2adb681c67a8dc57a7abf04e4eec8445f8ebaf9a47f87d77a33eb9f6a6fbfcb9",
+      "declaracoes_de_versao": {
+        "version": "9.1.0",
+        "client": "billing-ktx",
+        "billing-ktx_client": "9.1.0"
+      }
+    },
+    {
+      "arquivo": "billing.properties",
+      "sha256": "889731fed6ed2cf88896be49cb8d153cef6e45b28ab4c8dcb63126e7e0e9cf1c",
+      "declaracoes_de_versao": {
+        "version": "9.1.0",
+        "client": "billing",
+        "billing_client": "9.1.0"
+      }
+    },
+    {
+      "arquivo": "common.properties",
+      "sha256": "6e34f8b8269d048595ac00b7826dc0988a0bdf4bc131cebd096ee0e24e206127",
+      "declaracoes_de_versao": {
+        "version": "18.11.0",
+        "client": "common",
+        "common_client": "18.11.0"
+      }
+    },
+    {
+      "arquivo": "core-common.properties",
+      "sha256": "b5153b8b6a843b0124253522a2eaba79840c92803d67cda1ccdff6b86e9a2eb7",
+      "declaracoes_de_versao": {
+        "version": "2.0.4",
+        "client": "core-common",
+        "core-common_client": "2.0.4"
+      }
+    },
+    {
+      "arquivo": "feature-delivery-ktx.properties",
+      "sha256": "63e978bc8ecbb0074f674244f24e84dc985a5cda5a7b883bd33f88328a3d0c29",
+      "declaracoes_de_versao": {
+        "version": "2.1.0",
+        "client": "feature-delivery-ktx",
+        "feature-delivery-ktx_client": "2.1.0"
+      }
+    },
+    {
+      "arquivo": "feature-delivery.properties",
+      "sha256": "35d8eb299c98f6ab1e60857d2ba3021ee2c90911c2f1af7a22cc4f61bf856b03",
+      "declaracoes_de_versao": {
+        "version": "2.1.0",
+        "client": "feature-delivery",
+        "feature-delivery_client": "2.1.0"
+      }
+    },
+    {
+      "arquivo": "firebase-analytics.properties",
+      "sha256": "8fa75ee0fa2081d72f098f7bbecc31cfc31cf08de83aab2d14d2f999fb194adf",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "firebase-analytics",
+        "firebase-analytics_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "firebase-auth-interop.properties",
+      "sha256": "02ce86b719b1098ce451036c84f2652fa3682659957735186fca0d9f16ba30a2",
+      "declaracoes_de_versao": {
+        "version": "20.0.0",
+        "client": "firebase-auth-interop",
+        "firebase-auth-interop_client": "20.0.0"
+      }
+    },
+    {
+      "arquivo": "firebase-auth.properties",
+      "sha256": "c2bba7944c641c6dc2c5c77c73b868e9fb845fedad096bccedb40156424fed36",
+      "declaracoes_de_versao": {
+        "version": "24.1.0",
+        "client": "firebase-auth",
+        "firebase-auth_client": "24.1.0"
+      }
+    },
+    {
+      "arquivo": "firebase-database-collection.properties",
+      "sha256": "0c475d57e09aa22891670e6a82034a21e416d9c1e503b9c6e4cbf2cb6bff0e7f",
+      "declaracoes_de_versao": {
+        "version": "18.0.1",
+        "client": "firebase-database-collection",
+        "firebase-database-collection_client": "18.0.1"
+      }
+    },
+    {
+      "arquivo": "firebase-encoders-proto.properties",
+      "sha256": "eba792be6ea03f3b6d68eccfd25f3f53a0767657ec12b1b90996b5d5b34a9688",
+      "declaracoes_de_versao": {
+        "version": "16.0.0",
+        "client": "firebase-encoders-proto",
+        "firebase-encoders-proto_client": "16.0.0"
+      }
+    },
+    {
+      "arquivo": "firebase-encoders.properties",
+      "sha256": "527438e526e7befb6c04dc394f4e36824a11019c7d6d687c2772a435d22c0e9f",
+      "declaracoes_de_versao": {
+        "version": "17.0.0",
+        "client": "firebase-encoders",
+        "firebase-encoders_client": "17.0.0"
+      }
+    },
+    {
+      "arquivo": "firebase-iid-interop.properties",
+      "sha256": "a2862ae5811a268630807c645d5dadc1f15e85b922a2ab0408e984ea5548e102",
+      "declaracoes_de_versao": {
+        "version": "17.1.0",
+        "client": "firebase-iid-interop",
+        "firebase-iid-interop_client": "17.1.0"
+      }
+    },
+    {
+      "arquivo": "firebase-measurement-connector.properties",
+      "sha256": "2f03cfa9f9dbe4c8cf41cba44b92c1e14988b0f0997caed768a87e41ae9b5934",
+      "declaracoes_de_versao": {
+        "version": "20.0.1",
+        "client": "firebase-measurement-connector",
+        "firebase-measurement-connector_client": "20.0.1"
+      }
+    },
+    {
+      "arquivo": "googleid.properties",
+      "sha256": "00878ddcdd49cdd9f37b7dd5c0acd1a0f62705e3b2c2c4046042bd9fb6bd7964",
+      "declaracoes_de_versao": {
+        "version": "1.1.0",
+        "client": "googleid",
+        "googleid_client": "1.1.0"
+      }
+    },
+    {
+      "arquivo": "hsdp.properties",
+      "sha256": "7bed15b9d492e207b5b9b12843952bdb497b8a7d2638cdbb119916e16aa1e24e",
+      "declaracoes_de_versao": {
+        "version": "2.0.1",
+        "client": "hsdp",
+        "hsdp_client": "2.0.1"
+      }
+    },
+    {
+      "arquivo": "integrity.properties",
+      "sha256": "68b6f7e1f16fda315164ac1f436bdbdcef406cbb96495e1878aff39dd5592802",
+      "declaracoes_de_versao": {
+        "version": "1.4.0",
+        "client": "integrity",
+        "integrity_client": "1.4.0"
+      }
+    },
+    {
+      "arquivo": "language-id-common.properties",
+      "sha256": "56c455a664b50f0f7e387519180fdd24dbb3f8aed88cc21a55f403c19a1c67a6",
+      "declaracoes_de_versao": {
+        "version": "16.1.0",
+        "client": "language-id-common",
+        "language-id-common_client": "16.1.0"
+      }
+    },
+    {
+      "arquivo": "play-services-ads-api.properties",
+      "sha256": "df2587facbb6a67241ff16491a524f4b2bf8076c4f9fe6bc801619d6fcfbfdb9",
+      "declaracoes_de_versao": {
+        "version": "25.4.0",
+        "client": "play-services-ads-api",
+        "play-services-ads-api_client": "25.4.0"
+      }
+    },
+    {
+      "arquivo": "play-services-ads-identifier.properties",
+      "sha256": "997896c2516a434cc16b763f203f831df6209e8aed69f7c4204be8700539d021",
+      "declaracoes_de_versao": {
+        "version": "18.3.0",
+        "client": "play-services-ads-identifier",
+        "play-services-ads-identifier_client": "18.3.0"
+      }
+    },
+    {
+      "arquivo": "play-services-ads.properties",
+      "sha256": "0d0d266a47ea6f58acfa79eedd7a7c9dc821e98f5189195d68f7de972ef464a1",
+      "declaracoes_de_versao": {
+        "version": "25.4.0",
+        "client": "play-services-ads",
+        "play-services-ads_client": "25.4.0"
+      }
+    },
+    {
+      "arquivo": "play-services-appset.properties",
+      "sha256": "cb5b5e2bfc6091056427773b9fc87e787c1757d7dd4d38b81752e3d6582a7b4c",
+      "declaracoes_de_versao": {
+        "version": "16.0.2",
+        "client": "play-services-appset",
+        "play-services-appset_client": "16.0.2"
+      }
+    },
+    {
+      "arquivo": "play-services-auth-api-phone.properties",
+      "sha256": "45679326fd37bb011f63d3be3c0f5b96fd50c5d29bf35508cd85d9990c6fbc3b",
+      "declaracoes_de_versao": {
+        "version": "18.0.2",
+        "client": "play-services-auth-api-phone",
+        "play-services-auth-api-phone_client": "18.0.2"
+      }
+    },
+    {
+      "arquivo": "play-services-auth-base.properties",
+      "sha256": "8bb68b617b58135a15cd36dbea0b6eec72e40ce64a2411f656bed1bcbb2a75f2",
+      "declaracoes_de_versao": {
+        "version": "18.0.10",
+        "client": "play-services-auth-base",
+        "play-services-auth-base_client": "18.0.10"
+      }
+    },
+    {
+      "arquivo": "play-services-auth.properties",
+      "sha256": "2fb714a6257763db9e017b95b5388a685fb78bfa742222755e32e745506634b1",
+      "declaracoes_de_versao": {
+        "version": "21.6.0",
+        "client": "play-services-auth",
+        "play-services-auth_client": "21.6.0"
+      }
+    },
+    {
+      "arquivo": "play-services-base.properties",
+      "sha256": "3a631c002e6775ab25fc9ab5224be8aa6a8bb53535899bdca81d2ab786bd78bc",
+      "declaracoes_de_versao": {
+        "version": "18.10.0",
+        "client": "play-services-base",
+        "play-services-base_client": "18.10.0"
+      }
+    },
+    {
+      "arquivo": "play-services-basement.properties",
+      "sha256": "45df509a8c830bbd2fe7f9cdbc121a2a77ed9ff0d09bb9cf190e95d652fc55a4",
+      "declaracoes_de_versao": {
+        "version": "18.10.0",
+        "client": "play-services-basement",
+        "play-services-basement_client": "18.10.0"
+      }
+    },
+    {
+      "arquivo": "play-services-cloud-messaging.properties",
+      "sha256": "275a02cfd89f4e71c1e4e856de512ea50ec1b68b289ef3f8755fb6cb44334f9f",
+      "declaracoes_de_versao": {
+        "version": "17.4.0",
+        "client": "play-services-cloud-messaging",
+        "play-services-cloud-messaging_client": "17.4.0"
+      }
+    },
+    {
+      "arquivo": "play-services-fido.properties",
+      "sha256": "7958e7c6ac99edbe94fe0e482596d481b3b5bdf60d23344f487c25dc4ce6ea2f",
+      "declaracoes_de_versao": {
+        "version": "20.1.0",
+        "client": "play-services-fido",
+        "play-services-fido_client": "20.1.0"
+      }
+    },
+    {
+      "arquivo": "play-services-location.properties",
+      "sha256": "8104769b08dd94c4d3cce0f981bc29ae9c5fcba6f7de68c4724281e872bee84a",
+      "declaracoes_de_versao": {
+        "version": "19.0.0",
+        "client": "play-services-location",
+        "play-services-location_client": "19.0.0"
+      }
+    },
+    {
+      "arquivo": "play-services-measurement-api.properties",
+      "sha256": "ba5220af4eceeb98402664016d1137118945b9b408430c8a4bacdc7213271c26",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "play-services-measurement-api",
+        "play-services-measurement-api_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "play-services-measurement-base.properties",
+      "sha256": "bff9d8325edcde8d35937db3b343d3e8903c4bb9485e5c24f7e8d5db98d30bb8",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "play-services-measurement-base",
+        "play-services-measurement-base_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "play-services-measurement-impl.properties",
+      "sha256": "ad9e62304115da208eb229fb36f99cf1820384366cb2cedb616dbff0bf1491ae",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "play-services-measurement-impl",
+        "play-services-measurement-impl_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "play-services-measurement-sdk-api.properties",
+      "sha256": "558c903a46311e0ab7abd7d8804c0b1d80923ee00fbcc7b8ae391f2894bee75a",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "play-services-measurement-sdk-api",
+        "play-services-measurement-sdk-api_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "play-services-measurement-sdk.properties",
+      "sha256": "e17bc3c80e9d78471eca176d9935a6fffbe2e6021a84eba42d978e15ae48ff86",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "play-services-measurement-sdk",
+        "play-services-measurement-sdk_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "play-services-measurement.properties",
+      "sha256": "9e63ea9dfadbe43cabb12b48b1adb18f52a39131639eab01648d06a94bcf5773",
+      "declaracoes_de_versao": {
+        "version": "23.2.0",
+        "client": "play-services-measurement",
+        "play-services-measurement_client": "23.2.0"
+      }
+    },
+    {
+      "arquivo": "play-services-mlkit-language-id.properties",
+      "sha256": "2092d94f5a8f93935a3a7787f6e710ad58a63087cee34e404af52fa76b208233",
+      "declaracoes_de_versao": {
+        "version": "17.0.0",
+        "client": "play-services-mlkit-language-id",
+        "play-services-mlkit-language-id_client": "17.0.0"
+      }
+    },
+    {
+      "arquivo": "play-services-nearby.properties",
+      "sha256": "078d8018487666fb4d4da7e016b232d4c0367646e280decfc89c03f76c2eb27f",
+      "declaracoes_de_versao": {
+        "version": "19.3.0",
+        "client": "play-services-nearby",
+        "play-services-nearby_client": "19.3.0"
+      }
+    },
+    {
+      "arquivo": "play-services-places-placereport.properties",
+      "sha256": "dcb990b67e7beba71fbf0c58a98c9d51051c80215537fe8add33cd8cb2381a1e",
+      "declaracoes_de_versao": {
+        "version": "17.0.0",
+        "client": "play-services-places-placereport",
+        "play-services-places-placereport_client": "17.0.0"
+      }
+    },
+    {
+      "arquivo": "play-services-stats.properties",
+      "sha256": "6b751c654deb3ac65a878025d2ff2b89fabfa0ebe00ac4152ad3f7a361aed107",
+      "declaracoes_de_versao": {
+        "version": "17.0.2",
+        "client": "play-services-stats",
+        "play-services-stats_client": "17.0.2"
+      }
+    },
+    {
+      "arquivo": "play-services-tasks.properties",
+      "sha256": "0277965eacc429551488098a4f28f54648d1384903d5e2670189a5be76f01ca8",
+      "declaracoes_de_versao": {
+        "version": "18.4.1",
+        "client": "play-services-tasks",
+        "play-services-tasks_client": "18.4.1"
+      }
+    },
+    {
+      "arquivo": "recaptcha.properties",
+      "sha256": "91e0af7da44b1e406220ec7a6cd789605645d6b442293b6bdbeedd14b834fd66",
+      "declaracoes_de_versao": {
+        "version": "18.6.1",
+        "client": "recaptcha",
+        "recaptcha_client": "18.6.1"
+      }
+    },
+    {
+      "arquivo": "review-ktx.properties",
+      "sha256": "dc47de29d30c4a6419b938596b54fa51cbf8964e4d87f65144a3f78adc3a0617",
+      "declaracoes_de_versao": {
+        "version": "2.0.2",
+        "client": "review-ktx",
+        "review-ktx_client": "2.0.2"
+      }
+    },
+    {
+      "arquivo": "review.properties",
+      "sha256": "9a5278881d0e56c9e9f673402cd9af9f66f5f8526773492925492db256bd3db9",
+      "declaracoes_de_versao": {
+        "version": "2.0.2",
+        "client": "review",
+        "review_client": "2.0.2"
+      }
+    },
+    {
+      "arquivo": "translate.properties",
+      "sha256": "a2177802e8192377dd51232d3c83f2354239af19229ddcf23abf83189263c934",
+      "declaracoes_de_versao": {
+        "version": "17.0.3",
+        "client": "translate",
+        "translate_client": "17.0.3"
+      }
+    },
+    {
+      "arquivo": "user-messaging-platform.properties",
+      "sha256": "00a56db523c42386524871d9a24ddb9c82fe2d644ad503367ff8aad3e4600a53",
+      "declaracoes_de_versao": {
+        "version": "4.0.0",
+        "client": "user-messaging-platform",
+        "user-messaging-platform_client": "4.0.0"
+      }
+    }
+  ],
+  "chamadas_estaticas_selecionadas_por_familia": {
+    "Ljava/lang/reflect/": 4556,
+    "Ljava/lang/Class;->forName": 304,
+    "Landroid/database/sqlite/": 1164,
+    "Ljava/lang/System;->load": 22,
+    "Ldalvik/system/": 15,
+    "Lcom/kinemaster/module/nexeditormodule/nexvideoeditor/NexEditor;": 942
+  },
+  "limites": "Namespaces demonstram presença estática, não execução ou autoria integral. Versões são declarações empacotadas, sem conferência com o código upstream. Métodos nativos e reflexão impedem completude de referências."
+}

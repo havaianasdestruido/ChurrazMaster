@@ -1,0 +1,21 @@
+{
+  "sistema": "Linux",
+  "arquitetura_host": "x86_64",
+  "kernel": "6.1.158+",
+  "kvm_presente": false,
+  "kvm_acessivel": false,
+  "usb_presente": false,
+  "comandos_detectados": {
+    "adb": null,
+    "emulator": null,
+    "qemu-system-aarch64": null,
+    "qemu-system-x86_64": null,
+    "docker": null
+  },
+  "abi_aplicativo": [
+    "arm64-v8a"
+  ],
+  "android_minimo": 26,
+  "aplicativo_executado": false,
+  "motivo": "Diagnóstico do host; não instala nem inicia o aplicativo. Sem Android dedicado compatível, a execução permanece pendente."
+}

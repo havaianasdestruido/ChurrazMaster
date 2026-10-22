@@ -22,7 +22,7 @@ seus textos e licenças; não são material autoral traduzido desta investigaç�
 
 ## Preparação local e execução
 
-Requer host **Linux x86_64 com glibc ≥ 2.17**, Python 3.11 com `venv`, `pip` e
+Requer host **Linux x86_64 com glibc ≥ 2.34**, Python 3.11 com `venv`, `pip` e
 suporte a `lzma`, e Bash. Outras plataformas contidas nos arquivos npm não foram
 validadas. O conjunto de wheels foi resolvido para CPython 3.11/Linux x86_64;
 não promete instalação offline em ARM, Windows ou macOS.

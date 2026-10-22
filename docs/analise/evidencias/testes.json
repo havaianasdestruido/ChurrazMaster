@@ -1,0 +1,16 @@
+{
+  "testes_unitarios": {
+    "executados": 10,
+    "aprovados": 10,
+    "falhas": 0,
+    "comando": ".venv/bin/python -m unittest discover -s scripts/testes -v"
+  },
+  "preparacao_offline_em_venv_nova": true,
+  "pip_check": "sem dependências quebradas",
+  "sintaxe_scripts": "compileall executado sem erros",
+  "logs_locais_sha256": {
+    ".trabalho/testes.log": "606f2abf2c16d72460e81ac056c1dd5c1e2e4e5c613edda6b19391d3c65d9fa7",
+    ".trabalho/preparacao-do-zero.log": "f2d78513beaf59c25fb2dc3e940891e7b5bd0a9185dc0fd3da72cc180feecb54"
+  },
+  "limites": "Não valida integração ADB, execução Android, build do APK nem semântica de todos os métodos."
+}

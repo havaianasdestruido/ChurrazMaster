@@ -1,0 +1,28 @@
+{
+  "dex": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/assets/audience_network/classes.dex",
+  "sha256": "215dbef81a8373f008ab324db1d90458ccd44273b3621c331fa1f42374b6a70a",
+  "ferramenta": "JADX 1.1.0",
+  "codigo_saida": 0,
+  "duracao_segundos": 8.06,
+  "arquivos_java": 3539,
+  "arquivos_vazios": 0,
+  "marcadores_de_problema": 3155,
+  "log_sha256": "11385b1283864cc72de92e446ee4024c6103db97cb9060773986ef1e826e9b24",
+  "limitacao": "Contagem de arquivos não equivale a classes/métodos recuperados; fontes podem ser incompletas.",
+  "diagnosticos_total": 4566,
+  "diagnosticos_distintos": 2648,
+  "erros_distintos": [
+    "ERROR - JadxRuntimeException in pass: CodeShrinkVisitor in method: com.facebook.ads.redexgen.X.HG.A05(com.facebook.ads.redexgen.X.Hh, com.facebook.ads.redexgen.X.lR, com.facebook.ads.redexgen.X.bs):com.facebook.ads.redexgen.X.AH, dex: classes.dex",
+    "ERROR - JadxRuntimeException in pass: IfRegionVisitor in method: com.facebook.ads.redexgen.X.Pz.A00(com.facebook.ads.redexgen.X.LQ, com.facebook.ads.redexgen.X.9l, com.facebook.ads.redexgen.X.Rk, com.facebook.ads.redexgen.X.UM):com.facebook.ads.redexgen.X.Rk, dex: classes.dex",
+    "ERROR - IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.facebook.ads.redexgen.X.St.A07(com.facebook.ads.redexgen.X.Xh):void, dex: classes.dex",
+    "ERROR - JadxRuntimeException in pass: CodeShrinkVisitor in method: com.facebook.ads.redexgen.X.YH.A05(java.util.List, int, int, boolean):java.lang.String, dex: classes.dex",
+    "ERROR - IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.facebook.ads.redexgen.X.qB.run():void, dex: classes.dex",
+    "ERROR - 5 errors occurred in following nodes:",
+    "ERROR -   Method: com.facebook.ads.redexgen.X.HG.A05(com.facebook.ads.redexgen.X.Hh, com.facebook.ads.redexgen.X.lR, com.facebook.ads.redexgen.X.bs):com.facebook.ads.redexgen.X.AH",
+    "ERROR -   Method: com.facebook.ads.redexgen.X.Pz.A00(com.facebook.ads.redexgen.X.LQ, com.facebook.ads.redexgen.X.9l, com.facebook.ads.redexgen.X.Rk, com.facebook.ads.redexgen.X.UM):com.facebook.ads.redexgen.X.Rk",
+    "ERROR -   Method: com.facebook.ads.redexgen.X.St.A07(com.facebook.ads.redexgen.X.Xh):void",
+    "ERROR -   Method: com.facebook.ads.redexgen.X.YH.A05(java.util.List, int, int, boolean):java.lang.String",
+    "ERROR -   Method: com.facebook.ads.redexgen.X.qB.run():void",
+    "ERROR - finished with errors, count: 5"
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "classe": "Lcom/kinemaster/app/base/KineMasterApplication;",
+    "metodo": "c",
+    "descritor": "()V",
+    "ferramenta": "DAD do Androguard 4.1.4",
+    "entrada_sha256": "25c3dfea0a51a1d10e2be3130c57a2b8ffb1ea8e00b9dd0e5d8897a8aabe076c",
+    "estado": "texto aproximado produzido, sem validação semântica completa",
+    "arquivo": "decompilado/gerado/dad/com_kinemaster_app_base_KineMasterApplication.c.java",
+    "tamanho": 1886,
+    "sha256": "494977dfbfc24f0a12cb1c6a71b7786ea0c8eb883e711256d0d4a45caac02252"
+  },
+  {
+    "classe": "Lcom/kinemaster/app/database/project/ProjectDatabase_Impl;",
+    "metodo": "clearAllTables",
+    "descritor": "()V",
+    "ferramenta": "DAD do Androguard 4.1.4",
+    "entrada_sha256": "25c3dfea0a51a1d10e2be3130c57a2b8ffb1ea8e00b9dd0e5d8897a8aabe076c",
+    "estado": "texto aproximado produzido, sem validação semântica completa",
+    "arquivo": "decompilado/gerado/dad/com_kinemaster_app_database_project_ProjectDatabase_Impl.clearAllTables.java",
+    "tamanho": 125,
+    "sha256": "65d5f3eb6fac2e38cd11958565a07d2bfd7548d42bf3fe2a4875d2851845b74a"
+  }
+]

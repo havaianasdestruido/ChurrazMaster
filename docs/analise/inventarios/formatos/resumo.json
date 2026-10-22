@@ -1,0 +1,148 @@
+{
+  "arquivos_inspecionados": 1991,
+  "membros_internos_extraidos": 1832,
+  "formatos": {
+    "chave pública PEM": 1,
+    "texto UTF-8": 1107,
+    "ISO Base Media File Format": 2,
+    "binário não classificado": 28,
+    "DEX": 1,
+    "JPEG": 153,
+    "cabeçalho lmgg; hipótese de família GGML a testar": 1,
+    "FlatBuffer com identificador TFL3": 1,
+    "ZIP": 1,
+    "PNG": 696
+  },
+  "extensoes": {
+    ".pem": 1,
+    ".json": 596,
+    "": 230,
+    ".ttf": 16,
+    ".list": 1,
+    ".dex": 1,
+    ".jpg": 153,
+    ".prof": 1,
+    ".profm": 1,
+    ".html": 2,
+    ".txt": 2,
+    ".bin": 1,
+    ".tflite": 1,
+    ".zip": 1,
+    ".mp4": 1,
+    ".png": 468,
+    ".xml": 364,
+    ".nef": 8,
+    ".glsl": 57,
+    ".lua": 28,
+    ".svg": 58
+  },
+  "chaves_json_observadas": {
+    "url": 1,
+    "NexSound": 59,
+    "nm": 1,
+    "ddd": 1,
+    "h": 1,
+    "w": 1,
+    "meta": 1,
+    "layers": 1,
+    "v": 1,
+    "fr": 1,
+    "op": 1,
+    "ip": 1,
+    "assets": 1,
+    "assetLevel": 19,
+    "assetName": 19,
+    "format": 19,
+    "itemRoots": 19,
+    "minVersionCode": 18,
+    "packageContentVersion": 19,
+    "targetVersionCode": 19,
+    "ratios": 336,
+    "kmcategory": 485,
+    "filename": 512,
+    "icon": 362,
+    "ratioGroupId": 336,
+    "id": 512,
+    "label": 454,
+    "type": 512,
+    "hidden": 452,
+    "thumbnail": 157,
+    "priceType": 90
+  },
+  "elementos_xml_observados": {
+    "effect": 328,
+    "const": 2,
+    "texture": 947,
+    "animatedvalue": 1155,
+    "keyframe": 4379,
+    "projection": 346,
+    "translate": 2087,
+    "sequence": 201,
+    "rect": 1797,
+    "scale": 663,
+    "style": 938,
+    "rotate": 806,
+    "trianglestrip": 192,
+    "point": 834,
+    "{http://schemas.kinemaster.com/km/renderitem}renderitem": 36,
+    "{http://schemas.kinemaster.com/km/renderitem}nexeffect": 8,
+    "{http://schemas.kinemaster.com/km/renderitem}script": 63,
+    "cull": 46,
+    "{http://schemas.kinemaster.com/km/renderitem}parameter": 4,
+    "{http://schemas.kinemaster.com/km/renderitem}string": 40,
+    "{http://schemas.kinemaster.com/km/renderitem}shader": 57,
+    "{http://schemas.kinemaster.com/km/renderitem}program": 29,
+    "userfield": 546,
+    "fieldlabel": 605,
+    "part": 1366,
+    "option": 121,
+    "clear": 22,
+    "visibility": 115,
+    "circle": 119,
+    "polygon": 14,
+    "function": 84
+  },
+  "falhas_de_parse": [
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/16v9.crack_transition/nexeffect/crack_transition.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/1v1.bouncebox/res/transition.bouncy_box.1v1.left.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/1v1.crack_transition/nexeffect/transition.cracked_glass.1v1.left.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/3v4.crack_transition/nexeffect/transition.cracked_glass.3v4.left.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/4v3.crack_transition/nexeffect/transition.cracked_glass.4v3.left.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/4v5.crack_transition/nexeffect/transition.cracked_glass.4v5.left.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/9v16.bouncebox/res/transition.bouncy_box.9v16.up.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    },
+    {
+      "arquivo": "decompilado/gerado/assets-internos/kmassets/kmassets/3d_transitions/transition/9v16.crack_transition/nexeffect/transition.cracked_glass.9v16.up.nef",
+      "etapa": "XML/NEF",
+      "erro": "Start tag expected, '<' not found, line 1, column 1 (<string>, line 1)"
+    }
+  ],
+  "limites": "Identificadores e gramáticas observadas não são especificações completas; Lua/modelos não foram executados."
+}

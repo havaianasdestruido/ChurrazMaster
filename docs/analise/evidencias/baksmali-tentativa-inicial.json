@@ -1,0 +1,86 @@
+[
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__assets__audience_network__classes.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes2.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes3.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes4.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes5.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes6.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 1,
+    "diagnostico": "Exception in thread \"main\" java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.Class[] com.beust.jcommander.Parameter.validateWith() (Found data of type java.lang.Class[class com.beust.jcommander.validators.PositiveInteger])\n\tat java.base/sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy.generateException(Unknown Source)\n\tat java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)\n\tat jdk.proxy2/jdk.proxy2.$Proxy1.validateWith(Unknown Source)\n\tat com.beust.jcommander.WrappedParameter.validateWith(WrappedParameter.java:59)\n\tat com.beust.jcommander.ParameterDescription.validateParameter(ParameterDescription.java:341)\n\tat com.beust.jcommander.ParameterDescription.addValue(ParameterDescription.java:244)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:913)\n\tat com.beust.jcommander.JCommander.processFixedArity(JCommander.java:894)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:724)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parseValues(JCommander.java:796)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:356)\n\tat com.beust.jcommander.JCommander.parse(JCommander.java:335)\n\tat org.jf.baksmali.Main.main(Main.java:90)\n",
+    "classes": 0,
+    "metodos": 0,
+    "metodos_com_codigo": 0,
+    "classes_conferem": false,
+    "metodos_conferem": false,
+    "corpos_conferem": false
+  }
+]
