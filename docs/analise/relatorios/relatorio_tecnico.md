@@ -176,6 +176,22 @@ não necessariamente com ofuscação.
 **Nenhum pseudocódigo nativo foi produzido**; a análise é estrutural e de símbolos.
 O mapa completo símbolo JNI → classe Java está em `decompilado/indices/simbolos_jni.csv` (480 símbolos).
 
+### 4.1 Strings e desmontagem (complemento)
+
+Relatório dedicado: `docs/analise/relatorios/strings_e_desmontagem_nativa.md`.
+
+**Fatos observados:**
+- `libnexeditorsdk.so` é a única biblioteca que referencia `.nef` e `.lua`; contém ainda os caminhos
+  padrão de `LUA_PATH` do **Lua 5.3**, evidência de interpretador Lua embutido.
+- A biblioteca contém o módulo de proteção `nexProtection.cpp`, com mensagens como
+  `Manufacture lock is pass! : pstSDKInfo->pPKGName[...]` e os símbolos JNI
+  `NexEditor_setPacakgeName4Protection` (grafia original) e `NexEditor_check4km`.
+  **Consequência documentada:** o motor nativo recebe o nome do pacote e executa verificação de
+  licenciamento/privilégio. Contornar isso está **fora do escopo** desta missão.
+- `JNI_OnLoad` foi desmontado (capstone/ARM64) em 5 bibliotecas; em `libapminsighta.so`
+  são 56 instruções com 3 chamadas indiretas — compatível com `RegisterNatives`, mas
+  **não comprovado** sem análise de fluxo.
+
 ## 5. Recursos e formatos proprietários (Fase 5)
 
 Relatório dedicado: `docs/analise/relatorios/formatos_proprietarios.md`. Resumo:

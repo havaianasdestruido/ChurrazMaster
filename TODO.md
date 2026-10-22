@@ -103,6 +103,8 @@ os artefatos oficiais (jadx 1.1.0, Apktool 2.4.1, jar MCP 0.7.0, wheel jdk4py), 
 - [x] Identificar bibliotecas empacotadas/criptografadas/carregadas dinamicamente
       (`OpenCL*`, `geckox_bspatch`, `stlport_shared` carregadas e ausentes do APK).
 - [x] Documentar funções e estruturas ainda não recuperáveis (relatório técnico §4, limitações C2).
+- [x] Strings e desmontagem pontual das nativas (`13_strings_e_desmontagem.py`): evidência de Lua 5.3
+      embutido em `libnexeditorsdk.so`, de `nexProtection.cpp` e desmontagem de 5 `JNI_OnLoad`.
 - [x] Relacionar achados nativos às classes Java (`simbolos_jni.csv`; `libnexeditorsdk.so` →
       `com.kinemaster.module.nexeditormodule.nexvideoeditor.*`).
 
@@ -188,7 +190,8 @@ os artefatos oficiais (jadx 1.1.0, Apktool 2.4.1, jar MCP 0.7.0, wheel jdk4py), 
 ## Pendências priorizadas (próximas etapas)
 
 1. **[Alto] Descompilação nativa** — executar Ghidra 12.2 em `libnexeditorsdk.so` (e nos leitores de
-   `.nef`) em host com rede liberada; produzir pseudocódigo e mapa de funções.
+   `.nef`) em host com rede liberada; produzir pseudocódigo e mapa de funções. Ponto de partida já
+   identificado: strings `nexProtection.cpp`, `LUA_PATH` 5.3 e a função `JNI_OnLoad` desmontada.
 2. **[Alto] Análise dinâmica** — seguir `analise_dinamica.md` em dispositivo ARM64 dedicado.
 3. **[Médio] Esquema dos bancos Room** — anotações já recuperadas (12 bancos/49 entidades);
    falta o **DDL** gerado pelo Room e o `.kmproject` de um projeto real para o modelo de timeline.

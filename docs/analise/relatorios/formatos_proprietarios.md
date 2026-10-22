@@ -29,9 +29,12 @@ global `effect` e funções chamadas pelo motor nativo. Exemplo real extraído d
 effect = {matrix = 0, left = -1, top = -1, right = 1, bottom = 1, alpha = 1}
 function setDefaultValue() ... end
 ```
-**Inferência (não confirmada em execução):** o motor `libnexeditorsdk.so` embute um
-interpretador Lua e expõe essa tabela como API de parametrização de efeitos. Não há
-evidência dinâmica neste ambiente (sem execução do app).
+**Fato observado (reforço):** `libnexeditorsdk.so` contém as strings de caminho padrão de
+`LUA_PATH` da versão **5.3**
+(`/usr/local/share/lua/5.3/?.lua;…;./?.lua;./?/init.lua`), o que é evidência direta de que o
+motor **embute um interpretador Lua 5.3** (ver `strings_e_desmontagem_nativa.md`).
+**Inferência:** a tabela `effect` desses scripts é a API de parametrização consumida por esse
+interpretador. **Não há** confirmação em execução (Fase 6 bloqueada).
 
 ## 3. `.nef` — NexEffect (formato binário proprietário)
 
