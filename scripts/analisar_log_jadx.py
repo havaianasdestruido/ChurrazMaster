@@ -38,8 +38,16 @@ CABECALHO_NOS = re.compile(r"(\d+) errors occurred in following nodes:")
 NO_FALHO = re.compile(r"^ERROR\s+-\s+\s+(?P<tipo>Class|Method):\s+(?P<nome>\S+)")
 
 
+ERRO_AO_SALVAR = re.compile(r"Error saving class:\s+(\S+)")
+
+
 def analisar(caminho):
-    """Retorna (registros de erro, contagem final, nós com falha listados ao final)."""
+    """Retorna (registros de erro, contagem final, nós com falha listados ao final).
+
+    Além do resumo final do JADX ("N errors occurred in following nodes"), o log traz
+    linhas "Error saving class: <classe>" que NÃO entram nessa contagem. Elas são registradas
+    como nós do tipo ClasseNaoSalva e somadas à análise.
+    """
     registros = []
     nos_com_falha = []
     resumo_contagem = None
@@ -50,6 +58,10 @@ def analisar(caminho):
             m_cab = CABECALHO_NOS.search(linha)
             if m_cab:
                 em_bloco_nos = True
+                continue
+            m_salvar = ERRO_AO_SALVAR.search(linha)
+            if m_salvar:
+                nos_com_falha.append({"tipo": "ClasseNaoSalva", "nome": m_salvar.group(1)})
                 continue
             m_no = NO_FALHO.match(linha)
             if em_bloco_nos and m_no:
@@ -87,7 +99,7 @@ def gerar_markdown(registros, resumo_contagem, origem, nos):
         f"Log analisado: `{origem}`",
         "",
         f"- Contagem informada pelo JADX (\"N errors occurred in following nodes\"): **{resumo_contagem}**",
-        f"- Nós com falha listados no resumo final: **{len(nos)}** (classes: {por_tipo_no.get('Class', 0)}, métodos: {por_tipo_no.get('Method', 0)})",
+        f"- Nós com falha (resumo final + erros 'Error saving class'): **{len(nos)}** (classes listadas no resumo: {por_tipo_no.get('Class', 0)}, métodos: {por_tipo_no.get('Method', 0)}, classes 'Error saving class': {por_tipo_no.get('ClasseNaoSalva', 0)})",
         f"- Linhas `ERROR` individuais no log (exceto o resumo): **{len(registros)}**",
         "- Fonte primária de falha: a lista de nós do resumo final. As linhas `ERROR` individuais trazem causas,",
         "  mas não correspondem 1:1 aos nós listados.",

@@ -1,0 +1,3 @@
+# Classes de nível superior presentes nos DEX e ausentes em sources/ do JADX (não sintéticas vazias).
+# Coluna 2: 'falha_registrada' se o log do JADX registra erro para a classe; 'sem_causa_registrada' caso contrário.
+com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel	falha_registrada

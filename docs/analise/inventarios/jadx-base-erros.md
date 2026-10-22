@@ -3,13 +3,25 @@
 Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
 
 - Contagem informada pelo JADX ("N errors occurred in following nodes"): **112**
-- Nós com falha listados no resumo final: **112** (classes: 17, métodos: 95)
-- Linhas `ERROR` individuais no log (exceto o resumo): **133**
+- Nós com falha (resumo final + erros 'Error saving class'): **124** (classes listadas no resumo: 17, métodos: 95, classes 'Error saving class': 12)
+- Linhas `ERROR` individuais no log (exceto o resumo): **121**
 - Fonte primária de falha: a lista de nós do resumo final. As linhas `ERROR` individuais trazem causas,
   mas não correspondem 1:1 aos nós listados.
 
 ## Nós com falha (resumo final do JADX)
 
+- ClasseNaoSalva: `androidx.room.coroutines.RunBlockingUninterruptible_androidKt$runBlockingUninterruptible$1`
+- ClasseNaoSalva: `androidx.paging.PageFetcher$injectRemoteEvents$1$invokeSuspend$$inlined$combineWithoutBatching$1`
+- ClasseNaoSalva: `androidx.paging.PageFetcher$flow$1`
+- ClasseNaoSalva: `com.kinemaster.app.database.util.DbFailureRetryKt$retryOnDbFailure$2`
+- ClasseNaoSalva: `com.kinemaster.app.screen.home.home.HomeViewModel$setup$3`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.handwriting.HandwritingPresenter$setup$2`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel$initSubcategory$1`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$editFullInputText$1`
+- ClasseNaoSalva: `com.kinemaster.app.screen.projecteditor.selection.sidebar.MultipleSelectionBarViewModel$1`
+- ClasseNaoSalva: `com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$2`
+- ClasseNaoSalva: `com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$1`
 - Class: `androidx.room.paging.CommonLimitOffsetImpl$initialLoad$2.1`
 - Class: `com.google.firebase.sessions.SharedSessionRepositoryImpl.1`
 - Class: `com.kinemaster.app.repository.font.FontRepository$assetUpdated$4.1`
@@ -125,7 +137,7 @@ Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
 
 ## Linhas de erro individuais por categoria
 
-- `nao_classificado_outro_tipo`: 111
+- `nao_classificado_outro_tipo`: 99
 - `recurso_9patch_png_nao_decodificado`: 9
 - `excecao_de_runtime_do_JADX`: 8
 - `estouro_de_pilha_em_passo_do_JADX`: 4
@@ -135,10 +147,10 @@ Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
 
 - `classes6.dex`: 33
 - `classes4.dex`: 28
-- `desconhecido`: 21
 - `classes.dex`: 19
 - `classes3.dex`: 16
 - `classes5.dex`: 11
+- `desconhecido`: 9
 - `assets/audience_network/classes.dex`: 5
 
 ## Mensagens das linhas de erro individuais
@@ -163,7 +175,6 @@ Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
 - [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`sx4.get` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: sx4.get():java.lang.Object, dex: classes.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`xm.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: xm.run():void, dex: classes6.dex
 - [excecao_de_runtime_do_JADX] dex=`classes.dex` alvo=`t16.d` — JadxRuntimeException in pass: SimplifyVisitor in method: t16.d(int, int, int, int, int[], int, int[]):boolean, dex: classes.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: androidx.room.coroutines.RunBlockingUninterruptible_androidKt$runBlockingUninterruptible$1
 - [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`b03.run` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: b03.run():void, dex: classes.dex
 - [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`cp3.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: cp3.a():java.util.ArrayList, dex: classes.dex
 - [nao_classificado_outro_tipo] dex=`classes.dex` alvo=`com.bumptech.glide.a.d` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.bumptech.glide.a.d(int):void, dex: classes.dex
@@ -195,8 +206,6 @@ Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`a80.handleMessage` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: a80.handleMessage(android.os.Message):void, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`jw7.r` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: jw7.r(long, boolean):boolean, dex: classes3.dex
 - [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`androidx.media3.exoplayer.source.b.e` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.media3.exoplayer.source.b.e(long):long, dex: classes3.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: androidx.paging.PageFetcher$injectRemoteEvents$1$invokeSuspend$$inlined$combineWithoutBatching$1
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: androidx.paging.PageFetcher$flow$1
 - [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`androidx.paging.RemoteMediatorAccessImpl$launchBoundary$1.1.invokeSuspend` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.paging.RemoteMediatorAccessImpl$launchBoundary$1.1.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes3.dex
 - [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`-` — Inner class code generation error in class: androidx.room.paging.CommonLimitOffsetImpl$initialLoad$2.1, dex: classes3.dex
 - [nao_classificado_outro_tipo] dex=`classes3.dex` alvo=`androidx.work.impl.b.c` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.work.impl.b.c(android.content.Context):androidx.work.impl.b, dex: classes3.dex
@@ -241,33 +250,24 @@ Log analisado: `/home/user/kinemaster-work/logs/base-jadx.log`
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.google.android.recaptcha.internal.zzol.zzc` — JadxOverflowException in pass: RegionMakerVisitor in method: com.google.android.recaptcha.internal.zzol.zzc(java.lang.Object, byte[], int, int, int, com.google.android.recaptcha.internal.zzkt):int, de
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.google.re2j.j.a` — IF instruction can be used only in fallback mode in method: com.google.re2j.j.a(com.google.re2j.h):com.google.re2j.h, dex: classes5.dex
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`com.inmobi.media.Rn.a` — JadxOverflowException in pass: RegionMakerVisitor in method: com.inmobi.media.Rn.a(org.xmlpull.v1.XmlPullParser, java.lang.String, ye3, kotlin.coroutines.jvm.internal.ContinuationImpl):java.lang.Objec
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.database.util.DbFailureRetryKt$retryOnDbFailure$2
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.repository.font.FontRepository$assetUpdated$4.1, dex: classes5.dex
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.home.account.youtube.YouTubeChannelCheckFragment$observeViewModel$2.1, dex: classes5.dex
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.home.account.youtube.YouTubeChannelListFragment$observeViewModel$1.1, dex: classes5.dex
 - [excecao_de_runtime_do_JADX] dex=`classes5.dex` alvo=`com.kinemaster.app.screen.home.create.CreateFragment.n1` — JadxRuntimeException in pass: SimplifyVisitor in method: com.kinemaster.app.screen.home.create.CreateFragment.n1(int, android.os.Bundle):void, dex: classes5.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`qv8.a` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: qv8.a(android.app.Activity, lc7, ov8, java.lang.String, java.lang.String, java.io.File[]):boolean, dex: classes6.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.home.home.HomeViewModel$setup$3
 - [nao_classificado_outro_tipo] dex=`classes5.dex` alvo=`zi3.g` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: zi3.g(java.io.InputStream, android.util.Size):android.graphics.Bitmap, dex: classes5.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.kinemaster.app.screen.projecteditor.aimodel.m.S` — JadxOverflowException in pass: RegionMakerVisitor in method: com.kinemaster.app.screen.projecteditor.aimodel.m.S(com.kinemaster.app.screen.projecteditor.aimodel.m, java.util.List, kotlin.coroutines.jv
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.nexstreaming.app.general.nexasset.assetpackage.b.d` — JadxOverflowException in pass: RegionMakerVisitor in method: com.nexstreaming.app.general.nexasset.assetpackage.b.d(org.xmlpull.v1.XmlPullParser):lia, dex: classes6.dex, details: Regions count limit r
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.main.ProjectEditorPresenter$initializeValues$1$1.1, dex: classes6.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.projecteditor.options.handwriting.HandwritingPresenter$setup$2
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.options.musicmatch.MusicMatchPresenter$analyze$2.1, dex: classes6.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel$initSubcategory$1
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$editFullInputText$1
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$setup$9.1, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.postpayment.PostPaymentPresenter$2.2, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.selection.option.MultipleSelectionPresenter$setup$5.1, dex: classes6.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.projecteditor.selection.sidebar.MultipleSelectionBarViewModel$1
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.tts.TTSMainInputPresenter$1.1, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.saveas.main.SaveAsMainPresenter$saveAs$onHasPermission$1$1.1, dex: classes6.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$2
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$onResume$1$1.1, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$2.1, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$3.1, dex: classes6.dex
-- [nao_classificado_outro_tipo] dex=`-` alvo=`-` — Error saving class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$1
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$4.2, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`-` — Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$5.1, dex: classes6.dex
 - [nao_classificado_outro_tipo] dex=`classes6.dex` alvo=`com.kinemaster.app.util.file.ClipCopyHelper$copyContent$1.invokeSuspend` — IndexOutOfBoundsException in pass: RegionMakerVisitor in method: com.kinemaster.app.util.file.ClipCopyHelper$copyContent$1.invokeSuspend(java.lang.Object):java.lang.Object, dex: classes6.dex

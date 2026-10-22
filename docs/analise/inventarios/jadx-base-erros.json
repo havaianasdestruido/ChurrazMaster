@@ -3,6 +3,54 @@
   "contagem_jadx": 112,
   "nos_com_falha": [
     {
+      "tipo": "ClasseNaoSalva",
+      "nome": "androidx.room.coroutines.RunBlockingUninterruptible_androidKt$runBlockingUninterruptible$1"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "androidx.paging.PageFetcher$injectRemoteEvents$1$invokeSuspend$$inlined$combineWithoutBatching$1"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "androidx.paging.PageFetcher$flow$1"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.database.util.DbFailureRetryKt$retryOnDbFailure$2"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.home.home.HomeViewModel$setup$3"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.projecteditor.options.handwriting.HandwritingPresenter$setup$2"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel$initSubcategory$1"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$editFullInputText$1"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.projecteditor.selection.sidebar.MultipleSelectionBarViewModel$1"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$2"
+    },
+    {
+      "tipo": "ClasseNaoSalva",
+      "nome": "com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$1"
+    },
+    {
       "tipo": "Class",
       "nome": "androidx.room.paging.CommonLimitOffsetImpl$initialLoad$2.1"
     },
@@ -574,12 +622,6 @@
     },
     {
       "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: androidx.room.coroutines.RunBlockingUninterruptible_androidKt$runBlockingUninterruptible$1"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
       "dex": "classes.dex",
       "metodo_ou_recurso": "b03.run",
       "mensagem": "IndexOutOfBoundsException in pass: RegionMakerVisitor in method: b03.run():void, dex: classes.dex"
@@ -763,18 +805,6 @@
       "dex": "classes3.dex",
       "metodo_ou_recurso": "androidx.media3.exoplayer.source.b.e",
       "mensagem": "IndexOutOfBoundsException in pass: RegionMakerVisitor in method: androidx.media3.exoplayer.source.b.e(long):long, dex: classes3.dex"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: androidx.paging.PageFetcher$injectRemoteEvents$1$invokeSuspend$$inlined$combineWithoutBatching$1"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: androidx.paging.PageFetcher$flow$1"
     },
     {
       "categoria": "nao_classificado_outro_tipo",
@@ -1042,12 +1072,6 @@
     },
     {
       "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.database.util.DbFailureRetryKt$retryOnDbFailure$2"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
       "dex": "classes5.dex",
       "metodo_ou_recurso": null,
       "mensagem": "Inner class code generation error in class: com.kinemaster.app.repository.font.FontRepository$assetUpdated$4.1, dex: classes5.dex"
@@ -1078,12 +1102,6 @@
     },
     {
       "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.home.home.HomeViewModel$setup$3"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
       "dex": "classes5.dex",
       "metodo_ou_recurso": "zi3.g",
       "mensagem": "IndexOutOfBoundsException in pass: RegionMakerVisitor in method: zi3.g(java.io.InputStream, android.util.Size):android.graphics.Bitmap, dex: classes5.dex"
@@ -1108,33 +1126,9 @@
     },
     {
       "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.projecteditor.options.handwriting.HandwritingPresenter$setup$2"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
       "dex": "classes6.dex",
       "metodo_ou_recurso": null,
       "mensagem": "Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.options.musicmatch.MusicMatchPresenter$analyze$2.1, dex: classes6.dex"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.projecteditor.options.text.font.FontBrowserViewModel$initSubcategory$1"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.projecteditor.options.text.group.TextGroupPresenter$editFullInputText$1"
     },
     {
       "categoria": "nao_classificado_outro_tipo",
@@ -1156,12 +1150,6 @@
     },
     {
       "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.projecteditor.selection.sidebar.MultipleSelectionBarViewModel$1"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
       "dex": "classes6.dex",
       "metodo_ou_recurso": null,
       "mensagem": "Inner class code generation error in class: com.kinemaster.app.screen.projecteditor.tts.TTSMainInputPresenter$1.1, dex: classes6.dex"
@@ -1171,12 +1159,6 @@
       "dex": "classes6.dex",
       "metodo_ou_recurso": null,
       "mensagem": "Inner class code generation error in class: com.kinemaster.app.screen.saveas.main.SaveAsMainPresenter$saveAs$onHasPermission$1$1.1, dex: classes6.dex"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.templar.editor.TemplarEditorPresenter$2"
     },
     {
       "categoria": "nao_classificado_outro_tipo",
@@ -1195,12 +1177,6 @@
       "dex": "classes6.dex",
       "metodo_ou_recurso": null,
       "mensagem": "Inner class code generation error in class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$onResume$3.1, dex: classes6.dex"
-    },
-    {
-      "categoria": "nao_classificado_outro_tipo",
-      "dex": null,
-      "metodo_ou_recurso": null,
-      "mensagem": "Error saving class: com.kinemaster.app.screen.templar.mediaedit.TemplarMediaEditorPresenter$1"
     },
     {
       "categoria": "nao_classificado_outro_tipo",
