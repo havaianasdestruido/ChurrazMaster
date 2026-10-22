@@ -1,0 +1,11 @@
+# Resumo da descompilação JADX (gerado por scripts/decompilar_jadx.sh)
+apk: com.nexstreaming.app.kinemasterfree.apk
+sha256: c923404b6ea4cf930399fa20550c9ea278644d7910254cbea756dd6832cfa552
+jadx: 1.1.0
+codigo_saida_jadx: 0
+arquivos_java_gerados: 45235
+arquivos_java_vazios: 0
+arquivos_de_recursos: 2911
+linhas_WARN_no_log: 237680
+linhas_ERROR_no_log: 247
+mensagem_final_jadx: ERROR - finished with errors, count: 112

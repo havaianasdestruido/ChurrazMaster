@@ -1,0 +1,7 @@
+# SHA-256 dos volumes 7z de entrada em bin/ (registro versionado; verificado por scripts/extrair_xapk.py)
+# Formato: <sha256>  <nome do arquivo em bin/>
+41805c506119b0c1245c74c2ed8830614f6785e6e08e8def6137afc1add02ec0  KineMaster+-+AI+Video+Editor_8.2.14.37398.GP_APKPure.7z.001
+6a4a76bc976967064a5320f4a47e9d17b678ed362e8fec4e2b689413cf659992  KineMaster+-+AI+Video+Editor_8.2.14.37398.GP_APKPure.7z.002
+2ed8ba377aaf6e5f683ed8c43e9ec0fdce6f35b8e7da70adb26f138bfafb36c9  KineMaster+-+AI+Video+Editor_8.2.14.37398.GP_APKPure.7z.003
+641f72ac4297804b192b068c4a06e6db5fa059cdf08e7e318c871745004903c1  KineMaster+-+AI+Video+Editor_8.2.14.37398.GP_APKPure.7z.004
+e60b8e79a853a9556c4fd91a6d1d3e8e0bb4f7d2d79cd17de86ab87134d8501f  readme.txt
