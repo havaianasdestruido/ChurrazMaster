@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-22T16:02:32.391316+00:00",
+  "gerado_em": "2026-10-22T16:07:38.085670+00:00",
   "kmassets": {
     "arquivo": "kmassets.zip",
     "tamanho": 36175287,
@@ -186,141 +186,29 @@
     ]
   },
   "nef": {
-    "total_arquivos": 16,
+    "total_arquivos": 8,
     "assinaturas": {
-      "1300ffee": 14,
-      "01dafeef": 2
+      "1300ffee": 7,
+      "01dafeef": 1
     },
     "marcas_ascii_4b_ate_64kb": {
-      "DDDB": 96,
-      "ADDD": 48,
-      "DEAD": 8,
-      "WFUA": 4,
-      "AWUL": 2,
-      "RQAL": 2,
-      "DDSA": 2,
-      "AVMI": 2,
-      "VMIB": 2,
-      "UKBA": 2,
-      "JALA": 2,
-      "COBK": 2,
-      "ZDVA": 2,
-      "HZAS": 2,
-      "FOTB": 2
+      "DDDB": 48,
+      "ADDD": 24,
+      "DEAD": 4,
+      "WFUA": 2,
+      "AWUL": 1,
+      "RQAL": 1,
+      "DDSA": 1,
+      "AVMI": 1,
+      "VMIB": 1,
+      "UKBA": 1,
+      "JALA": 1,
+      "COBK": 1,
+      "ZDVA": 1,
+      "HZAS": 1,
+      "FOTB": 1
     },
     "amostras": [
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/1v1.bouncebox/res/transition.bouncy_box.1v1.left.nef",
-        "tamanho": 16760,
-        "sha256": "e8cabab3e10e02ff9a95c282062a9bade5d7979d4407e74e8358ef16d0279c31",
-        "primeiros_32_bytes": "1300ffee060000004e00000005000000ffffffff0000000044454144fc7f0000",
-        "u32_le_iniciais": [
-          4009689107,
-          6,
-          78,
-          5,
-          4294967295,
-          0
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/9v16.bouncebox/res/transition.bouncy_box.9v16.up.nef",
-        "tamanho": 16760,
-        "sha256": "fbf53341e1e791f0e4501867de6e7ff396166383c67ca664152c1684e152d59f",
-        "primeiros_32_bytes": "1300ffee060000004e00000005000000ffffffff0000000072006f0067007200",
-        "u32_le_iniciais": [
-          4009689107,
-          6,
-          78,
-          5,
-          4294967295,
-          0
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/1v1.crack_transition/nexeffect/transition.cracked_glass.1v1.left.nef",
-        "tamanho": 1874348,
-        "sha256": "621e77853c28d2139737c36135b8841095c51aa4705bb6522fa361db2a10e1de",
-        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000004445414400000000",
-        "u32_le_iniciais": [
-          4009689107,
-          181,
-          128,
-          186,
-          4294967295,
-          0
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/9v16.crack_transition/nexeffect/transition.cracked_glass.9v16.up.nef",
-        "tamanho": 1874348,
-        "sha256": "f301295eb700efad392ada464fa38edcf2da40312159e2c00c76e6ff7d62d231",
-        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff0000000090ce07d3fc7f0000",
-        "u32_le_iniciais": [
-          4009689107,
-          181,
-          128,
-          186,
-          4294967295,
-          0
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/4v5.crack_transition/nexeffect/transition.cracked_glass.4v5.left.nef",
-        "tamanho": 1874620,
-        "sha256": "14f3d4990883ecab853da9f4e7f9ddaaa003ea6b04674fe594cf43fc19e305fe",
-        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000000000000000000000",
-        "u32_le_iniciais": [
-          4009689107,
-          181,
-          128,
-          186,
-          4294967295,
-          0
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/16v9.crack_transition/nexeffect/crack_transition.nef",
-        "tamanho": 2549096,
-        "sha256": "acdf1d604993de91eebb42d9006ca2ac2f3e4050b5f7b77e17ae2857521e9122",
-        "primeiros_32_bytes": "01dafeef1d26226b0200000091eb020046030300789c9cbc775c9359f72f8a3a",
-        "u32_le_iniciais": [
-          4026456577,
-          1797400093,
-          2,
-          191377,
-          197446,
-          3164380280
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/3v4.crack_transition/nexeffect/transition.cracked_glass.3v4.left.nef",
-        "tamanho": 1874212,
-        "sha256": "8e8143f55a7c8fb93022ecc3349567bbd99d4b3000d9a1113f928c02e8899af5",
-        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000000000000000000000",
-        "u32_le_iniciais": [
-          4009689107,
-          181,
-          128,
-          186,
-          4294967295,
-          0
-        ]
-      },
-      {
-        "arquivo": "kmassets/kmassets/3d_transitions/transition/4v3.crack_transition/nexeffect/transition.cracked_glass.4v3.left.nef",
-        "tamanho": 1874348,
-        "sha256": "dbe3d849c0b2afd492c61c77f45e6c9fa5aca2d9be2de2cae58f40e157f65409",
-        "primeiros_32_bytes": "1300ffeeb500000080000000ba000000ffffffff000000000000000000000000",
-        "u32_le_iniciais": [
-          4009689107,
-          181,
-          128,
-          186,
-          4294967295,
-          0
-        ]
-      },
       {
         "arquivo": "kmassets/3d_transitions/transition/1v1.bouncebox/res/transition.bouncy_box.1v1.left.nef",
         "tamanho": 16760,

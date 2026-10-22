@@ -31,6 +31,7 @@ import json
 import os
 import re
 import struct
+import shutil
 import subprocess
 import sys
 import zipfile
@@ -52,11 +53,15 @@ def analisar_kmassets(caminho_zip: str, destino: str) -> dict:
         itens = z.infolist()
         nomes = [i.filename for i in itens]
 
-        # Extrai apenas os arquivos pequenos e de interesse estrutural
-        padroes = ("packageinfo.json", ".lua", ".glsl")
+        # Extrai apenas os arquivos pequenos e de interesse estrutural, em diretório
+        # dedicado e limpo. Evita contagem duplicada por extrações anteriores no mesmo local.
+        raiz_extracao = os.path.join(destino, "extraido")
+        if os.path.isdir(raiz_extracao):
+            shutil.rmtree(raiz_extracao)
+        padroes = ("packageinfo.json", ".lua", ".glsl", ".nef")
         for i in itens:
-            if any(i.filename.endswith(p) for p in padroes) or i.filename.endswith(".nef"):
-                alvo = os.path.join(destino, i.filename)
+            if any(i.filename.endswith(p) for p in padroes):
+                alvo = os.path.join(raiz_extracao, i.filename)
                 os.makedirs(os.path.dirname(alvo), exist_ok=True)
                 with open(alvo, "wb") as f:
                     f.write(z.read(i.filename))
@@ -172,7 +177,7 @@ def main() -> int:
 
     os.makedirs(args.dir_saida, exist_ok=True)
     info_kmassets = analisar_kmassets(origem_kmassets, args.dir_saida)
-    info_nef = analisar_nef(args.dir_saida)
+    info_nef = analisar_nef(os.path.join(args.dir_saida, "extraido"))
 
     # Evidências no código gerenciado
     evidencias = {

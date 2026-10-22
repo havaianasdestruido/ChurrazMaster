@@ -199,9 +199,9 @@ Relatório dedicado: `docs/analise/relatorios/formatos_proprietarios.md`. Resumo
 - **`assets/kmassets.zip`** (36.175.287 B, SHA-256 `576813aa41cd1bc8633d100cb5eac7ec1fd0743703528951997fa8948eea21de`): 2.421 entradas, 19 pacotes de assets,
   organizado em *asset packs* (transições 3D, filtros, stickers, títulos, efeitos) com
   `packageinfo.json` localizado (inclui `pt`).
-- **Efeitos em Lua:** 28 scripts com tabela global `effect` (`matrix`, `left`, `top`, `right`, `bottom`, `alpha`)
+- **Efeitos em Lua:** 28 scripts (`.lua`) com tabela global `effect` (`matrix`, `left`, `top`, `right`, `bottom`, `alpha`)
   e função `setDefaultValue()` — API de parametrização de efeitos consumida pelo motor nativo.
-- **`.nef` (NexEffect):** 16 arquivos no pacote; assinatura `13 00 ff ee` (14) e `01 da fe ef` (2);
+- **`.nef` (NexEffect):** 8 arquivos no pacote; assinatura `13 00 ff ee` (7) e `01 da fe ef` (1);
   marcas ASCII `DEAD`, `KM_T`, `SIDE`; **formato não especificado** — apenas hipóteses testáveis documentadas.
 - **`.kine` / `.kmproject`:** `.kine` é o **diretório** do projeto e `.kmproject` o arquivo de projeto dentro dele;
   importação/exportação por ZIP com `contents/`. Estrutura interna do `.kmproject`: **não recuperada**.

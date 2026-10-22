@@ -1,6 +1,6 @@
 # Formatos proprietários e recursos especiais
 
-Gerado em `2026-10-22T16:02:32.391316+00:00` por `scripts/08_formatos_proprietarios.py`.
+Gerado em `2026-10-22T16:07:38.085670+00:00` por `scripts/08_formatos_proprietarios.py`.
 
 ## 1. `assets/kmassets.zip` — pacote de efeitos e recursos
 
@@ -29,31 +29,28 @@ global `effect` e funções chamadas pelo motor nativo. Exemplo real extraído d
 effect = {matrix = 0, left = -1, top = -1, right = 1, bottom = 1, alpha = 1}
 function setDefaultValue() ... end
 ```
-**Fato observado (reforço):** `libnexeditorsdk.so` contém as strings de caminho padrão de
-`LUA_PATH` da versão **5.3**
-(`/usr/local/share/lua/5.3/?.lua;…;./?.lua;./?/init.lua`), o que é evidência direta de que o
-motor **embute um interpretador Lua 5.3** (ver `strings_e_desmontagem_nativa.md`).
-**Inferência:** a tabela `effect` desses scripts é a API de parametrização consumida por esse
-interpretador. **Não há** confirmação em execução (Fase 6 bloqueada).
+**Inferência (não confirmada em execução):** o motor `libnexeditorsdk.so` embute um
+interpretador Lua e expõe essa tabela como API de parametrização de efeitos. Não há
+evidência dinâmica neste ambiente (sem execução do app).
 
 ## 3. `.nef` — NexEffect (formato binário proprietário)
 
-- **Arquivos encontrados**: 16
-- **Assinaturas iniciais observadas**: `{'1300ffee': 14, '01dafeef': 2}`
-- **Marcas ASCII de 4 bytes (até 64 KB)**: `{'DDDB': 96, 'ADDD': 48, 'DEAD': 8, 'WFUA': 4, 'AWUL': 2, 'RQAL': 2, 'DDSA': 2, 'AVMI': 2, 'VMIB': 2, 'UKBA': 2, 'JALA': 2, 'COBK': 2, 'ZDVA': 2, 'HZAS': 2, 'FOTB': 2}`
+- **Arquivos encontrados**: 8
+- **Assinaturas iniciais observadas**: `{'1300ffee': 7, '01dafeef': 1}`
+- **Marcas ASCII de 4 bytes (até 64 KB)**: `{'DDDB': 48, 'ADDD': 24, 'DEAD': 4, 'WFUA': 2, 'AWUL': 1, 'RQAL': 1, 'DDSA': 1, 'AVMI': 1, 'VMIB': 1, 'UKBA': 1, 'JALA': 1, 'COBK': 1, 'ZDVA': 1, 'HZAS': 1, 'FOTB': 1}`
 
 **Fato observado (amostra):**
 
 | arquivo | bytes | SHA-256 | primeiros bytes (hex) |
 |---|---:|---|---|
-| `kmassets/kmassets/3d_transitions/transition/1v1.bouncebox/res/transition.bouncy_box.1v1.left.nef` | 16760 | `e8cabab3e10e02ff9a95c282…` | `1300ffee060000004e00000005000000ffffffff0000000044454144fc7f0000` |
-| `kmassets/kmassets/3d_transitions/transition/9v16.bouncebox/res/transition.bouncy_box.9v16.up.nef` | 16760 | `fbf53341e1e791f0e4501867…` | `1300ffee060000004e00000005000000ffffffff0000000072006f0067007200` |
-| `kmassets/kmassets/3d_transitions/transition/1v1.crack_transition/nexeffect/transition.cracked_glass.1v1.left.nef` | 1874348 | `621e77853c28d2139737c361…` | `1300ffeeb500000080000000ba000000ffffffff000000004445414400000000` |
-| `kmassets/kmassets/3d_transitions/transition/9v16.crack_transition/nexeffect/transition.cracked_glass.9v16.up.nef` | 1874348 | `f301295eb700efad392ada46…` | `1300ffeeb500000080000000ba000000ffffffff0000000090ce07d3fc7f0000` |
-| `kmassets/kmassets/3d_transitions/transition/4v5.crack_transition/nexeffect/transition.cracked_glass.4v5.left.nef` | 1874620 | `14f3d4990883ecab853da9f4…` | `1300ffeeb500000080000000ba000000ffffffff000000000000000000000000` |
-| `kmassets/kmassets/3d_transitions/transition/16v9.crack_transition/nexeffect/crack_transition.nef` | 2549096 | `acdf1d604993de91eebb42d9…` | `01dafeef1d26226b0200000091eb020046030300789c9cbc775c9359f72f8a3a` |
-| `kmassets/kmassets/3d_transitions/transition/3v4.crack_transition/nexeffect/transition.cracked_glass.3v4.left.nef` | 1874212 | `8e8143f55a7c8fb93022ecc3…` | `1300ffeeb500000080000000ba000000ffffffff000000000000000000000000` |
-| `kmassets/kmassets/3d_transitions/transition/4v3.crack_transition/nexeffect/transition.cracked_glass.4v3.left.nef` | 1874348 | `dbe3d849c0b2afd492c61c77…` | `1300ffeeb500000080000000ba000000ffffffff000000000000000000000000` |
+| `kmassets/3d_transitions/transition/1v1.bouncebox/res/transition.bouncy_box.1v1.left.nef` | 16760 | `e8cabab3e10e02ff9a95c282…` | `1300ffee060000004e00000005000000ffffffff0000000044454144fc7f0000` |
+| `kmassets/3d_transitions/transition/9v16.bouncebox/res/transition.bouncy_box.9v16.up.nef` | 16760 | `fbf53341e1e791f0e4501867…` | `1300ffee060000004e00000005000000ffffffff0000000072006f0067007200` |
+| `kmassets/3d_transitions/transition/1v1.crack_transition/nexeffect/transition.cracked_glass.1v1.left.nef` | 1874348 | `621e77853c28d2139737c361…` | `1300ffeeb500000080000000ba000000ffffffff000000004445414400000000` |
+| `kmassets/3d_transitions/transition/9v16.crack_transition/nexeffect/transition.cracked_glass.9v16.up.nef` | 1874348 | `f301295eb700efad392ada46…` | `1300ffeeb500000080000000ba000000ffffffff0000000090ce07d3fc7f0000` |
+| `kmassets/3d_transitions/transition/4v5.crack_transition/nexeffect/transition.cracked_glass.4v5.left.nef` | 1874620 | `14f3d4990883ecab853da9f4…` | `1300ffeeb500000080000000ba000000ffffffff000000000000000000000000` |
+| `kmassets/3d_transitions/transition/16v9.crack_transition/nexeffect/crack_transition.nef` | 2549096 | `acdf1d604993de91eebb42d9…` | `01dafeef1d26226b0200000091eb020046030300789c9cbc775c9359f72f8a3a` |
+| `kmassets/3d_transitions/transition/3v4.crack_transition/nexeffect/transition.cracked_glass.3v4.left.nef` | 1874212 | `8e8143f55a7c8fb93022ecc3…` | `1300ffeeb500000080000000ba000000ffffffff000000000000000000000000` |
+| `kmassets/3d_transitions/transition/4v3.crack_transition/nexeffect/transition.cracked_glass.4v3.left.nef` | 1874348 | `dbe3d849c0b2afd492c61c77…` | `1300ffeeb500000080000000ba000000ffffffff000000000000000000000000` |
 
 **Hipóteses testáveis (NÃO são especificação):**
 1. Os 4 primeiros bytes (`13 00 ff ee`) funcionam como assinatura/mágica; há uma
