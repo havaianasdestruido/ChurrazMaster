@@ -113,7 +113,7 @@ Cada caixa exige evidência reproduzível vinculada em `docs/analise/`. Fases 0�
 - [x] Incluir comandos reproduzíveis e versões das ferramentas.
 - [x] Garantir que todos os documentos criados estejam em português brasileiro.
 - [x] Revisar o estado do Git e verificar arquivos ignorados indevidamente.
-- [ ] Preparar um pull request com evidências, limitações e resultados.
+- [x] Preparar um pull request com evidências, limitações e resultados.
 - [x] Não declarar conclusão total enquanto houver lacunas relevantes sem justificativa.
 
 ## Registro incremental
@@ -161,3 +161,5 @@ necessário disponibilizar dispositivo/emulador Android dedicado compatível e
 obter ADB/SDK oficiais; a ausência atual não é tratada como trabalho concluído.
 
 - 2026-10-22: análise estática, bytecode, ELF, assinaturas v2 e formatos efetivamente executados; testes offline e repetibilidade verificados. Ver `docs/analise/RELATORIO.md`. Correção de retomada do JADX testada com fontes ausentes e índices preexistentes. Dinâmica continua bloqueada; PR será entregue em rascunho.
+
+- 2026-10-22: criado o único PR em rascunho da missão: https://github.com/havaianasdestruido/ChurrazMaster/pull/3 . Sem merge; fases e lacunas permanecem abertas conforme evidências.

@@ -3,6 +3,9 @@
 **Data: 22/10/2026. Estado: missão parcialmente executada, com lacunas relevantes.**
 Este é o relatório da etapa atual, não declaração de decompilação completa.
 
+[PR #3 em rascunho](https://github.com/havaianasdestruido/ChurrazMaster/pull/3),
+sem merge automático.
+
 ## Resultado verificável
 
 A entrada original são quatro volumes 7z em `bin/`, preservados e verificados
