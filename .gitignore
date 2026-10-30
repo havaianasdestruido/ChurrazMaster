@@ -1,7 +1,7 @@
 # Artefatos regeneráveis e cópias locais; nunca excluir bin/tools/.
 /.trabalho/
 /.venv/
-/decompilado/gerado/
+#/decompilado/gerado/ comentado pelo fato dele ser útil pra outros agentes IA analizar
 __pycache__/
 *.pyc
 # Proteção de credenciais e dados de sessões de teste.
