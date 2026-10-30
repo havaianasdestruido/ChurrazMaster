@@ -1,0 +1,401 @@
+{
+  "biblioteca": "libdatastore_shared_counter.so",
+  "sha256": "d3e48717c9aa147e0ab21063ba0e8e0211cabf8bf40b222640829519edbf58e1",
+  "premissa": "PLT AArch64: cabeçalho de 32 bytes e entradas de 16 bytes; conferir GOT nos operandos com .rela.plt.",
+  "plt_tamanho_confere": true,
+  "entradas": [
+    {
+      "endereco_stub_plt": 4320,
+      "simbolo": "__cxa_finalize",
+      "endereco_got": 21432
+    },
+    {
+      "endereco_stub_plt": 4336,
+      "simbolo": "__cxa_atexit",
+      "endereco_got": 21440
+    },
+    {
+      "endereco_stub_plt": 4352,
+      "simbolo": "_ZN9datastore12TruncateFileEi",
+      "endereco_got": 21448
+    },
+    {
+      "endereco_stub_plt": 4368,
+      "simbolo": "strerror",
+      "endereco_got": 21456
+    },
+    {
+      "endereco_stub_plt": 4384,
+      "simbolo": "_ZN9datastore19CreateSharedCounterEiPPv",
+      "endereco_got": 21464
+    },
+    {
+      "endereco_stub_plt": 4400,
+      "simbolo": "__stack_chk_fail",
+      "endereco_got": 21472
+    },
+    {
+      "endereco_stub_plt": 4416,
+      "simbolo": "_ZN9datastore15GetCounterValueEPNSt6__ndk16atomicIjEE",
+      "endereco_got": 21480
+    },
+    {
+      "endereco_stub_plt": 4432,
+      "simbolo": "_ZN9datastore27IncrementAndGetCounterValueEPNSt6__ndk16atomicIjEE",
+      "endereco_got": 21488
+    },
+    {
+      "endereco_stub_plt": 4448,
+      "simbolo": "ftruncate",
+      "endereco_got": 21496
+    },
+    {
+      "endereco_stub_plt": 4464,
+      "simbolo": "__errno",
+      "endereco_got": 21504
+    },
+    {
+      "endereco_stub_plt": 4480,
+      "simbolo": "mmap",
+      "endereco_got": 21512
+    },
+    {
+      "endereco_stub_plt": 4496,
+      "simbolo": "getauxval",
+      "endereco_got": 21520
+    },
+    {
+      "endereco_stub_plt": 4512,
+      "simbolo": "__system_property_get",
+      "endereco_got": 21528
+    },
+    {
+      "endereco_stub_plt": 4528,
+      "simbolo": "strncmp",
+      "endereco_got": 21536
+    }
+  ],
+  "desmontagem_plt": [
+    {
+      "endereco": 4288,
+      "mnemonico": "stp",
+      "operandos": "x16, x30, [sp, #-0x10]!"
+    },
+    {
+      "endereco": 4292,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4296,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3b0]"
+    },
+    {
+      "endereco": 4300,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3b0"
+    },
+    {
+      "endereco": 4304,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4308,
+      "mnemonico": "nop",
+      "operandos": ""
+    },
+    {
+      "endereco": 4312,
+      "mnemonico": "nop",
+      "operandos": ""
+    },
+    {
+      "endereco": 4316,
+      "mnemonico": "nop",
+      "operandos": ""
+    },
+    {
+      "endereco": 4320,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4324,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3b8]"
+    },
+    {
+      "endereco": 4328,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3b8"
+    },
+    {
+      "endereco": 4332,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4336,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4340,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3c0]"
+    },
+    {
+      "endereco": 4344,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3c0"
+    },
+    {
+      "endereco": 4348,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4352,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4356,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3c8]"
+    },
+    {
+      "endereco": 4360,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3c8"
+    },
+    {
+      "endereco": 4364,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4368,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4372,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3d0]"
+    },
+    {
+      "endereco": 4376,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3d0"
+    },
+    {
+      "endereco": 4380,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4384,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4388,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3d8]"
+    },
+    {
+      "endereco": 4392,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3d8"
+    },
+    {
+      "endereco": 4396,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4400,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4404,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3e0]"
+    },
+    {
+      "endereco": 4408,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3e0"
+    },
+    {
+      "endereco": 4412,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4416,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4420,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3e8]"
+    },
+    {
+      "endereco": 4424,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3e8"
+    },
+    {
+      "endereco": 4428,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4432,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4436,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3f0]"
+    },
+    {
+      "endereco": 4440,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3f0"
+    },
+    {
+      "endereco": 4444,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4448,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4452,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x3f8]"
+    },
+    {
+      "endereco": 4456,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x3f8"
+    },
+    {
+      "endereco": 4460,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4464,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4468,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x400]"
+    },
+    {
+      "endereco": 4472,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x400"
+    },
+    {
+      "endereco": 4476,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4480,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4484,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x408]"
+    },
+    {
+      "endereco": 4488,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x408"
+    },
+    {
+      "endereco": 4492,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4496,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4500,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x410]"
+    },
+    {
+      "endereco": 4504,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x410"
+    },
+    {
+      "endereco": 4508,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4512,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4516,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x418]"
+    },
+    {
+      "endereco": 4520,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x418"
+    },
+    {
+      "endereco": 4524,
+      "mnemonico": "br",
+      "operandos": "x17"
+    },
+    {
+      "endereco": 4528,
+      "mnemonico": "adrp",
+      "operandos": "x16, #0x5000"
+    },
+    {
+      "endereco": 4532,
+      "mnemonico": "ldr",
+      "operandos": "x17, [x16, #0x420]"
+    },
+    {
+      "endereco": 4536,
+      "mnemonico": "add",
+      "operandos": "x16, x16, #0x420"
+    },
+    {
+      "endereco": 4540,
+      "mnemonico": "br",
+      "operandos": "x17"
+    }
+  ],
+  "limites": "Relação estática de stubs e símbolos; resolução final pelo linker Android não observada."
+}

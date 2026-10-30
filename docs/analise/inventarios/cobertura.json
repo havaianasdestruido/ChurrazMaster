@@ -1,0 +1,233 @@
+{
+  "originais_inalterados": true,
+  "membros_primarios_inventariados": 3163,
+  "apks": {
+    "encontrados": 20,
+    "manifestos_decodificados": 20,
+    "ausentes_em_relacao_ao_xapk": [],
+    "nao_declarados_no_xapk": [],
+    "codigos_versao_distintos": [
+      "37398"
+    ],
+    "conjuntos_certificados_distintos": 1,
+    "assinaturas_integralmente_validadas_todos_esquemas": 0,
+    "assinaturas_v2_autoconsistentes": 20
+  },
+  "android": {
+    "permissoes_base": 32,
+    "componentes_base": {
+      "activity": 55,
+      "service": 19,
+      "receiver": 8,
+      "provider": 8
+    },
+    "xml_adicionais_encontrados": 2294,
+    "xml_adicionais_decodificados_ou_validados": 2294,
+    "xml_com_falha": [],
+    "tabelas_recursos_encontradas": 19,
+    "tabelas_com_erro": 0
+  },
+  "dex": {
+    "encontrados": 7,
+    "indexados": 7,
+    "classes_definidas_ocorrencias": 52903,
+    "classes_unicas": 52894,
+    "classes_duplicadas": {
+      "Lkotlin/Metadata;": 2,
+      "Ljavax/annotation/meta/TypeQualifierDefault;": 2,
+      "Ljavax/annotation/meta/TypeQualifier;": 2,
+      "Ljavax/annotation/Nullable;": 2,
+      "Ljavax/annotation/Nonnull;": 2,
+      "Ljavax/annotation/CheckForNull;": 2,
+      "Lcom/google/errorprone/annotations/concurrent/LazyInit;": 2,
+      "Lcom/google/errorprone/annotations/DoNotMock;": 2,
+      "Lcom/google/common/base/Strings;": 2
+    },
+    "metodos_definidos": 258710,
+    "metodos_com_codigo": 243263,
+    "falhas_leitura_instrucoes": 0,
+    "checksums_internos_validos": 7
+  },
+  "smali": {
+    "dex_processados": 7,
+    "classes": 52903,
+    "metodos": 258710,
+    "todos_totais_conferem": true
+  },
+  "jadx_isolado": [
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/assets/audience_network/classes.dex",
+      "codigo_saida": 0,
+      "fontes_java": 3539,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 422,
+      "marcadores": {
+        "JADX WARNING": 2375,
+        "Code decompiled incorrectly": 372,
+        "Method not decompiled:": 403,
+        "JADX ERROR": 5
+      },
+      "stubs_de_metodo": 403,
+      "stubs_distintos_reportados": 403,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes.dex",
+      "codigo_saida": 0,
+      "fontes_java": 4021,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 644,
+      "marcadores": {
+        "JADX WARNING": 4088,
+        "Method not decompiled:": 712,
+        "Code decompiled incorrectly": 633,
+        "JADX ERROR": 18
+      },
+      "stubs_de_metodo": 712,
+      "stubs_distintos_reportados": 712,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes2.dex",
+      "codigo_saida": 0,
+      "fontes_java": 1,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 0,
+      "marcadores": {},
+      "stubs_de_metodo": 0,
+      "stubs_distintos_reportados": 0,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes3.dex",
+      "codigo_saida": 0,
+      "fontes_java": 6945,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 1032,
+      "marcadores": {
+        "JADX WARNING": 6618,
+        "Code decompiled incorrectly": 1201,
+        "Method not decompiled:": 1292,
+        "JADX ERROR": 15
+      },
+      "stubs_de_metodo": 1292,
+      "stubs_distintos_reportados": 1292,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes4.dex",
+      "codigo_saida": 0,
+      "fontes_java": 12128,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 1666,
+      "marcadores": {
+        "JADX WARNING": 7953,
+        "Method not decompiled:": 1209,
+        "Code decompiled incorrectly": 1060,
+        "JADX ERROR": 28
+      },
+      "stubs_de_metodo": 1209,
+      "stubs_distintos_reportados": 1209,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes5.dex",
+      "codigo_saida": 0,
+      "fontes_java": 11032,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 1982,
+      "marcadores": {
+        "JADX WARNING": 13216,
+        "Method not decompiled:": 1775,
+        "Code decompiled incorrectly": 1256,
+        "JADX ERROR": 8
+      },
+      "stubs_de_metodo": 1775,
+      "stubs_distintos_reportados": 1775,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes6.dex",
+      "codigo_saida": 0,
+      "fontes_java": 7816,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 1835,
+      "marcadores": {
+        "JADX WARNING": 10533,
+        "Code decompiled incorrectly": 1211,
+        "Method not decompiled:": 1604,
+        "JADX ERROR": 23
+      },
+      "stubs_de_metodo": 1604,
+      "stubs_distintos_reportados": 1604,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    }
+  ],
+  "jadx_agrupado": [
+    {
+      "entrada": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/assets/audience_network/classes.dex",
+      "codigo_saida": 0,
+      "fontes_java": 3539,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 422,
+      "marcadores": {
+        "JADX WARNING": 2375,
+        "Code decompiled incorrectly": 372,
+        "Method not decompiled:": 403,
+        "JADX ERROR": 5
+      },
+      "stubs_de_metodo": 403,
+      "stubs_distintos_reportados": 403,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    },
+    {
+      "entrada": ".trabalho/extraido/pacote/com.nexstreaming.app.kinemasterfree.apk",
+      "codigo_saida": 0,
+      "fontes_java": 45247,
+      "fontes_vazias": [],
+      "fontes_com_marcadores": 7285,
+      "marcadores": {
+        "JADX WARNING": 43791,
+        "Code decompiled incorrectly": 5616,
+        "Method not decompiled:": 6873,
+        "JADX ERROR": 95
+      },
+      "stubs_de_metodo": 6873,
+      "stubs_distintos_reportados": 6873,
+      "contagem_corresponde_ao_indice": true,
+      "limitacao": "Não somar passagens sobrepostas nem subtrair stubs do total DEX para inventar métodos recuperados."
+    }
+  ],
+  "nativo": {
+    "bibliotecas_encontradas": 22,
+    "elf_analisados_estruturalmente": 22,
+    "com_debug_info": 1,
+    "com_symtab": 1,
+    "instrucoes_lineares": 9083268,
+    "lacunas_desmontagem": 698,
+    "metodos_native": 549,
+    "metodos_native_com_export_compativel": 386,
+    "metodos_native_sem_export_compativel": 163,
+    "pseudocodigo_automatico": 0,
+    "funcoes_totais": "denominador não estabelecido"
+  },
+  "formatos": {
+    "membros_internos_extraidos": 1832,
+    "assets_inspecionados": 1991,
+    "hipotese_xml_nef_rejeitada_em": 8
+  },
+  "dinamica": {
+    "instalacoes_executadas": 0,
+    "componentes_observados": 0,
+    "motivo": "Sem Android dedicado compatível disponível; diagnóstico não equivale a runtime."
+  },
+  "limite_geral": "Não há denominador confiável para métodos Java semanticamente recuperados ou funções nativas. Missão incompleta."
+}

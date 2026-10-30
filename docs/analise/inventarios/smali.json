@@ -1,0 +1,86 @@
+[
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__assets__audience_network__classes.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 3605,
+    "metodos": 26725,
+    "metodos_com_codigo": 25099,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 4421,
+    "metodos": 22126,
+    "metodos_com_codigo": 19936,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes2.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 1,
+    "metodos": 1,
+    "metodos_com_codigo": 1,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes3.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 9752,
+    "metodos": 53944,
+    "metodos_com_codigo": 50839,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes4.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 12854,
+    "metodos": 58654,
+    "metodos_com_codigo": 53925,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes5.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 13493,
+    "metodos": 51963,
+    "metodos_com_codigo": 50424,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  },
+  {
+    "dex": "com.nexstreaming.app.kinemasterfree__classes6.dex",
+    "ferramenta": "baksmali 2.3.4",
+    "codigo_saida": 0,
+    "diagnostico": "",
+    "classes": 8777,
+    "metodos": 45297,
+    "metodos_com_codigo": 43039,
+    "classes_conferem": true,
+    "metodos_conferem": true,
+    "corpos_conferem": true
+  }
+]

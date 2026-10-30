@@ -1,0 +1,15 @@
+{
+  "dex": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/classes2.dex",
+  "sha256": "74bfc453138fbc61c86e1897a870deea382c0384a4afed18b38430ebf166aa66",
+  "ferramenta": "JADX 1.1.0",
+  "codigo_saida": 0,
+  "duracao_segundos": 0.49,
+  "arquivos_java": 1,
+  "arquivos_vazios": 0,
+  "marcadores_de_problema": 0,
+  "log_sha256": "fd7adf6dcac910507f14c203f90c8a97348374f20a774ed6ba525665997d715d",
+  "limitacao": "Contagem de arquivos não equivale a classes/métodos recuperados; fontes podem ser incompletas.",
+  "diagnosticos_total": 0,
+  "diagnosticos_distintos": 0,
+  "erros_distintos": []
+}

@@ -1,0 +1,20 @@
+{
+  "testes_unitarios": {
+    "executados": 10,
+    "aprovados": 10,
+    "falhas": 0,
+    "comando": ".venv/bin/python -m unittest discover -s scripts/testes -v"
+  },
+  "preparacao_offline_em_venv_nova": true,
+  "pip_check": "sem dependências quebradas",
+  "sintaxe_scripts": "compileall executado sem erros",
+  "logs_locais_sha256": {
+    ".trabalho/testes.log": "9ddbea11730955ecfc6b6a507f6efc7a3a9ebd38a65eeea82ca8e1fb5677c6eb",
+    ".trabalho/preparacao-do-zero.log": "f2d78513beaf59c25fb2dc3e940891e7b5bd0a9185dc0fd3da72cc180feecb54",
+    ".trabalho/teste-regeneracao-jadx.log": "9cdbcbc4074ff3bf9300700efb70c761fb37615db4d205d9960bccc186db12ab",
+    ".trabalho/verificacao-extraidas.log": "2d970b63c91e118506475445637da1c9386b414d233d063f20daf65141915d5f"
+  },
+  "limites": "Não valida integração ADB, execução Android, build do APK nem semântica de todos os métodos.",
+  "retomada_jadx_com_relatorio_preexistente_e_fontes_ausentes": "Audience Network regenerado; APK com fontes existentes validado por hash",
+  "ferramentas_extraidas_conferidas_contra_distribuicoes_versionadas": true
+}

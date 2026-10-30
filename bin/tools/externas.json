@@ -1,0 +1,35 @@
+[
+  {
+    "browser_download_url": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-1.5.6.zip",
+    "name": "jadx-1.5.6.zip",
+    "size": 72646741,
+    "nome": "jadx",
+    "licenca": "Apache-2.0",
+    "estado": "metadados consultados; download não concluído",
+    "plataforma": "Linux x86_64; requisitos Java conforme distribuição",
+    "motivo_nao_inclusao": "Ghidra/JDK excedem limite de arquivo GitHub e orçamento de patch; JADX adicional excede orçamento agregado. Rede de releases bloqueada.",
+    "sha256": "545ea2be9c242511bc145755cf4bda2485ade42966e096f8b4d3da2a230e8974"
+  },
+  {
+    "browser_download_url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.13_9.tar.gz",
+    "name": "OpenJDK21U-jdk_x64_linux_hotspot_21.0.13_9.tar.gz",
+    "size": 207858352,
+    "nome": "jdk",
+    "licenca": "GPL-2.0 com Classpath Exception e avisos incorporados",
+    "estado": "metadados consultados; download não concluído",
+    "plataforma": "Linux x86_64; requisitos Java conforme distribuição",
+    "motivo_nao_inclusao": "Ghidra/JDK excedem limite de arquivo GitHub e orçamento de patch; JADX adicional excede orçamento agregado. Rede de releases bloqueada.",
+    "sha256": "d7f5d5cf865a2902b70ff549b97586a7d3f234e016f041ab447ea740c7d66d1c"
+  },
+  {
+    "browser_download_url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1_build/ghidra_12.1_PUBLIC_20260513.zip",
+    "name": "ghidra_12.1_PUBLIC_20260513.zip",
+    "size": 567828511,
+    "nome": "ghidra",
+    "licenca": "Apache-2.0 e licenças de terceiros incorporadas",
+    "estado": "metadados consultados; download não concluído",
+    "plataforma": "Linux x86_64; requisitos Java conforme distribuição",
+    "motivo_nao_inclusao": "Ghidra/JDK excedem limite de arquivo GitHub e orçamento de patch; JADX adicional excede orçamento agregado. Rede de releases bloqueada.",
+    "sha256": "aa5cbcbbf48f41ca185fce900e19592f1ade4cd5994eb6e0ede468dac8a6f302"
+  }
+]

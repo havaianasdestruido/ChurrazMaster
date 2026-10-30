@@ -1,0 +1,306 @@
+{
+  "apks": [
+    {
+      "apk": "com.nexstreaming.app.kinemasterfree.apk",
+      "sha256": "c923404b6ea4cf930399fa20550c9ea278644d7910254cbea756dd6832cfa552",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.ar.apk",
+      "sha256": "b34ba63e84276cee635ffe11d2162ec26e3ddc994d3b729c094e18b2f128df93",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.arm64_v8a.apk",
+      "sha256": "fa790065d2961b438e647339f1e44b4f7a3dc6e8c30bb52ce01161de987bcb27",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.de.apk",
+      "sha256": "649ea3657bb5cbef9cdaa987d85c0bbf04c5af345457c1119fa762c23a142d47",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.en.apk",
+      "sha256": "e892798bbddee6c58eb80aa2fbf3674b3e3b3716bb60f741b2c076f74538fa67",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.es.apk",
+      "sha256": "99601bf81880ab69a51efe69d655d141ea5fbcb9caa6ec2d3238d448b20ec794",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.fr.apk",
+      "sha256": "aaf2feebf556d5dfbbcfcd505f0bb16592169d6285a43857a1ad926103956988",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.hi.apk",
+      "sha256": "c21e84a005f16ba0e0639d1181697421b43af0ec546e16c2bd19bc2a1ee005ee",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.in.apk",
+      "sha256": "78eecb482e144e75aaf237666358a8c33c8c9e8e7d8b5b4a47354357437aaa37",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.it.apk",
+      "sha256": "1b593acf500c823965b044b640e67c2e37088e827c2174e5ec2bd2ea74b9747f",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.ja.apk",
+      "sha256": "cf3ef319a54058a2a0c91fa210d2579b102be654634eec5d03999f3f03dedc2a",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.ko.apk",
+      "sha256": "3c1de366b43e85e70e120f4bcafed83b4bb410ac56a3a7ea25bcb5edb39f532d",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.my.apk",
+      "sha256": "103779eb16b4bf86a53b4d58420cbf392b4035aa4ac8f028d5966ef7f1eb46fd",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.pt.apk",
+      "sha256": "350492f71ced841b7dfa6cac5ece36464892e38ffbb38879006d2911eec26349",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.ru.apk",
+      "sha256": "e62d63659f67766ccf62e1a4d48a1e05c669b62054e69ed3ddb3c869f51236d9",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.th.apk",
+      "sha256": "855ca397858a1261a47cbc9e40e0c3e317988a72300475e44e980bc81913bc40",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.tr.apk",
+      "sha256": "4a75bbc3975f0abaf2077bf4115250936e26b44754ecdc1fe98dede2a4ed51ac",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.vi.apk",
+      "sha256": "7f39d2f6aa2949ad917472f98c759330d931f5de469173b60f4c1b36c2b1df6a",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.xxhdpi.apk",
+      "sha256": "3d3f3545b100a9677e5b54038569e16e20f866460234b65ffe29873fece01ac8",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    },
+    {
+      "apk": "config.zh.apk",
+      "sha256": "757ee096e006fa985dc13a63701e44fe20117e0adaeeb3d60ef15f5b9d15c7f4",
+      "signatarios": [
+        {
+          "certificado_sha256": "b2b90f2f5a3679186fb82a6fb8c07f5e6ab4b55ea01b5625b28a9b5549fc6988",
+          "algoritmo": "0x0103 RSA PKCS#1 v1.5/SHA-256",
+          "bits_chave": 1024,
+          "digest_conteudo_confere": true,
+          "assinatura_signed_data_confere": true,
+          "chave_publica_confere": true
+        }
+      ],
+      "estado": "autoconsistência v2 confirmada"
+    }
+  ],
+  "teste_negativo_mutacao_em_memoria_detectada": true,
+  "limites": "Verificação independente delimitada a v2 e algoritmo 0x0103. Não valida v3/v3.1, linhagem, source stamp, confiança na CA/editor nem todas as regras de instalação Android. Nenhum original foi modificado."
+}

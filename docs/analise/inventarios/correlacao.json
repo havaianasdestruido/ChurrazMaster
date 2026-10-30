@@ -1,0 +1,560 @@
+{
+  "metodos_native": 549,
+  "com_export_compativel": 386,
+  "sem_export_compativel": 163,
+  "classes_unicas": 52894,
+  "classes_repetidas_entre_dex": {
+    "Lkotlin/Metadata;": 2,
+    "Ljavax/annotation/meta/TypeQualifierDefault;": 2,
+    "Ljavax/annotation/meta/TypeQualifier;": 2,
+    "Ljavax/annotation/Nullable;": 2,
+    "Ljavax/annotation/Nonnull;": 2,
+    "Ljavax/annotation/CheckForNull;": 2,
+    "Lcom/google/errorprone/annotations/concurrent/LazyInit;": 2,
+    "Lcom/google/errorprone/annotations/DoNotMock;": 2,
+    "Lcom/google/common/base/Strings;": 2
+  },
+  "dependencias_elf": [
+    {
+      "biblioteca": "libairbridgelib.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libairbridgelib.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libairbridgelib.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libairbridgelib.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsighta.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsighta.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsighta.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsighta.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsightb.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsightb.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsightb.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libapminsightb.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libbuffer_pgl.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libbuffer_pgl.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libbuffer_pgl.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libbuffer_pgl.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libdatastore_shared_counter.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libdatastore_shared_counter.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libdatastore_shared_counter.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libfile_lock_pgl.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libfile_lock_pgl.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libfile_lock_pgl.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libfile_lock_pgl.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv80.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv80.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv80.so",
+      "necessaria": "libonnxruntime.so",
+      "resolucao": "presente no pacote"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv80.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv80.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv82.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv82.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv82.so",
+      "necessaria": "libonnxruntime.so",
+      "resolucao": "presente no pacote"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv82.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libkmSTTv4_armv82.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "libandroid.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "libGLESv2.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "libEGL.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexcralbody_mc_jb.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libonnxruntime.so",
+      "resolucao": "presente no pacote"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libtensorflowlite_jni.so",
+      "resolucao": "presente no pacote"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libtensorflowlite_gpu_jni.so",
+      "resolucao": "presente no pacote"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libGLESv3.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libEGL.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libz.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libandroid.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libjnigraphics.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexeditorsdk.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexralbody_audio.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexralbody_audio.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexralbody_audio.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnexralbody_audio.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnms.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnms.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnms.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libnms.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libonnxruntime.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libonnxruntime.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libonnxruntime.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libonnxruntime.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libpglarmor.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libpglarmor.so",
+      "necessaria": "libz.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libpglarmor.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libpglarmor.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libpglarmor.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "librenderscript-toolkit.so",
+      "necessaria": "libjnigraphics.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "librenderscript-toolkit.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "librenderscript-toolkit.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "librenderscript-toolkit.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "librenderscript-toolkit.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_gpu_jni.so",
+      "necessaria": "libGLESv3.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_gpu_jni.so",
+      "necessaria": "libEGL.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_gpu_jni.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_gpu_jni.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_gpu_jni.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_gpu_jni.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_jni.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_jni.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_jni.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtensorflowlite_jni.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtranslate_jni.so",
+      "necessaria": "libandroid.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtranslate_jni.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtranslate_jni.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtranslate_jni.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtranslate_jni.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtt_ugen_layout.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtt_ugen_layout.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtt_ugen_layout.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libtt_ugen_layout.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexgifcalbody.so",
+      "necessaria": "libandroid.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexgifcalbody.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexgifcalbody.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexgifcalbody.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexgifcalbody.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapneximagevideocalbody.so",
+      "necessaria": "libandroid.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapneximagevideocalbody.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapneximagevideocalbody.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapneximagevideocalbody.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapneximagevideocalbody.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexpcmcalbody.so",
+      "necessaria": "libandroid.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexpcmcalbody.so",
+      "necessaria": "liblog.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexpcmcalbody.so",
+      "necessaria": "libm.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexpcmcalbody.so",
+      "necessaria": "libdl.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    },
+    {
+      "biblioteca": "libwrapnexpcmcalbody.so",
+      "necessaria": "libc.so",
+      "resolucao": "externa ao pacote; verificar no Android"
+    }
+  ],
+  "limites": "Correspondência de nomes não prova biblioteca escolhida pelo carregador; RegisterNatives e dlsym não foram resolvidos."
+}

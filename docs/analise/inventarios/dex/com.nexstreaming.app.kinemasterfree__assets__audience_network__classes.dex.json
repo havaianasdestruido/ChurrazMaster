@@ -1,0 +1,18 @@
+{
+  "arquivo": ".trabalho/extraido/apks/com.nexstreaming.app.kinemasterfree/assets/audience_network/classes.dex",
+  "sha256": "215dbef81a8373f008ab324db1d90458ccd44273b3621c331fa1f42374b6a70a",
+  "magic": "dex\n035\u0000",
+  "tamanho": 5455144,
+  "adler32_valido": true,
+  "sha1_interno_valido": true,
+  "strings_referenciadas": 32685,
+  "tipos_referenciados": 5040,
+  "metodos_referenciados": 30913,
+  "classes_definidas_cabecalho": 3605,
+  "classes_indexadas": 3605,
+  "metodos_definidos": 26725,
+  "metodos_com_codigo": 25099,
+  "metodos_nativos": 0,
+  "chamadas_selecionadas": 307,
+  "falhas_instrucoes": 0
+}

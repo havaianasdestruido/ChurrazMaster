@@ -1,0 +1,23 @@
+{
+  "extracoes_conferem": true,
+  "membros_comparados": 3163,
+  "remontagem": {
+    "arquivo": "classes2.dex",
+    "ferramenta": "smali 2.3.4",
+    "sha256_original": "74bfc453138fbc61c86e1897a870deea382c0384a4afed18b38430ebf166aa66",
+    "sha256_remontado": "4762ca0a698d9bc9370f036e0a653b917caab5d1206607e0c3211c7498854daf",
+    "tamanho_original": 1364,
+    "tamanho_remontado": 976,
+    "classes_metodos_instrucoes_simbolicas_conferem": true,
+    "limite": "Um DEX de uma classe/um método, sem equivalência binária nem reconstrução do APK."
+  },
+  "jadx_repetido": {
+    "classes_alvo": [
+      "com.kinemaster.app.database.project.ProjectDatabase_Impl"
+    ],
+    "fontes_primeira": 1,
+    "fontes_segunda": 1,
+    "hashes_conferem": true,
+    "limite": "Ensaio delimitado de uma classe; não valida determinismo de toda a saída JADX."
+  }
+}
